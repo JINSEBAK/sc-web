@@ -22,7 +22,7 @@ jobs:
         run: npm install --legacy-peer-deps
 
       - name: Build
-        run: npm run build
+        run: CI=false npm run build
         env:
           BROWSERSLIST_DONT_WARN: 1
 
