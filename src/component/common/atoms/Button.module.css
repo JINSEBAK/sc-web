@@ -1,0 +1,51 @@
+.btn {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  cursor: not-allowed !important;
+}
+
+.btn span {
+  color: #fff;
+}
+
+/* colors */
+.btn.primary {
+  background-color: blue;
+}
+
+.btn.secondary {
+  background-color: green;
+}
+
+.btn.third {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* size */
+.btn.small {
+  padding: 3px 16px;
+}
+
+.btn.small span {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.btn.medium {
+}
+
+.btn.large {
+}
+
+/* shape */
+.btn.square {
+}
+
+.btn.round {
+  border-radius: 100px;
+}

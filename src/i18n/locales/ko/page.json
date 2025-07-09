@@ -1,0 +1,406 @@
+{
+  "common": {
+    "name": "(주) 스마트코어",
+    "gnb": {
+      "about": "About us",
+      "tech": "Tech",
+      "projects": "Projects",
+      "contact": "Contact",
+      "inquiry": "Request",
+      "application": "Career",
+      "recruit": "Career"
+    },
+    "footer": {
+      "location": "회사위치",
+      "document": "회사소개서",
+      "request": "프로젝트<br>의뢰"
+    },
+    "link": {
+      "label": "회사소개서 다운로드",
+      "ko": "한글",
+      "en": "영문"
+    },
+    "noresult": "조금만 더 기다려주세요. 감사합니다."
+  },
+  "companyInfo": {
+    "address": "서울특별시 금천구 가산동 벚꽃로 298 대륭포스트타워 6차 1607호",
+    "tel": "02.830.0858",
+    "fax": "02.857.0885",
+    "email": "office@smcore.co.kr"
+  },
+  "main": {
+    "section1": {
+      "description": "여.기.<br><em class='blue'>기술</em>에 대한<br> <em class='red'>도전</em>으로<br><em class='green'>미래</em>를 준비하는<br>스마트인이<br> 있습니다."
+    },
+    "section2": {
+      "title": "차가운 기술과<br>뜨거운 열정",
+      "description": "Frontend, Backend, Application 개발 전문가들이<br>AI, Blockchain, Fintech, IoT 분야의 다양한 개발 경험을<br>바탕으로 상상을 현실로 만들어 갑니다."
+    },
+    "section3": {
+      "title": "기술과 열정으로 만든<br>우.리.의 결과물",
+      "description": "2010년부터 현재까지 스마트코어는<br>프로페셔널 정신으로 프로젝트를 수행합니다."
+    },
+    "section4": {
+      "client": {
+        "title": "Client",
+        "description": "스마트코어는 AI 등 4차 산업 기술을 기반으로<br>국내외 파트너사와 협력을 통해, 함께 미래를 개척하겠습니다."
+      },
+      "career": {
+        "title": "Career",
+        "description": "서로 달라도 같은 방향을 바라보고<br>갈 수 있는 스마트인을 기다립니다."
+      }
+    }
+  },
+  "about": {
+    "title": "미래, 혁신, 가치 창조",
+    "description": "스마트코어는 4차 산업 혁명을 중심으로<br>새로운 기술을 꾸준히 연구하고 있으며,<br>차별화된 전략으로 미래를 선도하는 기술 기업을 지향합니다.",
+    "visual": "<p>차가운 기술과 따뜻한 감성,</p><p>뜨거운 열정이 있는 곳</p>",
+    "info": {
+      "description": "<strong>스마트코어는</strong><p>AI, 블록체인, IoT, 핀테크등 다양한 기술분야에서<br>사람 중심의 창의적인 솔루션으로 새로운 미래를 만들어가는 기업입니다.</p><div>새로운 기술을 꾸준히 연구하고,<br>차별화된 전략으로 미래를 선도하는 기술 기업으로<br>스마트코어는 나아갑니다.</p>",
+      "vision": {
+        "title": "주요 사업분야",
+        "text": "스마트코어는<br /><em>혁신적인 솔루션</em>으로 <em>미래가치</em>를 <em>창출</em>하며<br />이를 통해 <em>삶의 질</em>을 <em>개선</em>하기<br />위해 존재합니다.",
+        "items": [
+          {
+            "title": "기술",
+            "description": "더나은 <strong>기술</strong>을 위해<br/>끊임없이 배우고<br/><strong>연구</strong>합니다."
+          },
+          {
+            "title": "책임",
+            "description": "필요한 곳에<br/>필요한 기술을 담아<br/>미래를 향해 <strong>성장</strong>합니다."
+          },
+          {
+            "title": "가치",
+            "description": "<strong>한 방향</strong>을 바라보며<br/><strong>가치</strong>를 담은 결과물을<br/>만들겠습니다."
+          },
+          {
+            "title": "행복",
+            "description": "우리의 기술과 경험은<br/>고객&amp;구성원의<br/><strong>행복</strong>과 <strong>함께</strong>합니다."
+          }
+        ]
+      },
+      "work": [
+        {
+          "title": "솔루션",
+          "description": "스마트코어 개발 전문가들이<br>AI, 블록체인, IoT, 핀테크 기술을 이용하여<br>개발한 솔루션/플랫폼을 필요한 비지니스 환경에<br>최적화하여 구축/개발합니다.",
+          "type": "solution"
+        },
+        {
+          "title": "SI",
+          "description": "고객의 요구사항을 분석하여<br>고객에게 맞는 최적의 시스템을 설계/구현합니다.<br>또한 시스템의 방향성을 제시하여 고객의 비지니스<br>가치를 높입니다.",
+          "type": "si"
+        }
+      ],
+      "technical": {
+        "title": "구성원",
+        "main": "보다 나은 <span class='highlight'><span>방향성</span></span>을<br>제시하는<br>우리는 스마트코어 <span class='highlight'><span>전.문.가.</span></span>입니다.",
+        "description": "클라이언트의 니즈를 파악하고, 설계하고,<br>Frontend, Backend, Server, MobileApp 전문 개발자들은 완성도 있는<br>개발을 하며 책임감있게 안정적인 프로젝트를 진행합니다.",
+        "crew": [
+          "경영지원 10%",
+          "디자인 10%",
+          "프로젝트 관리/기획 20%",
+          "개발인원 60%"
+        ],
+        "main2": "우리의 <span class='highlight'><span>경험</span></span>은<br>프로젝트를 더욱 <span class='highlight'><span>단단</span></span>하고 <span class='highlight'><span>풍성</span></span>하게 만듭니다.",
+        "description2": "우리는 다양한 경험을 위해 새로운 기술을 학습하고 만들어갑니다.<br>경험을 바탕으로 프로젝트의 방향성을 고민하고 제안하고 설계하고 진행합니다.<br>스마트코어는 프로젝트의 본질과 핵심을 놓치지 않고 프로젝트의 가치를 극대화한 결과물을 만듭니다."
+      }
+    },
+    "history": {
+      "prevTitle": "<span class='highlight'><span>함께, 힘차게</span></span> 달려온",
+      "title": "History",
+      "imageTxt": ["", "즐겁게", "", "", "<em>치열</em>하게", "", "최선을 다해"]
+    },
+    "client": {
+      "prevTitle": "함께해서 <span class='highlight'><span>즐겁고</span></span> 감사한",
+      "title": "Client <span>& Partner</span>"
+    }
+  },
+  "tech": {
+    "title": "Tech",
+    "visual": "<p>다양한 비지니스 영역에서</p><p>IT기술력을 기반으로</p><p>전문성을 갖춰가고 있습니다.</p>",
+    "teches": {
+      "ai": {
+        "title": "AI",
+        "description": "스마트코어는 빅데이터를 효과적으로 활용하기 위한 AI 기반의 분석 기술, 마이닝 기술, 머신 러닝 및<br>딥 러닝 기술을 보유하고 있으며, 이를 심화시킨 <span class='neon'>연합학습 (Federated Learning) AI</span>를 도입하여<br>AI 기반 협업 플랫폼 등 다양한 분야에 적용합니다.",
+        "contents": [
+          {
+            "title": "Federated AI Platform",
+            "sub": "Supports distributed collaborative Smart Factories",
+            "text": "연합학습 AI 기술을 통해, 협업의 효율성 및 비지니스 핵심 정보 보안이 강화된<br>분산 협업 지원 통합 AI 플랫폼을 구축합니다."
+          },
+          {
+            "title": "Federated Learning AI",
+            "sub": "",
+            "text": "연합학습(Federated Learning)과 엣지 컴퓨팅 기반의 핵심 데이터 학습 모델을 형성하고,<br>로컬에서 직접 데이터를 전송하지 않으며 학습된 데이터 모델만을 교환하는 방식의 AI를 도입하여,<br>효율적인 데이터 교환 및 처리를 통한 AI 플랫폼간 협업 생태계 형성 및 보안성을 강화합니다."
+          },
+          {
+            "title": "Data Labeling",
+            "sub": "",
+            "text": "연합학습 (Federated Learning) AI의 데이터 모델링 학습 효과를 극대화하기 위해서는<br>방대한 데이터를 정제하여 맥락을 파악할 수 있는 High Quality Data로의 선별이 필요합니다.<br>이에 따라, 분산 협업을 지원하는 연합학습 AI 협업 플랫폼의 데이터 분류 및 활용 체계를 형성하기 위해<br>데이터 라벨링을 통한 학습 요소 구성이 적용됩니다. <br>특히, Web 3.0 Object Link는 블록체인과의 연계를 통해 분산 협업 경제 생태계를 구현합니다."
+          },
+          {
+            "title": "Consortium for<br> Federated AI Platform",
+            "sub": "",
+            "text": "스마트코어는 UI/UX, 블록체인 모듈, 연합학습 AI 알고리즘을 적용한 데이터 모델링 시스템 및 <br>Management System을 접목한 통합 AI 플랫폼의 실제 비즈니스 환경 적용을 위해, <br>국내 기업 및 대학교 산학 협력단 및 EU 국가 (터키, 포르투갈, 루마니아) 기업들과 <br>컨소시엄을 구성하여 플랫폼을 개발하고 있습니다."
+          }
+        ],
+        "subContents": [
+          "엣지 컴퓨팅 기술 사용<br><em>서버 부하 감소</em>",
+          "모델 생성 및 결과 전송<br><em>데이터 보안 강화</em>",
+          "데이터 모델 표준화<br><em>협업의 효율성 증가</em>",
+          "시스템 리소스 과부하 방지<br><em>네트워크 비용 감소</em>"
+        ]
+      },
+      "blockchain": {
+        "title": "Blockchain",
+        "description": "<span class='neon'>합의 알고리즘과 메인넷 등 자체 구축 개발한 블록체인 기술</span>을 기반으로 블록체인 플랫폼을 개발하였으며,<br>분산 협업을 지원하는 AI 플랫폼에 <span class='neon'>사용자 및 모듈 간 신원 증명 기능</span>을 적용하여<br>데이터 보안 및 무결성을 강화할 수 있도록 연관 기술을 개발합니다.",
+        "contents": [
+          {
+            "title": "Blockchain Module for<br> AI Platform",
+            "sub": "",
+            "text": "분산 협업을 지원하는 AI 플랫폼에 블록체인을 적용하여, 플랫폼간 연동 및 데이터 저장 기능에 있어<br>디바이스 적합성 및 데이터에 대한 무결성 검증, 그리고 스마트 계약 기능을 통해<br>AI 플랫폼의 데이터 모델 교환에 대한 보안성을 더욱 강화합니다."
+          }
+        ],
+        "patent": {
+          "text": "스마트코어는<br>자체 개발한 <strong>블록체인 합의 알고리즘에 대한<br>특허</strong>를 등록 및 보유하고 있습니다.",
+          "name": "블록체인 시스템에서의 고속 합의 방법<br>(제 10-2130900 호 / 등록일: 2020.6.30)"
+        }
+      },
+      "fintech": {
+        "title": "Fintech",
+        "description": "<span class='neon'>Financial Technology, SMPP(SmartCore Pay Platform), BLE, NFC, MRS, IC 기술</span>을 구현하였으며,<br>집적된 전문 기술과 전문 인력으로 안전하고 최적화된 모바일 간편 결제 시스템을 개발합니다.",
+        "contents": {
+          "pay": {
+            "title": "결제기술",
+            "description": "블루투스 저전력 통신, NFC 등 근거리 무선 통신 기술 및 IC, MSR, QR 등 다양한 결제 기술을 구현하였으며, 이를 접목하여 모바일 간편 결제 시스템을 위한 솔루션 기술을 개발합니다."
+          },
+          "security": {
+            "title": "보안기술",
+            "description": "핀테크에 모바일 신원 인증 기술 및 블록체인 기술을 구현하였으며, 이를 기반으로 해킹 방지, 결제 데이터 흐름 추적 등 데이터 신뢰도 및 보안성 강화 기술을 개발합니다."
+          }
+        },
+        "pocession": {
+          "title": "스마트코어 Fintech",
+          "items": [
+            "결제<br> 플랫폼",
+            "결제<br> 서비스",
+            "멤버십<br> 플랫폼",
+            "POS &<br> ATM"
+          ]
+        }
+      },
+      "iot": {
+        "title": "IoT",
+        "description": "<span class='neon'>SmartHome 및 센서 네트워크 기술과 웨어러블 통신 기술을 구현</span>하였으며, <br>빅데이터를 활용한 딥러닝 및 블록체인 기술과 연계할 수 있도록 개발합니다.",
+        "contents": {
+          "network": {
+            "title": "센서 네트워크 기술",
+            "description": "OSGI, OMA, M2M 기술 적용 센서로부터 정보를 획득하고, 네트워크 형성으로 장치를 제어 감시하는 기술을 보유하고 있습니다."
+          },
+          "warable": {
+            "title": "웨어러블 통신 기술",
+            "description": "웨어러블 기기간 연결 및 데이터 교환을 위한 근거리 무선 통신 기술을 연구 개발하고 있습니다."
+          },
+          "deep": {
+            "title": "Deep Learning",
+            "description": "센서 및 웨어러블 장치를 통해 수집된 데이터를 기반으로 딥 러닝을 통해 행동 패턴을 분석할 수 있도록 구현하였으며, 위험 요소를 판단 및 예방할 수 있도록 기술을 개발합니다."
+          }
+        }
+      }
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "visual": "<p>고객의 시선으로</p><p>전문 개발자의 기술로</p><p>만들어 낸 결.과.물</p>",
+    "label_name": "업체명",
+    "label_project": "프로젝트"
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "",
+    "visual": "<p>스마트코어에게</p><p>궁금한 사항을 물어보세요.</p>",
+    "inquiry": "프로젝트 <em>의뢰</em>는?",
+    "transportation": {
+      "title": "주식회사 스마트코어",
+      "subway": "<em>지하철</em> 지하철 1,7호선 가산디지털단지역 지하통로 연결 (2번,3번 출구 사이지하 통로)",
+      "bus": "<em>버스</em> 금천03, 금천07, 5616, 5712, 5537"
+    }
+  },
+  "inquiry": {
+    "title": "프로젝트 문의",
+    "description": "기획, 디자인, 개발 등 프로젝트에 대하여 언제든 문의 바랍니다.<br>내부적으로 검토하여 답변 및 상담을 드리도록 하겠습니다.<br><span>* 순차적으로 진행되어 일부 응대가 지연될 수 있습니다.</span>",
+    "visual": "<p>같은 곳을 바라보며</p><p>귀기울이겠습니다.</p>"
+  },
+  "inquiryForm": {
+    "common": {
+      "multiple": "다중선택 가능"
+    },
+    "part1": {
+      "title": "프로젝트 형태",
+      "label_1": "PC웹",
+      "label_2": "모바일웹",
+      "label_3": "모바일앱",
+      "label_4": "신규구축",
+      "label_5": "유지보수",
+      "label_6": "정부과제",
+      "label_7": "기타"
+    },
+    "part2": {
+      "title": "개발 분야",
+      "label_1": "기획",
+      "label_2": "디자인",
+      "label_3": "퍼블리싱",
+      "label_4": "개발"
+    },
+    "part3": {
+      "title": "프로젝트 상세",
+      "guide": "파일은 10 MB 이내 pdf, 한글, zip 파일 중 최대 1개 파일 첨부 가능",
+      "label_1": "프로젝트 기간",
+      "label_2": "오픈예정일",
+      "label_2_placeholder": "YYYY년 MM월 DD일 형식으로 입력해주세요.",
+      "label_3": "프로젝트 예산",
+      "label_4": "첨부파일",
+      "label_5": "프로젝트의 상세 내용을 입력해주세요.",
+      "terms": ["선택", "1~2개월", "3~5개월", "6개월 이상"],
+      "cost": [
+        "선택",
+        "3,000만원 미만",
+        "3,000만원~5,000만원",
+        "5,000만원~1억원",
+        "3억원~5억원",
+        "5억원이상"
+      ]
+    },
+    "part4": {
+      "title": "담당자 정보",
+      "label_1": "회사명",
+      "label_2": "이름 / 직책",
+      "label_3": "전화번호",
+      "label_4": "이메일"
+    },
+    "part5": {
+      "checkLabel": "<em>개인정보보호정책</em>에 동의합니다.(필수)"
+    },
+    "part6": {
+      "button": "문의하기",
+      "alert": "프로젝트 문의/상담을 신청해주셔서<br>감사드립니다.<br>내부 검토 후 연락 드리겠습니다.",
+      "confirm": "확인"
+    }
+  },
+  "recruit": {
+    "title": "입사 지원",
+    "visual": "<p>디지털 세상에서</p><p>함께 일하며, 성장할 수 있는</p><p>스마트인을 기다립니다.</p>",
+    "benefits": {
+      "intro": "우리는 즐거운<br> <span class='highlight'><span>업무환경과 문화</span></span>를 위해<br>마음을 담아<br> 지원합니다.",
+      "list": [
+        {
+          "title": "4대보험<br>퇴직연금",
+          "sub": "기본적인 법적 복리후생!"
+        },
+        {
+          "title": "팀비 지원",
+          "sub": "팀장님~ 소X기"
+        },
+        {
+          "title": "휴가 OK~",
+          "sub": "쉬고 싶을 땐 휘리릭~"
+        },
+        {
+          "title": "생일 축하 선물",
+          "sub": "태어나서 고마워!"
+        },
+        {
+          "title": "장기근속 포상",
+          "sub": "스마트코어 다닌지...몇년째?"
+        },
+        {
+          "title": "따뜻한 명절선물",
+          "sub": "명절에 섭섭하지 않게~"
+        },
+        {
+          "title": "커피, 주전부리<br>제공",
+          "sub": "일만하나? 커피한잔의 여유..."
+        },
+        {
+          "title": "도서 구입비 지원",
+          "sub": "자기 계발을 위한"
+        }
+      ]
+    },
+    "document": {
+      "description": "나와 너, 그리고 일에 있어서<br>진정성있는 마음, 긍정과 열정을 가지신 분!<br>지원해주세요.",
+      "label": "입사지원서를 작성해서 <a href='mailto:recruit@smcore.co.kr'>recruit@smcore.co.kr</a>로 보내주세요!",
+      "button": "입사지원서"
+    },
+    "jobsLabel": {
+      "role": "담당업무",
+      "ability": "역량",
+      "message": "입사지원서를 작성해서 recruit@smcore.co.kr로 보내주세요!"
+    },
+    "jobs": [
+      {
+        "title": "Planner",
+        "details": {
+          "role": "Web/Mobile 기획<br>UI/UX설계<br>서비스 기획<br>프로젝트 관리",
+          "ability": "웹/모바일 서비스 기획에 대한 이해도가 있는 분<br>서비스에 대한 분석 및 설계가 가능하신 분<br>UI/UX 설계가 가능한 분<br>원활한 커뮤니케이션 능력"
+        }
+      },
+      {
+        "title": "Designer",
+        "details": {
+          "role": "Web,Mobile UI/UX디자인<br>서비스 브랜딩",
+          "ability": "UI/UX에 대한 이해가 있으신 분<br>디자인 감각이 있는 분<br>원활한 커뮤니케이션 능력"
+        }
+      },
+      {
+        "title": "Developer",
+        "details": {
+          "role": "프론트엔드 개발<br>백엔드 개발<br>App개발",
+          "ability": "신규 기능 정의 및 개발을 위해 협업부서와 원활한 커뮤니케이션 능력<br>최신 트랜드에 대한 관심과 개발을 긍정적으로 생각하시는 분",
+          "scope": [
+            {
+              "part": "<span class='neon'>Backend</span>",
+              "contents": "- 웹프로그래밍/PHP, JSP<br>- 서버,DB 관리/개발"
+            },
+            {
+              "part": "<span class='neon'>Frontend</span>",
+              "contents": "- HTML 코딩 및 웹퍼블리싱<br>- 웹사이트 유지보수<br>- 프레임워크(vue, react)를 통한 웹사이트 구축"
+            },
+            {
+              "part": "<span class='neon'>Application</span>",
+              "contents": "- AOS, iOS 개발"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "popup": {
+    "inquiry": {
+      "register": {
+        "title": "프로젝트 문의",
+        "message": "입력하신 내용으로 문의하시겠습니까?",
+        "sizeOver": "첨부 파일은 10MB를 초과할 수 없습니다.",
+        "formatError": "파일은 pdf, 한글, zip 파일만 첨부할 수 있습니다.",
+        "success": "프로젝트 문의/상담을 신청해주셔서 감사드립니다. 내부 검토 후 연락 드리겠습니다.",
+        "fail": "등록할 수 없습니다. 잠시 후 다시 시도해주십시오."
+      }
+    },
+    "privacy": {
+      "title": "개인정보 보호정책",
+      "policy_1": "‘스마트코어’의 개인정보취급방침은 다음과 같습니다.",
+      "policy_2_title": "개인정보 수집이용에 대한 동의",
+      "policy_2_description": "고객님의 소중한 개인정보는 다음과 같은 정책에 따라 수집 및 이용됩니다. 스마트코어에서는 해당 목적에 연관되는 개인정보만을 수집하며, 수집된 정보를 투명하고 안전하게 보호, 관리할 것을 약속 드립니다.",
+      "policy_3_title": "개인정보의 수집.이용 목적",
+      "policy_3_description": "프로젝트 의뢰하고자 하는 이용자에 대한 확인 및 의뢰건에 대한 정확한 답변(견적, 기간, 개발 등)을 위해 수집됩니다.",
+      "policy_4_title": "수집 항목",
+      "policy_4_description01": "-프로젝트 의뢰정보, 첨부파일, 담당자정보(회사명, 이름/직위, 전화번호, 이메일)",
+      "policy_4_description02": "-개인정보 수집방법 : 홈페이지( Request)를 통한 정보 입력",
+      "policy_4_description03": "보유 이용 기간",
+      "policy_4_description04": "- 원칙적으로 개인정보 수집 및 이용 목적이 달성된 후에 해당 정보를 지체없이 파기합니다. 단, 다음 정보에 대해서 아래 이유로 명시한 기간 동안 보존합니다.",
+      "policy_4_description05": "- 보존 이유: Request 후 6개월 내, 프로젝트 계약시 진행 종료 시 까지 유지 후 파기",
+      "policy_5_title": "동의를 거부할 권리 및 동의를 거부할 경우",
+      "policy_5_description": "필수 정보의 수집,이용에 관한 동의는 문의에 대한 답변 및 상담을 위해 필수적이므로, 동의 시에만 문의에 대한 답변이 가능합니다."
+    }
+  }
+}

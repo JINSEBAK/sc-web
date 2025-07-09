@@ -1,0 +1,321 @@
+{
+  "history": [
+    {
+      "year": "2022",
+      "list": [
+        {
+          "month": "10",
+          "content": "MICE 온실가스 배출량 산정 시스템 개발"
+        },
+        {
+          "month": "09",
+          "content": "스마트폰 보안&가족케어앱 모바일가드 고도화 개발"
+        },
+        {
+          "month": "07",
+          "content": "스마트공장 분산 협업을 지원하는 블록체인 기반 AI 플랫폼 개발"
+        },
+        {
+          "month": "05",
+          "content": "CO2CO 자원순환플랫폼 개발"
+        }
+      ]
+    },
+    {
+      "year": "2021",
+      "list": [
+        {
+          "month": "12",
+          "content": "SSG Molly's 소셜 커머스 서비스 개발"
+        },
+        {
+          "month": "10",
+          "content": "스마트폰 보안&가족케어앱 모바일가드 개발"
+        },
+        {
+          "month": "08",
+          "content": "우주전파센터 예경보시스템 고도화"
+        },
+        {
+          "month": "07",
+          "content": "블록체인 기반 결제 플랫폼 개발"
+        },
+        {
+          "month": "04",
+          "content": "주식 메신저 플랫폼 개발"
+        },
+        {
+          "month": "03",
+          "content": "SKT T-Guard 9차년도 서비스 운영"
+        }
+      ]
+    },
+    {
+      "year": "2020",
+      "list": [
+        {
+          "month": "10",
+          "content": "한국전자통신연구원(ETRI) 경량화 유해 미디어 분석 기술 이전<br/>한국전자통신연구원(ETRI) 이미지 유해성 검출 이미지 학습 및 분류 엔진 생성 기술 이전<br/>Meetus LMS(광주교육청) 화상통화 교육관리 시스템 개발"
+        },
+        {
+          "month": "09",
+          "content": "클라우드 EDI HUB 시스템 개발"
+        },
+        {
+          "month": "06",
+          "content": "Crecker 메신저 서비스 개발<br/>특허 등록 (10-2130900) : 블록체인 시스템에서의 고속 합의 방법"
+        },
+        {
+          "month": "05",
+          "content": "(주)한국정보인증 인증서비스 관련 MOU 체결"
+        },
+        {
+          "month": "03",
+          "content": "SKT T-Guard 8차년도 서비스 운영<br/>SK University My Suni (LMS) 개발"
+        }
+      ]
+    },
+    {
+      "year": "2019",
+      "list": [
+        {
+          "month": "12",
+          "content": "충남대학교 블록체인 인증 서비스 분야 기술 공동 개발 협약"
+        },
+        {
+          "month": "09",
+          "content": "말레이시아 메신저 Kick-Off 개최"
+        },
+        {
+          "month": "07",
+          "content": "특허 등록 (10-2003878) : 디바이스간의 데이터 맵을 이용한 데이터 전송 방법 및 장치"
+        },
+        {
+          "month": "05",
+          "content": "블록체인 기반 포인트 플랫폼 dadadac개발"
+        },
+        {
+          "month": "03",
+          "content": "SKT T-Guard 7차년도 서비스 운영<br/>(주)현대페이 MOU 체결<br/>XFYRE(M) SDN BHD, KLCE TECHNOLOGY SDN BHD (말레이시아) MOU 체결"
+        },
+        {
+          "month": "01",
+          "content": "고려대학교 정보보호대학원 MOU 체결<br/>Red Circle Studio SDN BHD (말레이시아) MOU 체결"
+        }
+      ]
+    },
+    {
+      "year": "2018",
+      "list": [
+        {
+          "month": "12",
+          "content": "KT WebRTC 기반 영상통화 개발 (iOS)<br/>정부과제 2차년도 국제공동기술개발 (EmoSpaces 서비스 플랫폼)"
+        },
+        {
+          "month": "11",
+          "content": "특허 출원 (10-2018-0140568) : 블록체인 시스템에서의 고속 합의 방법<br/>블록체인 디지털 자산 플랫폼"
+        },
+        {
+          "month": "09",
+          "content": "팅크웨어 블랙박스 IoT 고도화"
+        },
+        {
+          "month": "07",
+          "content": "실시간 공기정보 everyair 기획 "
+        },
+        {
+          "month": "05",
+          "content": "두드림넷 기부 키오스크 개발<br/>SKT T-Pay 개발 (서버)"
+        },
+        {
+          "month": "03",
+          "content": "SKT T-Guard 6차년도 서비스 고도화"
+        },
+        { "month": "01", "content": "휴대폰 Trade-in 플랫폼 플러스모바일 개발" }
+      ]
+    },
+    {
+      "year": "2017",
+      "list": [
+        { "month": "11", "content": "무인 주문 단말기 (키오스크) 개발" },
+        {
+          "month": "09",
+          "content": "SPC 네트웍스 사내 메신저 시스템 구축"
+        },
+        {
+          "month": "07",
+          "content": "스마트로 결제 플랫폼 개발발<br/>HTML5 기반 게임 플랫폼 개발"
+        },
+        {
+          "month": "06",
+          "content": "G밸리 모바일 신분증 어플리케이션 개발"
+        },
+        {
+          "month": "05",
+          "content": "EmoSpaces 서비스 플랫폼 개발<br/>PC POS용 단독형 위젯 개발"
+        },
+        {
+          "month": "04",
+          "content": "현대엘리베이터 HRTS 4차년도 시스템 개발"
+        },
+        {
+          "month": "03",
+          "content": "SKT T-Guard 5차년도 서비스 운영"
+        },
+        {
+          "month": "02",
+          "content": "정부과제 Phone to Phone 결제시스템 개발"
+        },
+        {
+          "month": "01",
+          "content": "라맥스 지스콘 IoT 시스템 도어락 앱 및 서버 개발 (2차)<br/>기업은행 ATM 단말기 서비스 개발"
+        }
+      ]
+    },
+    {
+      "year": "2016",
+      "list": [
+        {
+          "month": "12",
+          "content": "㈜오케이포스 POS 시스템 개발"
+        },
+        {
+          "month": "11",
+          "content": "전라북도 전북투어패스 단말기 플랫폼 개발"
+        },
+        {
+          "month": "07",
+          "content": "대구은행 ATM 단말기 서비스 개발"
+        },
+        {
+          "month": "06",
+          "content": "비타고 멤버십 및 BackOffice 솔루션 개발"
+        },
+        {
+          "month": "04",
+          "content": "현대엘리베이터 HRTS 3차년도 시스템 개발"
+        },
+        {
+          "month": "03",
+          "content": "SKT T-Guard 4차년도 서비스 개발<br/>IVY7 무인 물품 보관함 플랫폼 개발"
+        },
+        {
+          "month": "02",
+          "content": "음원결제 서비스 개발"
+        },
+        {
+          "month": "01",
+          "content": "라맥스 지스콘 IoT 시스템 도어락 앱 및 서버 개발<br/>블루투스 결제를 위한 컨트롤 앱 개발"
+        }
+      ]
+    },
+    {
+      "year": "2015",
+      "list": [
+        {
+          "month": "12",
+          "content": "현대엘리베이터 HRTS 2차년도 시스템 개발"
+        },
+        {
+          "month": "11",
+          "content": "아마다스 도어락 앱 및 서버 개발"
+        },
+        {
+          "month": "10",
+          "content": "한국타이어 라우펜 웹 개발"
+        },
+        {
+          "month": "08",
+          "content": "KG 이니시스 KPay App 개발"
+        },
+        {
+          "month": "04",
+          "content": "롯데정보통신 L-Pay 개발<br/>IVY7 결제 플랫폼 Back Office 개발"
+        },
+        {
+          "month": "03",
+          "content": "SKT T-Guard 3차년도 서비스 개발"
+        },
+        {
+          "month": "02",
+          "content": "롯데마트 스마트 상품권 및 쿠폰 시스템 개발"
+        },
+        {
+          "month": "01",
+          "content": "IoT S-Trainer 다이어트 앱 개발<br/>한화생명 전자서명 시스템 개발"
+        }
+      ]
+    },
+    {
+      "year": "2014",
+      "list": [
+        {
+          "month": "12",
+          "content": "SCPP (SmartCore Pay-Platform) 개발"
+        },
+        {
+          "month": "11",
+          "content": "한국전자통신연구원 (ETRI) IoT 관련 기술 이전<br/>CSB 인프라 및 관리자 포털 서비스 구축"
+        },
+        {
+          "month": "10",
+          "content": "HTML5 기반 UI/UX 저작툴 개발"
+        },
+        {
+          "month": "07",
+          "content": "HRTS(Hyundai Real Time Service) 웹 시스템 개발"
+        },
+        {
+          "month": "06",
+          "content": "나이스정보통신 모바일 직불 결제 서비스 개발"
+        },
+        {
+          "month": "03",
+          "content": "SKT T-Guard 2차년도 서비스 개발"
+        },
+        {
+          "month": "02",
+          "content": "한국전자통신연구원 (ETRI) 텔레스크린 서버 운용 관리 GUI 제작"
+        }
+      ]
+    },
+    {
+      "year": "2013",
+      "list": [
+        {
+          "month": "12",
+          "content": " SKT T-Guard 1차년도 서비스 개발<br/>기업부설 연구소 설립"
+        },
+        {
+          "month": "10",
+          "content": "중국의료관광 서비스 쇼핑몰 개발"
+        },
+        {
+          "month": "08",
+          "content": "한국전자통신연구원 (ETRI) WoO 플랫폼 이용 서비스 연동"
+        },
+        {
+          "month": "06",
+          "content": "E-MART 모바일 앱 개발<br/>KEST 검사관리 시스템 구축"
+        }
+      ]
+    },
+    {
+      "year": "2012",
+      "list": [
+        {
+          "month": "12",
+          "content": "상황 인지형 N-Screen/Tele-Screen플랫폼 구축"
+        },
+        {
+          "month": "11",
+          "content": "특허 등록 (10-1216430) : 컬러 패턴 이미지 생성과 인증 시스템 및 서버<br/>WoO를 이용한 단말 서버 및 오버레이 연동"
+        },
+        { "month": "05", "content": "악보바다 시스템 구축" },
+        { "month": "04", "content": "행정자치부 안드로이드 앱 개발" },
+        { "month": "03", "content": "벤처기업 인증" },
+        { "month": "01", "content": "주식회사 스마트코어 설립" }
+      ]
+    }
+  ]
+}

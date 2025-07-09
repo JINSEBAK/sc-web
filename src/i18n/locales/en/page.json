@@ -1,0 +1,405 @@
+{
+  "common": {
+    "name": "SmartCore",
+    "gnb": {
+      "about": "About us",
+      "tech": "Tech",
+      "projects": "Projects",
+      "contact": "Contact",
+      "inquiry": "Request",
+      "application": "Career",
+      "recruit": "Career"
+    },
+    "footer": {
+      "location": "Location",
+      "document": "Introduction",
+      "request": "Project<br>Request"
+    },
+    "link": {
+      "label": "Download company profile",
+      "ko": "Korean",
+      "en": "English"
+    },
+    "noresult": "Please wait a moment. Thank you!"
+  },
+  "companyInfo": {
+    "address": "298, Beotkkot-ro, Geumcheon-gu, Seoul, Republic of Korea (DaeryungPost 6th 1607)",
+    "tel": "02.830.0858",
+    "fax": "02.857.0885",
+    "email": "office@smcore.co.kr"
+  },
+  "main": {
+    "section1": {
+      "description": "Here are smart people<br>who are preparing <br>for <em class='green'>the future</em> with <em class='red'>a challenge</em> <em class='blue'>to technology</em>."
+    },
+    "section2": {
+      "title": "Cool skill and<br>Hot passion",
+      "description": "Frontend, Backend, and Application development<br>experts make imagination into reality based on various development experiences<br>in AI, Blockchain, Fintech, and IoT fields."
+    },
+    "section3": {
+      "title": "Our results<br>made with technology and passion",
+      "description": "From 2010 to the present,<br>Smartcore carries out projects with a professional spirit."
+    },
+    "section4": {
+      "client": {
+        "title": "Client",
+        "description": "Smart Core will pioneer the future together<br>through cooperation with domestic and foreign partners based on the 4th industrial technology such as AI."
+      },
+      "career": {
+        "title": "Career",
+        "description": "We are waiting for smart people<br>who can go in the same direction even if they are different."
+      }
+    }
+  },
+  "about": {
+    "title": "Future, Innovation, Value Creation",
+    "description": "SmartCore is continuously researching new technologies centering on the 4th industrial revolution, and aims to become a future-leading technology company with a differentiated strategy",
+    "visual": "<p>A place of cold technology,</p><p>warm sensibility,</p><p>and hot passion</p>",
+    "info": {
+      "description": "<strong>SmartCore</strong><p>A company that creates a new future with human-centered creative solutions in various technology fields such as AI, blockchain, IoT, and fintech.</p><div >Continuous research on new technologies<br>to become a future-leading technology company with differentiated strategies<br>Smart Core advances.</p>",
+      "vision": {
+        "title": "Main Business Areas",
+        "text": "SmartCore<br/> exists to create <em>future value</em> with <em>innovative solutions</em> and <em>improve the quality of life</em>.",
+        "items": [
+          {
+            "title": "Technology",
+            "description": "Continuously learning<br/><strong>researching</strong> for better <strong>tech</strong>."
+          },
+          {
+            "title": "Responsibilities",
+            "description": "Where you need it<br/>with the technology you need<br/><strong>grows</strong> into the future."
+          },
+          {
+            "title": "Value",
+            "description": "We will <strong>look in one direction</strong> and create results<br/>that contain <strong>value</strong>."
+          },
+          {
+            "title": "Happiness",
+            "description": "Our technology and<br/>experience go with<strong>happiness</strong><br/> of our customers&amp;members <strong>with</strong>."
+          }
+        ]
+      },
+      "work": [
+        {
+          "title": "Solution",
+          "description": "The solutions/platforms developed by SmartCore development experts using AI, blockchain, IoT, and fintech technologies are optimized for the necessary business environment and built/developed.",
+          "type": "solution"
+        },
+        {
+          "title": "SI",
+          "description": "Analyzes the customer's requirements designs/implements the optimal system for the customer. In addition, it presents the direction of the system to enhance the customer's business value.",
+          "type": "si"
+        }
+      ],
+      "technical": {
+        "title": "Teams",
+        "main": "We are SmartCore <span class='highlight'><span>Experts</span></span><br>who suggest<br><span class='highlight'><span>a better direction.</span></span>",
+        "description": "We identify and design client's needs, and <br>Frontend, Backend, Server, and MobileApp professional developers develop complete <br>and carry out stable projects responsibly.",
+        "crew": [
+          "Business Support 10%",
+          "Design 10%",
+          "Project management<br>planning 20%",
+          "Development 60%"
+        ],
+        "main2": "Our <span class='highlight'><span>experience</span></span> made the <br>project even <span class='highlight'><span>solid</span> </span> and make it <span class='highlight'><span>rich</span></span>",
+        "description2": "We learn and create new technologies for a variety of experiences.<br>Based on our experience, we consider, suggest, design, and proceed with the direction of the project.<br>Smart Core is the essence and core of the project. We create results that maximize the value of the project without missing out."
+      }
+    },
+    "history": {
+      "prevTitle": "<span class='highlight'><span>Together,</span></span> we ran strong",
+      "title": "History",
+      "imageTxt": ["", "Enjoy", "", "", "<em>Fiercely</em>", "", "Do your best"]
+    },
+    "client": {
+      "prevTitle": "Grateful and <span class='highlight'><span>Happy</span></span> to be with you",
+      "title": "Client <span>& Partner</span>"
+    }
+  },
+  "tech": {
+    "title": "Tech",
+    "visual": "<p>We are developing expertise</p><p>in various business areas</p><p>based on IT technology</p>",
+    "teches": {
+      "ai": {
+        "title": "AI",
+        "description": "SmartCore has AI-based analysis technology, mining technology, machine learning and deep learning technology to effectively utilize big data, and <span class='neon'>adopt Federated Learning AI</span> which has deepened this, we conduct research to apply it to an AI-based collaboration platform and various fields.",
+        "contents": [
+          {
+            "title": "Federated AI Platform",
+            "sub": "Supports distributed collaborative Smart Factories",
+            "text": "Through federated learning AI technology, we build an integrated AI platform that supports distributed collaboration with enhanced collaboration efficiency and business-critical information security."
+          },
+          {
+            "title": "Federated Learning AI",
+            "sub": "",
+            "text": "Forming a core data learning model based on Federated Learning and edge computing, and introducing AI in a way that only exchanges learned data models without transmitting data locally, forming a collaborative ecosystem between AI platforms through efficient data exchange and processing, and Enhance security."
+          },
+          {
+            "title": "Data Labeling",
+            "sub": "",
+            "text": "It is necessary to select high quality data that can understand the context by refining vast amounts of data in order to maximize the data modeling learning effect of federated learning AI.<br>Accordingly, the composition of learning elements through data labeling is applied to form a data classification and utilization system of a federated learning AI collaboration platform that supports distributed collaboration.<br>In particular, Web 3.0 Object Link implements a distributed collaborative economy ecosystem through linkage with blockchain."
+          },
+          {
+            "title": "Consortium for<br> Federated AI Platform",
+            "sub": "",
+            "text": "SmartCore is a data modeling system applied with UI/UX, blockchain module, federated learning AI algorithm, and integrated AI platform that incorporates <br>Management System. In order to apply the real business environment, We are developing a platform by forming a consortium with companies from EU countries (Turkey, Portugal, Romania)."
+          }
+        ],
+        "subContents": [
+          "<em>Reduce server load</em><br>by using edge computing technology",
+          "<em>Enhancing data security</em><br>by creating models and sending only results",
+          "<em>Increase collaboration efficiency</em><br>with data model standardization",
+          "Prevent system resource overload,<br><em>reduce network cost</em>"
+        ]
+      },
+      "blockchain": {
+        "title": "Blockchain",
+        "description": "We developed a blockchain platform based on <span class='neon'>self-constructed and developed blockchain technology such as consensus algorithm and mainnet</span>, <br>on an AI platform that supports distributed collaboration. Develop related technologies to strengthen data security and integrity by <span class='neon'>applying identity verification function between users and modules</span>.",
+        "contents": [
+          {
+            "title": "Blockchain Module for<br> AI Platform",
+            "sub": "",
+            "text": "Enhances the security of data model exchanges on the AI platform through applying blockchain to an AI platform that supports distributed collaboration,<br>verifying device suitability and data integrity in interplatform interworking and data storage functions, and smart contract functions."
+          }
+        ],
+        "patent": {
+          "text": "SmartCore has registered and holds<br><strong>patents for its self-developed blockchain consensus algorithm</strong>.",
+          "name": "High-speed consensus method in blockchain system<br>(No. 10-2130900 / Registration Date : 2020.6.30)"
+        }
+      },
+      "fintech": {
+        "title": "Fintech",
+        "description": "It implements <span class='neon'>Financial Technology, SMPP (SmartCore Pay Platform), BLE, NFC, MRS, IC technology</span>, <br>safe and optimized mobile with integrated professional technology and professional manpower. Develop a simple payment system.",
+        "contents": {
+          "pay": {
+            "title": "Payment Technology",
+            "description": "We have implemented various payment technologies such as Bluetooth low energy communication, NFC, short-range wireless communication technologies, IC, MSR, and QR, and develop solution technologies for mobile simple payment systems by combining them."
+          },
+          "security": {
+            "title": "Security Technology",
+            "description": "We have implemented mobile identity authentication technology and blockchain technology in fintech, and based on this, we develop data reliability and security enhancement technologies such as hacking prevention and payment data flow tracking."
+          }
+        },
+        "pocession": {
+          "title": "SmartCore Fintech",
+          "items": [
+            "Pay<br> platform",
+            "Payment<br> service",
+            "Membership<br> platform",
+            "POS &<br> ATM"
+          ]
+        }
+      },
+      "iot": {
+        "title": "IoT",
+        "description": "<span class='neon'>SmartHome and sensor network technology and wearable communication technology have been implemented</span>, and <br>developed to link with deep learning and block chain technology using big data.",
+        "contents": {
+          "network": {
+            "title": "Sensor Network Technology",
+            "description": "We have the technology to acquire information from sensors applying OSGI, OMA, and M2M technology, and to control and monitor devices through network formation."
+          },
+          "warable": {
+            "title": "Wearable Telecommunication Technology",
+            "description": "We are researching and developing short-range wireless communication technology for connection and data exchange between wearable devices."
+          },
+          "deep": {
+            "title": "Deep Learning",
+            "description": "Based on data collected through sensors and wearable devices, it is implemented to analyze behavior patterns through deep learning, and technology is developed to determine and prevent risk factors."
+          }
+        }
+      }
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "visual": "<p>Results created</p><p>from the perspective of customers and</p><p>the skills of professional developers</p>",
+    "label_name": "Customer",
+    "label_project": "Project"
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "",
+    "visual": "<p>Ask any questions</p><p>about Smart Core.</p>",
+    "inquiry": "<em>inquire</em> about a project",
+    "transportation": {
+      "title": "Smart Core Co., Ltd.",
+      "subway": "<em>Subway</em> Connected to the underground passage at Gasan Digital Complex Station on Subway Lines 1 and 7 (underground passage between Exits 2 and 3)",
+      "bus": "<em>Bus</em> Geumcheon03, Geumcheon07, 5616, 5712, 5537"
+    }
+  },
+  "inquiry": {
+    "title": "Project Inquiry",
+    "visual": "<p>We will listen and look</p><p>at the same place.</p>"
+  },
+  "inquiryForm": {
+    "common": {
+      "multiple": "Multiple selection possible"
+    },
+    "part1": {
+      "title": "Project type",
+      "label_1": "Website",
+      "label_2": "Mobile web",
+      "label_3": "Mobile app",
+      "label_4": "New construction",
+      "label_5": "Maintenance",
+      "label_6": "Government task",
+      "label_7": "etc"
+    },
+    "part2": {
+      "title": "Development field",
+      "label_1": "Planning",
+      "label_2": "Design",
+      "label_3": "UI Development",
+      "label_4": "Development"
+    },
+    "part3": {
+      "title": "Detail info",
+      "guide": "Up to one file can be attached among pdf, hwp, and zip files within 10 MB.",
+      "label_1": "Project terms",
+      "label_2": "Target date",
+      "label_2_placeholder": "date format is yyyy-mm-dd",
+      "label_3": "Budget",
+      "label_4": "Attached document",
+      "label_5": "Enter your project detail info",
+      "tersm": ["Select", "1~2 month", "3~5 month", "more than 6 month"],
+      "cost": [
+        "Select",
+        "Less than 30 million KRW",
+        "30 million to 50 million KRW",
+        "50 million to 100 million KRW",
+        "300 million to 500 million KRW",
+        "over 500 million KRW"
+      ]
+    },
+    "part4": {
+      "title": "Contact information",
+      "label_1": "Company name",
+      "label_2": "Name / Position ",
+      "label_3": "Contact number",
+      "label_4": "Email"
+    },
+    "part5": {
+      "checkLabel": "I agree <em>Privacy Policy</em> (require)"
+    },
+    "part6": {
+      "button": "Registration",
+      "alert": "Thank you for submitting a project inquiry.<br>We will contact you after an internal review.",
+      "confirm": "OK"
+    }
+  },
+  "recruit": {
+    "title": "Application",
+    "visual": "<p>We are waiting for smart people</p><p>who can work and grow together</p><p>in the digital world.</p>",
+    "benefits": {
+      "intro": "We wholeheartedly support for a pleasant<br> <span class='highlight'><span>working environment and culture.</span></span>",
+      "list": [
+        {
+          "title": "4 Major Insurances<br>Retirement Pension",
+          "sub": "Basic legal benefits!"
+        },
+        {
+          "title": "Dinner expense support",
+          "sub": "Simple and small meeting"
+        },
+        {
+          "title": "Vacation OK~",
+          "sub": "While you want to take a break~"
+        },
+        {
+          "title": "Happy birthday gift",
+          "sub": "Thank you for being born!"
+        },
+        {
+          "title": "Long-term workers Award",
+          "sub": "How many years have you been going to Smartcore?"
+        },
+        {
+          "title": "A warm holiday gift",
+          "sub": "Don't be upset about the holidays~"
+        },
+        {
+          "title": "Coffee, Snack<br>provided",
+          "sub": "All work? A cup of coffee..."
+        },
+        {
+          "title": "Support for purchasing books",
+          "sub": "for self-improvement"
+        }
+      ]
+    },
+    "document": {
+      "description": "For me, you, and work<br>Those who have a sincere heart, positivity and passion!<br>Please apply.",
+      "label": "Please send a job application to <a href='mailto:recruit@smcore.co.kr'>recruit@smcore.co.kr</a>",
+      "button": "Application form"
+    },
+    "jobsLabel": {
+      "role": "Responsibilities",
+      "ability": "Ability",
+      "message": "Please send a job application to recruit@smcore.co.kr"
+    },
+    "jobs": [
+      {
+        "title": "Planner",
+        "details": {
+          "role": "Web/Mobile Planning<br>UI/UX Design<br>Service Planning<br>Project Management",
+          "ability": "Those who have an understanding of web/mobile service planning<br>Those who can analyze and design services<br>Those who can design UI/UX<br>Smooth communication skills"
+        }
+      },
+      {
+        "title": "Designer",
+        "details": {
+          "role": "Web, Mobile UI/UX Design<br>Service Branding",
+          "ability": "Those who have an understanding of UI/UX<br>Those who have a sense of design<br>Smooth communication skills"
+        }
+      },
+      {
+        "title": "Developer",
+        "details": {
+          "role": "Frontend Development<br>Backend Development<br>App Development",
+          "ability": "The ability to communicate smoothly with the collaboration department for the definition and development of new functions<br>Those who are interested in the latest trends and think positively about development",
+          "scope": [
+            {
+              "part": "<span class='neon'>Backend</span>",
+              "contents": "- Web programming/PHP, JSP<br>- Server, DB Management/Development "
+            },
+            {
+              "part": "<span class='neon'>Frontend</span>",
+              "contents": "- HTML coding and web publishing / Website maintenance<br>- Website construction through frameworks(vue, react)"
+            },
+            {
+              "part": "<span class='neon'>Mobile Application</span>",
+              "contents": "- AOS, iOS Development"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "popup": {
+    "inquiry": {
+      "register": {
+        "title": "Project Inquiry",
+        "message": "Would you like to inquire about the information you entered?",
+        "sizeOver": "Attachments cannot exceed 10MB.",
+        "formatError": "Only pdf, hwp, and zip files can be attached.",
+        "success": "Thank you for requesting a project consultation. We will contact you after an internal review",
+        "fail": "Cannot register. Please try again later"
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "policy_1": "The privacy policy of ‘Smart Core’ is as follows.",
+      "policy_2_title": "Consent to the collection and use of personal information",
+      "policy_2_description": "Your valuable personal information is collected and used according to the following policy. Smartcore collects only personal information related to the purpose, and promises to protect and manage the collected information transparently and safely. .",
+      "policy_3_title": "Purpose of collection and use of personal information",
+      "policy_3_description": "Collected to confirm users who wish to request a project and to provide accurate answers to requests (estimation, period, development, etc.).",
+      "policy_4_title": "Collections",
+      "policy_4_description01": "-Project request information, attached files, contact person information (company name, name/position, phone number, e-mail)",
+      "policy_4_description02": "-Personal information collection method: Enter information through the website (Request)",
+      "policy_4_description03": "Retention period",
+      "policy_4_description04": "- In principle, after the purpose of collecting and using personal information is achieved, the information is destroyed without delay. However, the following information will be retained for the period specified for the reasons below.",
+      "policy_4_description05": "- Reason for preservation: Within 6 months after request, keep until project contract ends and then destroy",
+      "policy_5_title": "Right to decline consent and when to deny consent",
+      "policy_5_description": "Consent to the collection and use of essential information is essential for answering inquiries and consulting, so inquiries can only be answered with consent."
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.language {
+  position: relative;
+}
+
+.language .btn {
+  border: 1px solid #fff;
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 22px;
+  border-radius: 50%;
+}
+
+.language .list {
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.language .list.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.language .list .item {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 8px 0;
+}

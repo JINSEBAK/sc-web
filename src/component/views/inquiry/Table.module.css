@@ -1,0 +1,38 @@
+.form-tb {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #f2f3f6;
+}
+.form-tb caption {
+  display: none;
+}
+.form-tb th {
+  background-color: #f2f3f6;
+  border: 1px solid #ddd;
+  vertical-align: middle;
+  padding: 1rem;
+}
+.form-tb td {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  position: relative;
+  vertical-align: top;
+}
+.form-tb-required::after {
+  content: "*";
+  color: red;
+  padding-left: 4px;
+}
+/* css module에서는 클래스명으로 스타일 지정할 수 없음 */
+/* .form-tb th.required::after {
+  content: "*";
+  color: red;
+  padding-left: 4px;
+} */
+.form-tb-unit {
+  position: absolute;
+  right: 2rem;
+  top: 50%;
+  margin-top: -8px;
+  color: #333;
+}

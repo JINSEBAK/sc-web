@@ -1,0 +1,54 @@
+.container {
+}
+
+.container .small {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+.container .medium {
+  font-size: 50px;
+  line-height: 56px;
+  font-weight: 600;
+  margin-top: 100px;
+}
+
+.container .center {
+  text-align: center;
+}
+
+.container .left {
+  text-align: left;
+}
+
+.container .right {
+  text-align: right;
+}
+
+.page-title {
+  text-align: center;
+}
+
+.page-title em {
+  display: block;
+  color: #e4113b;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 46px;
+  margin-bottom: 8px;
+}
+
+.page-title .text {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 76px;
+}
+
+.page-title .inner {
+  font-size: 32px;
+  line-height: 38px;
+  margin: 100px 0;
+}

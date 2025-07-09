@@ -1,0 +1,44 @@
+.container {
+  margin: 0 auto;
+  width: var(--container-max-width);
+}
+
+.container .tab {
+  display: flex;
+}
+
+.container .tab .item {
+  color: #636366;
+  border: 1px solid #d3d8e5;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  gap: 4px;
+  padding: 20px 0;
+  min-height: 94px;
+  margin-right: -1px;
+  cursor: pointer;
+}
+
+.container .tab .item.active {
+  background: linear-gradient(143.62deg, #3e7bfa 3.63%, #6600cc 94.05%);
+  border: 1px solid;
+  border-image-source: linear-gradient(
+    143.62deg,
+    #3e7bfa 3.63%,
+    #6600cc 94.05%
+  );
+  color: #fff;
+}
+
+.container .tab .item span {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.container .tab .item strong {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+}

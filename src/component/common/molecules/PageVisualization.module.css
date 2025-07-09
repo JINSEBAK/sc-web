@@ -1,0 +1,59 @@
+.container {
+  height: 976px;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.container .inner {
+  width: var(--container-max-width);
+  height: 100%;
+  padding: 190px 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+.container .inner::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+}
+
+.container .ctg {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.container .main-tit {
+  font-size: 100px;
+  line-height: 106px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.container .slogan {
+  color: #fff;
+  /* 공식적으로 250이 없음 */
+  font-weight: 250;
+  font-size: 36px;
+  line-height: 88px;
+  font-family: "spoqahansansneo";
+  /* 36px의 23% */
+  letter-spacing: 8.28px;
+  margin-top: 134px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.container .name {
+  text-align: center;
+  font-size: 220px;
+  font-weight: 600;
+  letter-spacing: -13.8px;
+  color: rgba(255, 255, 255, 0.7);
+}
