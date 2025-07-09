@@ -1,6 +1,11 @@
 .container {
 }
 
+.container .des {
+  font-size: 24px;
+  text-align: center;
+}
+
 .container .small {
   font-size: 40px;
   line-height: 48px;

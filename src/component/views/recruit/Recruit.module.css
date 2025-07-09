@@ -1,0 +1,30 @@
+.container {
+  margin: 0 auto;
+  padding-bottom: 180px;
+}
+
+.content {
+  width: var(--container-max-width);
+  margin: 0 auto;
+}
+
+.box {
+  border: 1px dashed red;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
+}
+
+.box.talent {
+  flex: 1 0 calc(25% - 8px);
+  border: 1px solid red;
+  padding: 24px;
+}
+
+.box.talent em {
+  color: red;
+}
+
+.box.welpare {
+  flex: 1 0 calc(33% - 8px);
+  border: 1px solid blue;
+  padding: 20px;
+}

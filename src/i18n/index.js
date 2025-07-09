@@ -11,7 +11,7 @@ i18n.use(initReactI18next).init({
   },
   lng: localStorage.getItem("lang") || "ko",
   fallbackLng: "ko",
-  ns: ["page", "history"],
+  ns: ["page", "history", "ai", "recruit"],
   interpolation: {
     escapeValue: false,
   },
