@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, HashRouter } from "react-router-dom";
 
 // front
 import UserAppContainer from "component/layout/UserAppContainer";
@@ -29,7 +29,8 @@ import AdminAccount from "component/admin/view/account/AdminAccount";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
+      {/* <BrowserRouter>  */}
       <Routes>
         <Route element={<UserAppContainer />}>
           <Route path="/" element={<MainContainer />} />
@@ -74,7 +75,8 @@ function App() {
           </Route>
         </Route>
       </Routes>
-    </BrowserRouter>
+      {/* </BrowserRouter> */}
+    </HashRouter>
   );
 }
 
