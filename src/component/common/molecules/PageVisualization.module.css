@@ -44,8 +44,8 @@
   color: #fff;
   /* 공식적으로 250이 없음 */
   font-weight: 250;
-  font-size: 36px;
-  line-height: 88px;
+  font-size: 2.5rem;
+  line-height: 2.875rem;
   font-family: "spoqahansansneo";
   /* 36px의 23% */
   letter-spacing: 8.28px;

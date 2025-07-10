@@ -8,10 +8,10 @@ import AboutContainer from "component/views/about/AboutContainer";
 import TechContainer from "component/views/tech/TechContainer";
 import ProjectContainer from "component/views/project/ProjectContainer";
 import ContactContainer from "component/views/contact/ContactContainer";
-import InquiryContainer from "component/views/inquiry/InquiryContainer";
 // 2025년 Renewal 버전
 import AIContainer from "component/views/ai/AIContainer";
 import RecruitContainer from "component/views/recruit/RecruitContainer";
+import InquiryContainer from "component/views/inquiry/InquiryContainer";
 
 // admin
 import AdminAppContainer from "component/admin/common/AdminAppContainer";
