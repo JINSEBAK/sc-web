@@ -9,9 +9,9 @@ import TechContainer from "component/views/tech/TechContainer";
 import ProjectContainer from "component/views/project/ProjectContainer";
 import ContactContainer from "component/views/contact/ContactContainer";
 import InquiryContainer from "component/views/inquiry/InquiryContainer";
-import RecruitContainer from "component/views/recruit/RecruitContainer";
 // 2025년 Renewal 버전
 import AIContainer from "component/views/ai/AIContainer";
+import RecruitContainer from "component/views/recruit/RecruitContainer";
 
 // admin
 import AdminAppContainer from "component/admin/common/AdminAppContainer";
@@ -40,8 +40,6 @@ function App() {
           <Route path="/projects" element={<ProjectContainer />} />
           <Route path="/contact" element={<ContactContainer />} />
           <Route path="/inquiry" element={<InquiryContainer />} />
-
-          
 
           <Route path="/ai" element={<AIContainer />} />
           <Route path="/recruit" element={<RecruitContainer />} />
