@@ -1,0 +1,78 @@
+.container {
+  padding-bottom: 180px;
+}
+
+.form {
+  margin-top: 54px;
+}
+
+.form .title {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 16px;
+}
+
+.form .title .tt {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  position: relative;
+}
+
+.form .title .tt.required::after {
+  content: "*";
+  color: var(--color-point-80);
+  line-height: 1;
+  position: absolute;
+  left: calc(100% + 8px);
+  top: 50%;
+  margin-top: -8px;
+  font-weight: 400;
+}
+
+.form .title .multi {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: var(--color-gray-70);
+}
+
+.form .bd {
+}
+
+.btns {
+  text-align: center;
+}
+
+.checkbox {
+  width: 160px;
+  height: 48px;
+  position: relative;
+}
+
+.checkbox input[type="checkbox"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.checkbox input[type="checkbox"] + span {
+  border: 1px solid var(--color-gray-30);
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  color: var(--color-gray-70);
+}
+
+.checkbox input[type="checkbox"]:checked + span {
+  color: var(--color-white);
+  font-weight: 700;
+  background-color: var(--color-bg-3);
+  border-color: var(--color-bg-3);
+}

@@ -7,14 +7,14 @@ import ko from "./locales/ko";
 i18n.use(initReactI18next).init({
   resources: {
     en: en,
-    ko: ko,
+    ko: ko
   },
   lng: localStorage.getItem("lang") || "ko",
   fallbackLng: "ko",
-  ns: ["page", "history", "ai", "recruit"],
+  ns: ["page", "history", "ai", "recruit", "inquiry"],
   interpolation: {
-    escapeValue: false,
-  },
+    escapeValue: false
+  }
 });
 
 export default i18n;

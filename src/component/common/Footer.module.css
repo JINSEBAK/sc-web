@@ -1,7 +1,7 @@
 .footer {
   background-color: var(--color-bg-2);
   padding: 100px 0;
-  color: var(--color-gray-00);
+  color: var(--color-white);
 }
 
 .footer .inner {
@@ -31,7 +31,7 @@
 }
 
 .footer .info .address a {
-  color: var(--color-gray-00);
+  color: var(--color-white);
 }
 
 .footer .info li {
@@ -72,5 +72,5 @@
 }
 
 .footer .docs .item > * {
-  color: var(--color-gray-00);
+  color: var(--color-white);
 }
