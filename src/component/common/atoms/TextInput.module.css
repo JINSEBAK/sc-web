@@ -1,0 +1,42 @@
+.text {
+  border: 1px solid transparent;
+  background-color: var(--color-gray-00);
+  position: relative;
+  z-index: 500;
+  flex: 1;
+  flex: 1 0 calc(50% - 24px);
+}
+
+.text.focus {
+  border-color: var(--color-em-1);
+}
+
+.text .inner {
+  display: flex;
+  align-items: center;
+}
+
+.text label {
+  flex-basis: 152px;
+  font-size: 1rem;
+  line-height: 1.325rem;
+  gap: 10px;
+  text-indent: 20px;
+}
+
+.text .input {
+  flex: 1;
+}
+
+.text .input input[type="text"] {
+  height: 60px;
+  padding: 0;
+  border: none;
+  width: 100%;
+  background-color: transparent;
+  font-size: 1rem;
+}
+
+.text .input input[type="text"]::placeholder {
+  color: var(--color-gray-40);
+}

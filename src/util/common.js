@@ -20,7 +20,7 @@ export const modalAlert = (props) => {
       );
     },
     closeOnEscape: false,
-    closeOnClickOutside: false,
+    closeOnClickOutside: false
   });
 };
 
@@ -41,7 +41,7 @@ export const modalConfirm = (props) => {
       );
     },
     closeOnEscape: false,
-    closeOnClickOutside: false,
+    closeOnClickOutside: false
   });
 };
 
@@ -54,7 +54,7 @@ export const modalImageView = (imagePath) => {
   confirmAlert({
     customUI: ({ onClose }) => {
       return <ModalImageView onClose={onClose} imagePath={imagePath} />;
-    },
+    }
   });
 };
 
@@ -62,7 +62,7 @@ export const modalFullDetail = (workId) => {
   confirmAlert({
     customUI: ({ onClose }) => {
       return <ProjectDetailModal onClose={onClose} workId={workId} />;
-    },
+    }
   });
 };
 /**
@@ -98,7 +98,7 @@ export const compareDates = (startDt, endDt) => {
   if (startDt > endDt) {
     modalAlert({
       title: "",
-      message: "종료일은 시작일보다 빠를 수 없습니다.",
+      message: "종료일은 시작일보다 빠를 수 없습니다."
     });
     return false;
   }
@@ -148,4 +148,12 @@ export const toDateObject = (str) => {
   const date = str.substring(8, 10);
 
   return new Date(year, month - 1, date);
+};
+
+/**
+ * 숫자 세자리마다 콤마 추가
+ */
+export const comma = (value) => {
+  if (typeof value !== "number" && typeof value !== "string") return "";
+  return String(value).replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 };
