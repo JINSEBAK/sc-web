@@ -40,9 +40,11 @@ function App() {
           <Route path="/projects" element={<ProjectContainer />} />
           <Route path="/contact" element={<ContactContainer />} />
           <Route path="/inquiry" element={<InquiryContainer />} />
-          <Route path="/recruit" element={<RecruitContainer />} />
+
+          
 
           <Route path="/ai" element={<AIContainer />} />
+          <Route path="/recruit" element={<RecruitContainer />} />
         </Route>
 
         {/* 어드민 Router */}

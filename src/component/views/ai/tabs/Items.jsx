@@ -5,20 +5,7 @@ import classNames from "classnames";
 
 import ChevronRight from "assets/imgs/icon_chevron_r_dot.svg";
 
-// pullUp: marginTop 값을 마이너스처리해야할 때
-export const ContentBox = ({ isFull = false, children, pullUp = 0 }) => {
-  return (
-    <div
-      className={classNames(styles.content, { [styles.full]: isFull })}
-      style={{ marginTop: `-${pullUp}px` }}
-    >
-      {children}
-    </div>
-  );
-};
-
 export const InnerItem = ({ gap = {}, children }) => {
-  console.log(gap);
   const style = {
     ...(gap.top && { marginTop: gap.top }),
     ...(gap.bottom && { marginBottom: gap.bottom })

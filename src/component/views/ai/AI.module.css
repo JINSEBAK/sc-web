@@ -3,15 +3,6 @@
   padding-bottom: 180px;
 }
 
-.content {
-  width: var(--container-max-width);
-  margin: 0 auto;
-}
-
-.content.full {
-  width: 100%;
-}
-
 .inner {
   padding: 0 70px;
 }

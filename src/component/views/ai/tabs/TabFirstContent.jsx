@@ -5,11 +5,11 @@ import ImageItem from "component/common/atoms/ImageItem";
 import MiddleTitle from "component/common/atoms/MiddelTitle";
 import HighLighter from "component/common/atoms/HighLighter";
 import FlexContainer from "component/common/atoms/FlexContainer";
+import { ContentBox } from "component/common/atoms/Containers";
 import {
   AiVisualBox,
   InnerItem,
   CardItem,
-  ContentBox,
   DepartmentItem,
   FeatureItem,
   ProductItem

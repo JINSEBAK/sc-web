@@ -25,6 +25,13 @@
   --header-height: 80px;
 
   --container-max-width: 1240px;
+
+  --color-em-1: #e4113b;
+
+  --color-bg-1: #fdfdfa;
+  --color-bg-2: #090b25;
+
+  --color-gray-10: #d3d8e5;
 }
 
 body {

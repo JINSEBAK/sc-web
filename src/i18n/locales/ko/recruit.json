@@ -18,14 +18,72 @@
     }
   ],
   "welpares": [
-    { "title": "4대보험 및 퇴직금", "sub": "" },
-    { "title": "휴가", "sub": "" },
-    { "title": "자기개발", "sub": "" },
-    { "title": "임직원 건강검진", "sub": "" },
-    { "title": "문화/행사", "sub": "" },
-    { "title": "장기근속포상", "sub": "" },
-    { "title": "부서 회식비", "sub": "" },
-    { "title": "경조사", "sub": "" },
-    { "title": "선물 및 간식 지원", "sub": "" }
+    {
+      "title": "4대보험 및 퇴직금",
+      "sub": "건강, 고용, 산재, 연금 4대보험과<br>퇴직연금 운용"
+    },
+    {
+      "title": "휴가",
+      "sub": "자유롭게 사용할 수 있는 연차, 반차와<br>경조사, 출산 휴가 지원"
+    },
+    { "title": "자기개발", "sub": "직무관련 교육비와<br>도서구입비등을 지원" },
+    {
+      "title": "임직원 건강검진",
+      "sub": "매년 꼼꼼히 건강상태를 진단받을 수 있도록<br>건강검진 지원"
+    },
+    {
+      "title": "문화/행사",
+      "sub": "야유회, 워크샵 등 사내 각종 이벤트 등을<br>정기적으로 개최"
+    },
+    { "title": "장기근속포상", "sub": "장기근속자 표창 및 선물 지급" },
+    {
+      "title": "부서 회식비",
+      "sub": "월마다 부서별 회식비 지원<br>강제 회식참여는 없음"
+    },
+    {
+      "title": "경조사",
+      "sub": "경조사에 따른 경조휴가 및 경조금,<br>조화, 화환 지원"
+    },
+    {
+      "title": "선물 및 간식 지원",
+      "sub": "생일 및 명절 선물 지원<br>커피, 차, 과자 등 간식 지원"
+    }
+  ],
+  "jobs": [
+    {
+      "title": "Developer",
+      "details": {
+        "role": "Frontend, Backend, APP",
+        "ability": "신규 기능 정의 및 개발을 위해 협업부서와 원활한 커뮤니케이션 능력<br>최신 트랜드에 대한 관심과 개발을 긍정적으로 생각하시는 분",
+        "scope": [
+          {
+            "part": "Frontend",
+            "contents": "- HTML 코딩 및 웹퍼블리싱<br>- 웹사이트 유지보수<br>- 프레임워크(vue, react)를 통한 웹사이트 구축"
+          },
+          {
+            "part": "Backend",
+            "contents": "- 웹프로그래밍/Java, Python, nodejs<br>- 서버,DB 관리/개발"
+          },
+          {
+            "part": "Application",
+            "contents": "- AOS, iOS 개발"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Designer",
+      "details": {
+        "role": "Web,Mobile UI/UX디자인, 서비스 브랜딩",
+        "ability": "UI/UX에 대한 이해가 있으신 분<br>디자인 감각이 있는 분<br>원활한 커뮤니케이션 능력"
+      }
+    },
+    {
+      "title": "Planner",
+      "details": {
+        "role": "Web, Mobile App 기획, UI/UX설계, 서비스 기획, 프로젝트 관리",
+        "ability": "웹/모바일 서비스 기획에 대한 이해도가 있는 분<br>서비스에 대한 분석 및 설계가 가능하신 분<br>UI/UX 설계가 가능한 분<br>원활한 커뮤니케이션 능력"
+      }
+    }
   ]
 }
