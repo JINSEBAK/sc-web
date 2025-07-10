@@ -60,7 +60,7 @@ const TabFirstContent = () => {
               options={[
                 { text: "1~2개월", value: "1~2개월" },
                 { text: "3~5개월", value: "3~5개월" },
-                { text: "6개월이상", value: "6개월이상" }
+                { text: "6개월이상", value: "6개월이상" },
               ]}
             />
             <Datepicker
@@ -97,7 +97,12 @@ const TabFirstContent = () => {
         </FormItem>
       </ContentBox>
       <div className={styles.btns}>
-        <Button text="문의하기" variant="third" onClick={onSubmit} />
+        <Button
+          text="문의하기"
+          variant="third"
+          size="large"
+          onClick={onSubmit}
+        />
       </div>
     </div>
   );
