@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunksmcore_web=self.webpackChunksmcore_web||[]).push([[387],{3387:function(e,c,n){n.r(c);var r=n(184);c.default=function(){return(0,r.jsx)("div",{children:"2"})}}}]);
+//# sourceMappingURL=387.ad0a00f4.chunk.js.map
