@@ -1,6 +1,7 @@
 .footer {
-  background-color: #dfe4f2;
+  background-color: var(--color-bg-2);
   padding: 100px 0;
+  color: var(--color-gray-00);
 }
 
 .footer .inner {
@@ -30,7 +31,7 @@
 }
 
 .footer .info .address a {
-  color: #000;
+  color: var(--color-gray-00);
 }
 
 .footer .info li {
@@ -51,7 +52,6 @@
 }
 
 .footer .info li:first-of-type {
-  text-indent: 1rem;
   flex: 0 1 99%;
 }
 
@@ -72,5 +72,5 @@
 }
 
 .footer .docs .item > * {
-  color: #636366;
+  color: var(--color-gray-00);
 }

@@ -71,14 +71,14 @@ const Footer = () => {
               <Button
                 text="한글"
                 size="small"
-                variant="third"
+                variant="translucent"
                 shape="round"
                 onClick={onDownload}
               />
               <Button
                 text="영문"
                 size="small"
-                variant="third"
+                variant="translucent"
                 shape="round"
                 onClcik={onDownload}
               />

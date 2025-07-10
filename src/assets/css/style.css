@@ -31,7 +31,10 @@
   --color-bg-1: #fdfdfa;
   --color-bg-2: #090b25;
 
+  --color-gray-00: #ffffff;
   --color-gray-10: #d3d8e5;
+  --color-gray-30: #bec0c5;
+  --color-gray-70: #636366;
 }
 
 body {
