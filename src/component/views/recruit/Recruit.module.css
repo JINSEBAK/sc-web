@@ -41,7 +41,6 @@
 }
 
 .box .grp2 {
-  border: 1px dashed green;
   width: 100px;
   height: 100px;
   margin-top: auto;
@@ -80,7 +79,6 @@
 }
 
 .skill-tit dl {
-  border: 1px solid green;
 }
 
 .skill dl dt {
@@ -98,4 +96,37 @@
 
 .skill dl dd + dt {
   margin-top: 24px;
+}
+
+.slogan {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  letter-spacing: -1.6px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.channel {
+  height: 404px;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.site {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.site a {
+  display: block;
+  background-color: var(--color-gray-00);
+  width: 200px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px;
 }

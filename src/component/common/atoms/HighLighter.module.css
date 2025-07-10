@@ -1,3 +1,12 @@
 .highlighter {
+  font-weight: 700;
   color: #4529e0;
+}
+
+.highlighter.default {
+  color: #4529e0;
+}
+
+.highlighter.emphasize {
+  color: var(--color-em-1);
 }

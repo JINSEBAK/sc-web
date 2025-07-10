@@ -27,6 +27,8 @@
   line-height: 38px;
   font-weight: 700;
   margin-bottom: 8px;
+  letter-spacing: -1.28px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .container .main-tit {
@@ -34,6 +36,8 @@
   line-height: 106px;
   color: #fff;
   font-weight: 600;
+  letter-spacing: -4px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .container .slogan {

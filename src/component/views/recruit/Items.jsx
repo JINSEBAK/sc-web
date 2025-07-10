@@ -8,3 +8,7 @@ export const ItemBox = ({ type, children }) => {
 export const SkillItems = ({ children }) => {
   return <div className={styles["skill-container"]}>{children}</div>;
 };
+
+export const RecruitChannel = ({ children }) => {
+  return <div className={styles.channel}>{children}</div>;
+};
