@@ -76,3 +76,7 @@
   background-color: var(--color-bg-3);
   border-color: var(--color-bg-3);
 }
+
+.btns {
+  margin-top: 54px;
+}

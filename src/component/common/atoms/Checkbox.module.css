@@ -1,0 +1,24 @@
+.box {
+  display: inline-block;
+  position: relative;
+}
+
+.box input[type="checkbox"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.box input[type="checkbox"] + span {
+  background: url(../../../assets/imgs/icon_check_w.svg) center no-repeat;
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+  background-color: var(--color-gray-30);
+}
+
+.box input[type="checkbox"]:checked + span {
+  background-color: var(--color-point-80);
+}

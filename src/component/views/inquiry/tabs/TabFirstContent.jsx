@@ -3,6 +3,8 @@ import styles from "../Inquiry.module.css";
 import Button from "component/common/atoms/Button";
 import FlexContainer from "component/common/atoms/FlexContainer";
 import Textarea from "component/common/atoms/Textarea";
+import TextInput from "component/common/atoms/TextInput";
+import TermsAgree from "component/common/organisms/TermsAgree";
 import { ContentBox } from "component/common/atoms/Containers";
 import { FormItem, TypeCheck } from "../Items";
 
@@ -10,7 +12,6 @@ import Dropdown from "component/common/atoms/Dropdown";
 import Datepicker from "component/common/atoms/Datepicker";
 
 import { useTranslation } from "react-i18next";
-import TextInput from "component/common/atoms/TextInput";
 
 const TabFirstContent = () => {
   //
@@ -60,7 +61,7 @@ const TabFirstContent = () => {
               options={[
                 { text: "1~2개월", value: "1~2개월" },
                 { text: "3~5개월", value: "3~5개월" },
-                { text: "6개월이상", value: "6개월이상" },
+                { text: "6개월이상", value: "6개월이상" }
               ]}
             />
             <Datepicker
@@ -93,13 +94,14 @@ const TabFirstContent = () => {
               required={true}
               placeholder="답변을 받을 이메일을 입력해주세요."
             />
+            <TermsAgree />
           </FlexContainer>
         </FormItem>
       </ContentBox>
       <div className={styles.btns}>
         <Button
           text="문의하기"
-          variant="third"
+          variant="primary"
           size="large"
           onClick={onSubmit}
         />

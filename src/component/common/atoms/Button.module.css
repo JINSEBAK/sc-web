@@ -1,6 +1,5 @@
 .btn {
   border: 1px solid transparent;
-  border-radius: 4px;
   background-color: transparent;
   cursor: pointer;
 }
@@ -15,11 +14,22 @@
 
 /* colors */
 .btn.primary {
-  background-color: blue;
+  background-color: var(--color-btn-navy-normal);
+  color: var(--color-white);
+}
+
+.btn.primary:hover {
+  background-color: var(--color-btn-navy-select);
+}
+
+.btn.primary:disabled {
+  cursor: not-allowed;
+  background-color: var(--color-btn-navy-disable);
 }
 
 .btn.secondary {
-  background-color: green;
+  background-color: var(--color-btn-blue-normal);
+  color: var(--color-white);
 }
 
 .btn.third {
@@ -45,6 +55,13 @@
 }
 
 .btn.large {
+  width: 300px;
+  height: 60px;
+}
+
+.btn.large span {
+  font-size: 1.5rem;
+  line-height: 1.875rem;
 }
 
 /* shape */

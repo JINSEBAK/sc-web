@@ -64,6 +64,12 @@
   --color-orange-200: #ffba7a;
   --color-brown-red1: #dc4b54;
   --color-brown-red2: #ff5a65;
+
+  --color-btn-navy-normal: #1d2435;
+  --color-btn-navy-select: #2e3953;
+  --color-btn-navy-disable: #7e8193;
+  --color-btn-blue-normal: #293882;
+  --color-btn-blue-select: #3447a4;
 }
 
 body {
@@ -79,6 +85,7 @@ body {
 
 * {
   box-sizing: border-box;
+  transition: 0.3s all;
 }
 
 input:focus,
