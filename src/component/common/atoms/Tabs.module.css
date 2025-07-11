@@ -42,3 +42,33 @@
   font-size: 24px;
   line-height: 30px;
 }
+
+.container.title {
+  position: absolute;
+  right: 0;
+  top: 178px;
+  width: fit-content;
+  border: 1px dashed red;
+}
+
+.container.title .tab .item {
+  min-width: 140px;
+  padding: 22px 0;
+}
+
+.container.title .tab .item strong {
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+  font-weight: 400;
+  color: var(--color-gray-20);
+}
+
+.container.title .tab .item {
+  background: transparent;
+  border-color: transparent;
+}
+
+.container.title .tab .item.active strong {
+  color: var(--color-white);
+  font-weight: 700;
+}

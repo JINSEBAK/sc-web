@@ -1,0 +1,76 @@
+.container {
+  margin: 0 auto;
+  padding-bottom: 180px;
+}
+
+.inner {
+}
+
+.basic {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.basic .inner {
+  width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 84px 60px;
+}
+
+.basic .logo {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.basic .infos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+
+.basic .infos li {
+  flex: 1 0 45%;
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--color-opacity-white-30);
+  padding: 20px 10px;
+}
+
+.basic .infos .lb {
+  flex-basis: 110px;
+}
+
+.basic .infos .txt {
+  font-weight: 700;
+  flex: 1;
+}
+
+.mission {
+  margin: 0 -20px;
+}
+
+.mission .inner {
+  width: 310px;
+  height: 310px;
+  border-radius: 50%;
+  background-color: var(--color-opacity-navy-80);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+}
+
+.mission strong {
+  color: var(--color-anonymous-01);
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.125rem;
+}
+
+.mission p {
+  color: var(--color-white);
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.325rem;
+}

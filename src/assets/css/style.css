@@ -27,6 +27,8 @@
   --container-max-width: 1240px;
 
   --color-em-1: #e4113b;
+  --color-anonymous-01: #ff6332;
+  --color-anonymous-02: #ffb700;
   --color-point-80: #e94162;
   --color-point-90: #086cd9;
 
@@ -41,6 +43,7 @@
   --color-black: #000000;
   --color-gray-00: #f4f6fa;
   --color-gray-10: #d3d8e5;
+  --color-gray-20: #b2b6c1;
   --color-gray-30: #bec0c5;
   --color-gray-40: #999da7;
   --color-gray-70: #636366;
@@ -70,6 +73,9 @@
   --color-btn-navy-disable: #7e8193;
   --color-btn-blue-normal: #293882;
   --color-btn-blue-select: #3447a4;
+
+  --color-opacity-white-30: rgba(255, 255, 255, 0.3);
+  --color-opacity-navy-80: rgba(5, 11, 28, 0.8);
 }
 
 body {

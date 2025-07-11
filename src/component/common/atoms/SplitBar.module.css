@@ -1,8 +1,24 @@
 .bar {
-  width: 1px;
-  height: 10px;
-  background-color: var(--color-gray-30);
   display: inline-block;
   padding: 0;
+}
+
+.bar.vertical {
+  width: 1px;
+  height: 10px;
   margin: 0 8px;
+}
+
+.bar.horizontal {
+  height: 1px;
+  width: 20px;
+  margin: 0 auto;
+}
+
+.bar.gray {
+  background-color: var(--color-gray-30);
+}
+
+.bar.orange {
+  background-color: var(--color-anonymous-02);
 }

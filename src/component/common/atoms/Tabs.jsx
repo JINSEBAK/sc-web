@@ -3,9 +3,9 @@ import styles from "./Tabs.module.css";
 
 import classNames from "classnames";
 
-const Tabs = ({ items = [], active, onChange }) => {
+const Tabs = ({ items = [], active, position = "page", onChange }) => {
   return (
-    <div className={styles.container}>
+    <div className={classNames(styles.container, styles[position])}>
       <ul className={styles.tab}>
         {items.map((item, index) => (
           <li
