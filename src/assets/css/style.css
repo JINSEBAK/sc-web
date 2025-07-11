@@ -76,6 +76,8 @@
 
   --color-opacity-white-30: rgba(255, 255, 255, 0.3);
   --color-opacity-navy-80: rgba(5, 11, 28, 0.8);
+  /* shadow */
+  --color-opacity-black-06: rgba(0, 0, 0, 0.06);
 }
 
 body {

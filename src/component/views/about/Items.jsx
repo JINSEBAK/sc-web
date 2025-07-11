@@ -40,3 +40,19 @@ export const MissionItem = ({ title, description }) => {
     </div>
   );
 };
+
+export const ClientItem = ({ name, imgFile }) => {
+  return (
+    <div className={styles.client}>
+      <ImageItem imgFile={imgFile} alt={name} />
+    </div>
+  );
+};
+
+export const PatentItem = ({ name, imgFile }) => {
+  return (
+    <div className={styles.patent}>
+      <ImageItem imgFile={imgFile} alt={name} />
+    </div>
+  );
+};

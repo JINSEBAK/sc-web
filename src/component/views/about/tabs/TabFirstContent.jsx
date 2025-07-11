@@ -3,7 +3,7 @@ import styles from "../About.module.css";
 import PageTitle from "component/common/atoms/PageTitle";
 import MiddleTitle from "component/common/atoms/MiddelTitle";
 import { ContentBox, ContentInner } from "component/common/atoms/Containers";
-import { BasicInfo, MissionItem } from "../Items";
+import { BasicInfo, ClientItem, MissionItem, PatentItem } from "../Items";
 import { useTranslation } from "react-i18next";
 import FlexContainer from "component/common/atoms/FlexContainer";
 
@@ -11,6 +11,8 @@ const TabFirstContent = () => {
   const { t } = useTranslation("about");
 
   const missions = t(`missions`, { returnObjects: true });
+  const clients = t(`clients`, { returnObjects: true });
+
   return (
     <div className={styles.container}>
       <ContentBox>
@@ -49,6 +51,11 @@ const TabFirstContent = () => {
           description="스마트코어는 AI·IT 융합기술 기반의<br>독자적 지식재산 확보를 위해 지속적으로 연구하고 있습니다."
           size="small"
         />
+        <FlexContainer gap={24} wrappable={true} align={"center"}>
+          {Array.from({ length: 6 }, (_, index) => (
+            <PatentItem key={`patent-${index}`} name={index} imgFile={index} />
+          ))}
+        </FlexContainer>
       </ContentBox>
       <ContentBox>
         <MiddleTitle
@@ -56,6 +63,15 @@ const TabFirstContent = () => {
           description="혁신적인 기술과 고객 중심의 서비스로,<br>성공을 위한 최고의 비즈니스 파트너가 되겠습니다."
           size="small"
         />
+        <FlexContainer gap={24} wrappable={true} align={"center"}>
+          {clients.map((client, index) => (
+            <ClientItem
+              key={`client-${index}`}
+              name={client.name}
+              imgFile={client.imgFile}
+            />
+          ))}
+        </FlexContainer>
       </ContentBox>
     </div>
   );
