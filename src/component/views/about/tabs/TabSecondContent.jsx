@@ -1,5 +1,5 @@
-const TabFirstContent = () => {
+const TabSecondContent = () => {
   return <>1</>;
 };
 
-export default TabFirstContent;
+export default TabSecondContent;
