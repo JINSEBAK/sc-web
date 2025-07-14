@@ -159,3 +159,27 @@ export const IntroDocument = () => {
     </div>
   );
 };
+
+export const HistoryItem = ({ title = "", lists = [] }) => {
+  return (
+    <div className={styles.row}>
+      <div className={styles.inner}>
+        <h5 className={styles.title}>{title}</h5>
+        <ul>
+          {lists.map((list, idx) => (
+            <li key={`history-item-${idx}`}>
+              <span className={styles.month}>{list.month}</span>
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: list.client
+                    ? `[${list.client}]${list.content}`
+                    : list.content
+                }}
+              />
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  );
+};

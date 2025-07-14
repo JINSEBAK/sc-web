@@ -161,3 +161,112 @@
 .box a:visited {
   color: var(--color-black);
 }
+
+.history .row {
+  display: flex;
+}
+
+.history .inner {
+  width: 50%;
+}
+
+.history ul li {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  line-height: 1.2;
+}
+
+.history .month {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 2.5rem;
+  flex-basis: 1.25rem;
+  display: block;
+  min-height: 2.5rem;
+}
+
+.history .title {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-weight: 700;
+  position: relative;
+  padding: 6px 32px;
+}
+
+.history .title::before,
+.history .title::after {
+  content: "";
+  display: block;
+  box-sizing: content-box;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateX(50%) translateY(-50%);
+}
+
+.history .title::before {
+  width: 20px;
+  height: 20px;
+  background-color: var(--color-opacity-black-10);
+}
+
+.history .title::after {
+  width: 14px;
+  height: 14px;
+  background-color: var(--color-gray-30);
+}
+
+.history ul {
+  padding: 0 30px;
+  padding-bottom: 40px;
+}
+
+.history .row:nth-of-type(odd) {
+  text-align: right;
+  padding-left: 1px;
+}
+
+.history .row:nth-of-type(odd) li {
+  flex-direction: row-reverse;
+}
+
+.history .row:nth-of-type(odd) .title,
+.history .row:nth-of-type(odd) ul {
+  border-right: 1px solid var(--color-opacity-gray-20);
+}
+
+.history .row:nth-of-type(odd) ul {
+  margin-right: -20px;
+}
+
+.history .row:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+.history .row:nth-of-type(even) .title,
+.history .row:nth-of-type(even) ul {
+  border-left: 1px solid var(--color-opacity-gray-20);
+}
+
+.history .row:nth-of-type(even) ul {
+  margin-left: -20px;
+}
+
+.history .row:nth-of-type(even) .title::before,
+.history .row:nth-of-type(even) .title::after {
+  left: 0;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.history .row:nth-of-type(1) .title {
+  color: var(--color-logo);
+}
+
+.history .row:nth-of-type(1) .title::before {
+  background-color: var(--color-opacity-logo-30);
+}
+.history .row:nth-of-type(1) .title::after {
+  background-color: var(--color-logo);
+}

@@ -1,23 +1,148 @@
 {
   "history": [
     {
+      "year": "2025",
+      "list": [
+        {
+          "month": "02",
+          "content": "종로Pick 앱 유지관리",
+          "client": "종로구청"
+        },
+        {
+          "month": "",
+          "content": "지역서점공동수배송PDA 및 연계시스템 개발",
+          "client": "한국서점조합연합회"
+        }
+      ]
+    },
+    {
+      "year": "2024",
+      "list": [
+        {
+          "month": "12",
+          "content": "상품출시지원시스템 상품약관 관리기능 개발",
+          "client": "LGU+"
+        },
+        {
+          "month": "11",
+          "content": "신드로믹 글로벌 통계(STATgora) 개발",
+          "client": "펜타웍스"
+        },
+        {
+          "month": "",
+          "content": "단지서버 3.0 추가기능 개발(로컬시운전 기능 개발)",
+          "client": "HDC랩스"
+        },
+        {
+          "month": "10",
+          "content": "AIOS 윈도우 APP 및 서버 개발",
+          "client": "펜타웍스"
+        },
+        {
+          "month": "",
+          "content": "Navigation HMI 개발",
+          "client": "모비루스"
+        },
+        {
+          "month": "09",
+          "content": "SG-Viewer APP 고도화 및 서버 개발",
+          "client": "펜타웍스"
+        },
+        {
+          "month": "07",
+          "content": "2024년 종로Pick 모바일 앱 기능개선 개발",
+          "client": "종로구청"
+        },
+        {
+          "month": "06",
+          "content": "맘시터Pro 시터향 기능 추가 개발(AOS/IOS)",
+          "client": "맘편한세상"
+        },
+        {
+          "month": "04",
+          "content": "센스톡 앱 고도화",
+          "client": "세노"
+        },
+        {
+          "month": "",
+          "content": "맘시터Pro 서비스 기획 및 UI/UX개발",
+          "client": "맘편한세상"
+        },
+        {
+          "month": "03",
+          "content": "[맘편한세상]맘시터 AOS 앱 솔루션 운영 및 개발",
+          "client": "맘편한세상"
+        },
+        {
+          "month": "",
+          "content": "지브릭페이 고도화 개발",
+          "client": "주식회사 지브릭"
+        },
+        {
+          "month": "01",
+          "content": "[맘편한세상]맘시터 IOS 앱 솔루션 운영 및 개발",
+          "client": "맘편한세상"
+        }
+      ]
+    },
+    {
+      "year": "2023",
+      "list": [
+        {
+          "month": "08",
+          "content": "단지서버 3.0/카드관리 시스템 개발",
+          "client": "HDC랩스"
+        },
+        {
+          "month": "07",
+          "content": "종로 스마트시티 모바일 앱 서비스 구축",
+          "client": "종로구청"
+        },
+        {
+          "month": "06",
+          "content": "택시관제 시스템 개발",
+          "client": "아인텔"
+        },
+        { "month": "04", "content": "상품출시시스템 기획", "client": "LGU+" },
+        {
+          "month": "02",
+          "content": "드럼제품정보관리 시스템 구축",
+          "client": "금호미쓰이화학"
+        },
+        {
+          "month": "01",
+          "content": "스마트폰 보안&가족케어 모바일가드 유지보수",
+          "client": "SK쉴더스"
+        },
+        {
+          "month": "",
+          "content": "Trip4Cure 웹사이트 개발",
+          "client": "Trip4Cure"
+        }
+      ]
+    },
+    {
       "year": "2022",
       "list": [
         {
           "month": "10",
-          "content": "MICE 온실가스 배출량 산정 시스템 개발"
+          "content": "MICE 온실가스 배출량 산정 시스템 개발",
+          "client": "K&ampI 파트너스"
         },
         {
           "month": "09",
-          "content": "스마트폰 보안&가족케어앱 모바일가드 고도화 개발"
+          "content": "스마트폰 보안&가족케어앱 모바일가드 고도화 개발",
+          "client": "SK쉴더스"
         },
         {
           "month": "07",
-          "content": "스마트공장 분산 협업을 지원하는 블록체인 기반 AI 플랫폼 개발"
+          "content": "스마트공장 분산 협업을 지원하는 블록체인 기반 AI 플랫폼 개발",
+          "client": "한국산업기술진흥원"
         },
         {
           "month": "05",
-          "content": "CO2CO 자원순환플랫폼 개발"
+          "content": "CO2CO 자원순환플랫폼 개발",
+          "client": "(주)에코씨오"
         }
       ]
     },
@@ -26,27 +151,33 @@
       "list": [
         {
           "month": "12",
-          "content": "SSG Molly's 소셜 커머스 서비스 개발"
+          "content": "SSG Molly's 소셜 커머스 서비스 개발",
+          "client": "SSG.com"
         },
         {
           "month": "10",
-          "content": "스마트폰 보안&가족케어앱 모바일가드 개발"
+          "content": "스마트폰 보안&가족케어앱 모바일가드 개발",
+          "client": "SK쉴더스"
         },
         {
           "month": "08",
-          "content": "우주전파센터 예경보시스템 고도화"
+          "content": "우주전파센터 예경보시스템 고도화",
+          "client": "케이아이티밸리"
         },
         {
           "month": "07",
-          "content": "블록체인 기반 결제 플랫폼 개발"
+          "content": "블록체인 기반 결제 플랫폼 개발",
+          "client": "Gbrick"
         },
         {
           "month": "04",
-          "content": "주식 메신저 플랫폼 개발"
+          "content": "주식 메신저 플랫폼 개발",
+          "client": "케이아이티밸리"
         },
         {
           "month": "03",
-          "content": "SKT T-Guard 9차년도 서비스 운영"
+          "content": "SKT T-Guard 9차년도 서비스 운영",
+          "client": "SKT"
         }
       ]
     },
@@ -55,23 +186,48 @@
       "list": [
         {
           "month": "10",
-          "content": "한국전자통신연구원(ETRI) 경량화 유해 미디어 분석 기술 이전<br/>한국전자통신연구원(ETRI) 이미지 유해성 검출 이미지 학습 및 분류 엔진 생성 기술 이전<br/>Meetus LMS(광주교육청) 화상통화 교육관리 시스템 개발"
+          "content": "한국전자통신연구원(ETRI) 경량화 유해 미디어 분석 기술 이전",
+          "client": ""
+        },
+        {
+          "month": "",
+          "content": "한국전자통신연구원(ETRI) 이미지 유해성 검출 이미지 학습 및<br/>분류 엔진 생성 기술 이전",
+          "client": ""
+        },
+        {
+          "month": "",
+          "content": "Meetus LMS(광주교육청) 화상통화 교육관리 시스템 개발",
+          "client": "SKT"
         },
         {
           "month": "09",
-          "content": "클라우드 EDI HUB 시스템 개발"
+          "content": "클라우드 EDI HUB 시스템 개발",
+          "client": "신세계아이앤씨"
         },
         {
           "month": "06",
-          "content": "Crecker 메신저 서비스 개발<br/>특허 등록 (10-2130900) : 블록체인 시스템에서의 고속 합의 방법"
+          "content": "Crecker 메신저 서비스 개발",
+          "client": "TiiS"
+        },
+        {
+          "month": "",
+          "content": "특허 등록 (10-2130900) : 블록체인 시스템에서의 고속 합의 방법",
+          "client": ""
         },
         {
           "month": "05",
-          "content": "(주)한국정보인증 인증서비스 관련 MOU 체결"
+          "content": "(주)한국정보인증 인증서비스 관련 MOU 체결",
+          "client": ""
         },
         {
           "month": "03",
-          "content": "SKT T-Guard 8차년도 서비스 운영<br/>SK University My Suni (LMS) 개발"
+          "content": "SKT T-Guard 8차년도 서비스 운영",
+          "client": "SKT"
+        },
+        {
+          "month": "",
+          "content": "SK University My Suni (LMS) 개발",
+          "client": "SK이노베이션"
         }
       ]
     },
@@ -80,27 +236,44 @@
       "list": [
         {
           "month": "12",
-          "content": "충남대학교 블록체인 인증 서비스 분야 기술 공동 개발 협약"
+          "content": "충남대학교 블록체인 인증 서비스 분야 기술 공동 개발 협약",
+          "client": ""
         },
         {
           "month": "09",
-          "content": "말레이시아 메신저 Kick-Off 개최"
+          "content": "말레이시아 메신저 Kick-Off 개최",
+          "client": ""
         },
         {
           "month": "07",
-          "content": "특허 등록 (10-2003878) : 디바이스간의 데이터 맵을 이용한 데이터 전송 방법 및 장치"
+          "content": "특허 등록 (10-2003878) : 디바이스간의 데이터 맵을 이용한<br/>데이터 전송 방법 및 장치"
         },
         {
           "month": "05",
-          "content": "블록체인 기반 포인트 플랫폼 dadadac개발"
+          "content": "블록체인 기반 포인트 플랫폼 개발 및 서비스",
+          "client": "Gbrick"
         },
         {
           "month": "03",
-          "content": "SKT T-Guard 7차년도 서비스 운영<br/>(주)현대페이 MOU 체결<br/>XFYRE(M) SDN BHD, KLCE TECHNOLOGY SDN BHD (말레이시아) MOU 체결"
+          "content": "SKT T-Guard 7차년도 서비스 운영",
+          "client": "SKT"
+        },
+        {
+          "month": "",
+          "content": "(주)현대페이 MOU 체결",
+          "client": ""
+        },
+        {
+          "month": "",
+          "content": "XFYRE(M) SDN BHD, KLCE TECHNOLOGY SDN BHD<br>(말레이시아) MOU 체결"
         },
         {
           "month": "01",
-          "content": "고려대학교 정보보호대학원 MOU 체결<br/>Red Circle Studio SDN BHD (말레이시아) MOU 체결"
+          "content": "고려대학교 정보보호대학원 MOU 체결"
+        },
+        {
+          "month": "",
+          "content": "Red Circle Studio SDN BHD (말레이시아) MOU 체결"
         }
       ]
     },
@@ -109,7 +282,13 @@
       "list": [
         {
           "month": "12",
-          "content": "KT WebRTC 기반 영상통화 개발 (iOS)<br/>정부과제 2차년도 국제공동기술개발 (EmoSpaces 서비스 플랫폼)"
+          "content": "WebRTC 기반 영상통화 개발 (iOS)",
+          "client": "KT"
+        },
+        {
+          "month": "",
+          "content": "정부과제 2차년도 국제공동기술개발 (EmoSpaces 서비스 플랫폼)",
+          "client": ""
         },
         {
           "month": "11",
@@ -117,58 +296,95 @@
         },
         {
           "month": "09",
-          "content": "팅크웨어 블랙박스 IoT 고도화"
+          "content": "블랙박스 IoT 고도화",
+          "client": "팅크웨어"
         },
         {
           "month": "07",
-          "content": "실시간 공기정보 everyair 기획 "
+          "content": "실시간 공기정보 everyair 기획",
+          "client": ""
         },
         {
           "month": "05",
-          "content": "두드림넷 기부 키오스크 개발<br/>SKT T-Pay 개발 (서버)"
+          "content": "두드림넷 기부 키오스크 개발",
+          "client": ""
+        },
+        {
+          "month": "",
+          "content": "T-Pay 개발 (서버)",
+          "client": "SKT"
         },
         {
           "month": "03",
-          "content": "SKT T-Guard 6차년도 서비스 고도화"
+          "content": "T-Guard 6차년도 서비스 고도화",
+          "client": "SKT"
         },
-        { "month": "01", "content": "휴대폰 Trade-in 플랫폼 플러스모바일 개발" }
+        {
+          "month": "01",
+          "content": "휴대폰 Trade-in 플랫폼 플러스모바일 개발",
+          "client": ""
+        }
       ]
     },
     {
       "year": "2017",
       "list": [
-        { "month": "11", "content": "무인 주문 단말기 (키오스크) 개발" },
+        {
+          "month": "11",
+          "content": "무인 주문 단말기 (키오스크) 개발",
+          "client": ""
+        },
         {
           "month": "09",
-          "content": "SPC 네트웍스 사내 메신저 시스템 구축"
+          "content": "사내 메신저 시스템 구축",
+          "client": "SPC네트웍스"
         },
         {
           "month": "07",
-          "content": "스마트로 결제 플랫폼 개발발<br/>HTML5 기반 게임 플랫폼 개발"
+          "content": "스마트로 결제 플랫폼 개발",
+          "client": "스마트로"
+        },
+        {
+          "month": "",
+          "content": "HTML5 기반 게임 플랫폼 개발"
         },
         {
           "month": "06",
-          "content": "G밸리 모바일 신분증 어플리케이션 개발"
+          "content": "모바일 신분증 어플리케이션 개발",
+          "client": "G밸리"
         },
         {
           "month": "05",
-          "content": "EmoSpaces 서비스 플랫폼 개발<br/>PC POS용 단독형 위젯 개발"
+          "content": "EmoSpaces 서비스 플랫폼 개발"
+        },
+        {
+          "month": "",
+          "content": "PC POS용 단독형 위젯 개발"
         },
         {
           "month": "04",
-          "content": "현대엘리베이터 HRTS 4차년도 시스템 개발"
+          "content": "현대엘리베이터 HRTS 4차년도 시스템 개발",
+          "client": "현대엘리베이터"
         },
         {
           "month": "03",
-          "content": "SKT T-Guard 5차년도 서비스 운영"
+          "content": "T-Guard 5차년도 서비스 운영",
+          "client": "SKT"
         },
         {
           "month": "02",
-          "content": "정부과제 Phone to Phone 결제시스템 개발"
+          "content": "정부과제 Phone to Phone 결제시스템 개발",
+          "client": ""
         },
         {
           "month": "01",
-          "content": "라맥스 지스콘 IoT 시스템 도어락 앱 및 서버 개발 (2차)<br/>기업은행 ATM 단말기 서비스 개발"
+          "content": "지스콘 IoT 시스템 도어락 앱 및 서버 개발 (2차)",
+          "client": "라맥스"
+        },
+        {
+          "month": "",
+          "content": "기업은행 ATM 단말기 서비스 개발",
+          "client": "기업은행"
         }
       ]
     },
@@ -177,35 +393,53 @@
       "list": [
         {
           "month": "12",
-          "content": "㈜오케이포스 POS 시스템 개발"
+          "content": "POS 시스템 개발",
+          "client": "㈜오케이포스"
         },
         {
           "month": "11",
-          "content": "전라북도 전북투어패스 단말기 플랫폼 개발"
+          "content": "전북투어패스 단말기 플랫폼 개발",
+          "client": "전라북도"
         },
         {
           "month": "07",
-          "content": "대구은행 ATM 단말기 서비스 개발"
+          "content": "ATM 단말기 서비스 개발",
+          "client": "대구은행"
         },
         {
           "month": "06",
-          "content": "비타고 멤버십 및 BackOffice 솔루션 개발"
+          "content": "비타고 멤버십 및 BackOffice 솔루션 개발",
+          "client": "아이비솔루션즈"
         },
         {
           "month": "04",
-          "content": "현대엘리베이터 HRTS 3차년도 시스템 개발"
+          "content": "HRTS 3차년도 시스템 개발",
+          "client": "현대엘리베이터"
         },
         {
           "month": "03",
-          "content": "SKT T-Guard 4차년도 서비스 개발<br/>IVY7 무인 물품 보관함 플랫폼 개발"
+          "content": "SKT T-Guard 4차년도 서비스 개발",
+          "client": "SKT"
+        },
+        {
+          "month": "",
+          "content": "IVY7 무인 물품 보관함 플랫폼 개발",
+          "client": "아이비솔루션즈"
         },
         {
           "month": "02",
-          "content": "음원결제 서비스 개발"
+          "content": "음원결제 서비스 개발",
+          "client": "아이비솔루션즈"
         },
         {
           "month": "01",
-          "content": "라맥스 지스콘 IoT 시스템 도어락 앱 및 서버 개발<br/>블루투스 결제를 위한 컨트롤 앱 개발"
+          "content": "지스콘 IoT 시스템 도어락 앱 및 서버 개발",
+          "client": "라맥스"
+        },
+        {
+          "month": "",
+          "content": "블루투스 결제를 위한 컨트롤 앱 개발",
+          "client": "아이비솔루션즈"
         }
       ]
     },
@@ -214,35 +448,53 @@
       "list": [
         {
           "month": "12",
-          "content": "현대엘리베이터 HRTS 2차년도 시스템 개발"
+          "content": "HRTS 2차년도 시스템 개발",
+          "client": "현대엘리베이터"
         },
         {
           "month": "11",
-          "content": "아마다스 도어락 앱 및 서버 개발"
+          "content": "도어락 앱 및 서버 개발",
+          "client": "(주)아마다스"
         },
         {
           "month": "10",
-          "content": "한국타이어 라우펜 웹 개발"
+          "content": "라우펜 웹 개발",
+          "client": "한국타이어"
         },
         {
           "month": "08",
-          "content": "KG 이니시스 KPay App 개발"
+          "content": "KPay App 개발",
+          "client": "KG이니시스"
         },
         {
           "month": "04",
-          "content": "롯데정보통신 L-Pay 개발<br/>IVY7 결제 플랫폼 Back Office 개발"
+          "content": "L-Pay 개발",
+          "client": "롯데정보통신"
+        },
+        {
+          "month": "",
+          "content": "IVY7 결제 플랫폼 Back Office 개발",
+          "client": "아이비솔루션즈"
         },
         {
           "month": "03",
-          "content": "SKT T-Guard 3차년도 서비스 개발"
+          "content": "SKT T-Guard 3차년도 서비스 개발",
+          "client": "SKT"
         },
         {
           "month": "02",
-          "content": "롯데마트 스마트 상품권 및 쿠폰 시스템 개발"
+          "content": "스마트 상품권 및 쿠폰 시스템 개발",
+          "client": "롯데정보통신"
         },
         {
           "month": "01",
-          "content": "IoT S-Trainer 다이어트 앱 개발<br/>한화생명 전자서명 시스템 개발"
+          "content": "IoT S-Trainer 다이어트 앱 개발",
+          "client": ""
+        },
+        {
+          "month": "",
+          "content": "전자서명 시스템 개발",
+          "client": "한화생명"
         }
       ]
     },
@@ -251,7 +503,8 @@
       "list": [
         {
           "month": "12",
-          "content": "SCPP (SmartCore Pay-Platform) 개발"
+          "content": "SCPP (SmartCore Pay-Platform) 개발",
+          "client": ""
         },
         {
           "month": "11",
@@ -259,23 +512,28 @@
         },
         {
           "month": "10",
-          "content": "HTML5 기반 UI/UX 저작툴 개발"
+          "content": "HTML5 기반 UI/UX 저작툴 개발",
+          "client": ""
         },
         {
           "month": "07",
-          "content": "HRTS(Hyundai Real Time Service) 웹 시스템 개발"
+          "content": "HRTS(Hyundai Real Time Service) 웹 시스템 개발",
+          "client": "현대엘리베이터"
         },
         {
           "month": "06",
-          "content": "나이스정보통신 모바일 직불 결제 서비스 개발"
+          "content": "모바일 직불 결제 서비스 개발",
+          "client": "NICE정보통신"
         },
         {
           "month": "03",
-          "content": "SKT T-Guard 2차년도 서비스 개발"
+          "content": "SKT T-Guard 2차년도 서비스 개발",
+          "client": "SKT"
         },
         {
           "month": "02",
-          "content": "한국전자통신연구원 (ETRI) 텔레스크린 서버 운용 관리 GUI 제작"
+          "content": "한국전자통신연구원 (ETRI) 텔레스크린 서버 운용 관리 GUI 제작",
+          "client": ""
         }
       ]
     },
@@ -284,19 +542,29 @@
       "list": [
         {
           "month": "12",
-          "content": " SKT T-Guard 1차년도 서비스 개발<br/>기업부설 연구소 설립"
+          "content": " SKT T-Guard 1차년도 서비스 개발",
+          "client": "SKT"
         },
+        { "month": "", "content": "기업부설연구소 설립", "client": "" },
         {
           "month": "10",
-          "content": "중국의료관광 서비스 쇼핑몰 개발"
+          "content": "중국의료관광 서비스 쇼핑몰 개발",
+          "client": ""
         },
         {
           "month": "08",
-          "content": "한국전자통신연구원 (ETRI) WoO 플랫폼 이용 서비스 연동"
+          "content": "한국전자통신연구원 (ETRI) WoO 플랫폼 이용 서비스 연동",
+          "client": ""
         },
         {
           "month": "06",
-          "content": "E-MART 모바일 앱 개발<br/>KEST 검사관리 시스템 구축"
+          "content": "E-MART 모바일 앱 개발",
+          "client": ""
+        },
+        {
+          "month": "",
+          "content": "KEST 검사관리 시스템 구축",
+          "client": ""
         }
       ]
     },
@@ -311,7 +579,11 @@
           "month": "11",
           "content": "특허 등록 (10-1216430) : 컬러 패턴 이미지 생성과 인증 시스템 및 서버<br/>WoO를 이용한 단말 서버 및 오버레이 연동"
         },
-        { "month": "05", "content": "악보바다 시스템 구축" },
+        {
+          "month": "05",
+          "content": "악보바다 시스템 구축",
+          "client": "악보바다"
+        },
         { "month": "04", "content": "행정자치부 안드로이드 앱 개발" },
         { "month": "03", "content": "벤처기업 인증" },
         { "month": "01", "content": "주식회사 스마트코어 설립" }
