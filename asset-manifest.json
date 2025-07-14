@@ -1,11 +1,15 @@
 {
   "files": {
-    "main.css": "/sc-web/static/css/main.4da1fb29.css",
-    "main.js": "/sc-web/static/js/main.6cc3cf8f.js",
-    "static/js/651.84dfdd50.chunk.js": "/sc-web/static/js/651.84dfdd50.chunk.js",
-    "static/js/121.44001962.chunk.js": "/sc-web/static/js/121.44001962.chunk.js",
-    "static/js/740.db03e4b7.chunk.js": "/sc-web/static/js/740.db03e4b7.chunk.js",
-    "static/js/618.a99ae290.chunk.js": "/sc-web/static/js/618.a99ae290.chunk.js",
+    "main.css": "/sc-web/static/css/main.2832cc73.css",
+    "main.js": "/sc-web/static/js/main.5dc0b0a5.js",
+    "static/css/651.5e4050f3.chunk.css": "/sc-web/static/css/651.5e4050f3.chunk.css",
+    "static/js/651.9784360b.chunk.js": "/sc-web/static/js/651.9784360b.chunk.js",
+    "static/css/121.5e4050f3.chunk.css": "/sc-web/static/css/121.5e4050f3.chunk.css",
+    "static/js/121.4aa719d8.chunk.js": "/sc-web/static/js/121.4aa719d8.chunk.js",
+    "static/css/740.5e4050f3.chunk.css": "/sc-web/static/css/740.5e4050f3.chunk.css",
+    "static/js/740.ab5e5211.chunk.js": "/sc-web/static/js/740.ab5e5211.chunk.js",
+    "static/css/618.5e4050f3.chunk.css": "/sc-web/static/css/618.5e4050f3.chunk.css",
+    "static/js/618.28b13fbe.chunk.js": "/sc-web/static/js/618.28b13fbe.chunk.js",
     "static/css/599.4065f39c.chunk.css": "/sc-web/static/css/599.4065f39c.chunk.css",
     "static/js/599.8bad1b7a.chunk.js": "/sc-web/static/js/599.8bad1b7a.chunk.js",
     "static/css/57.9ac3ac54.chunk.css": "/sc-web/static/css/57.9ac3ac54.chunk.css",
@@ -25,7 +29,6 @@
     "static/media/bg_recruit.png": "/sc-web/static/media/bg_recruit.399764b369db9de7329b.png",
     "static/media/tech_blockchain_01_en_m.svg": "/sc-web/static/media/tech_blockchain_01_en_m.238e20c1635e7aa9ba614cfa5462bd62.svg",
     "static/media/tech_blockchain_01_en.svg": "/sc-web/static/media/tech_blockchain_01_en.dfcaaeac449f447658d61a03527a0a1f.svg",
-    "static/media/img_career.png": "/sc-web/static/media/img_career.4eb68e0e32e018368161.png",
     "static/media/tech_iot_en.svg": "/sc-web/static/media/tech_iot_en.11b4fd2e7748bde2076191528182b62b.svg",
     "static/media/tech_iot_en_m.svg": "/sc-web/static/media/tech_iot_en_m.fa6dc4ca93544abe3e37a03579d22c7e.svg",
     "static/media/main_section01.png": "/sc-web/static/media/main_section01.58c7bd0ad09634361f86.png",
@@ -127,12 +130,16 @@
     "static/media/icon_plus_w.svg": "/sc-web/static/media/icon_plus_w.aad1a5eb4e2f350524c7.svg",
     "static/media/icon_arrow_lg.svg": "/sc-web/static/media/icon_arrow_lg.5f3a42efa507a1b0e9a7.svg",
     "static/media/icon_dropdown.svg": "/sc-web/static/media/icon_dropdown.b985751c342d9aecb1f1.svg",
-    "main.4da1fb29.css.map": "/sc-web/static/css/main.4da1fb29.css.map",
-    "main.6cc3cf8f.js.map": "/sc-web/static/js/main.6cc3cf8f.js.map",
-    "651.84dfdd50.chunk.js.map": "/sc-web/static/js/651.84dfdd50.chunk.js.map",
-    "121.44001962.chunk.js.map": "/sc-web/static/js/121.44001962.chunk.js.map",
-    "740.db03e4b7.chunk.js.map": "/sc-web/static/js/740.db03e4b7.chunk.js.map",
-    "618.a99ae290.chunk.js.map": "/sc-web/static/js/618.a99ae290.chunk.js.map",
+    "main.2832cc73.css.map": "/sc-web/static/css/main.2832cc73.css.map",
+    "main.5dc0b0a5.js.map": "/sc-web/static/js/main.5dc0b0a5.js.map",
+    "651.5e4050f3.chunk.css.map": "/sc-web/static/css/651.5e4050f3.chunk.css.map",
+    "651.9784360b.chunk.js.map": "/sc-web/static/js/651.9784360b.chunk.js.map",
+    "121.5e4050f3.chunk.css.map": "/sc-web/static/css/121.5e4050f3.chunk.css.map",
+    "121.4aa719d8.chunk.js.map": "/sc-web/static/js/121.4aa719d8.chunk.js.map",
+    "740.5e4050f3.chunk.css.map": "/sc-web/static/css/740.5e4050f3.chunk.css.map",
+    "740.ab5e5211.chunk.js.map": "/sc-web/static/js/740.ab5e5211.chunk.js.map",
+    "618.5e4050f3.chunk.css.map": "/sc-web/static/css/618.5e4050f3.chunk.css.map",
+    "618.28b13fbe.chunk.js.map": "/sc-web/static/js/618.28b13fbe.chunk.js.map",
     "599.4065f39c.chunk.css.map": "/sc-web/static/css/599.4065f39c.chunk.css.map",
     "599.8bad1b7a.chunk.js.map": "/sc-web/static/js/599.8bad1b7a.chunk.js.map",
     "57.9ac3ac54.chunk.css.map": "/sc-web/static/css/57.9ac3ac54.chunk.css.map",
@@ -141,7 +148,7 @@
     "787.929c83ca.chunk.js.map": "/sc-web/static/js/787.929c83ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4da1fb29.css",
-    "static/js/main.6cc3cf8f.js"
+    "static/css/main.2832cc73.css",
+    "static/js/main.5dc0b0a5.js"
   ]
 }
