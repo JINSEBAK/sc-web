@@ -270,3 +270,28 @@
 .history .row:nth-of-type(1) .title::after {
   background-color: var(--color-logo);
 }
+
+.biz {
+  flex: 1 0 612px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+  padding: 50px;
+  text-align: center;
+  color: var(--color-white);
+  background-color: var(--color-opacity-black-30);
+}
+
+.biz .tit {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 2.875rem;
+  letter-spacing: -1.6px;
+}
+
+.biz p {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  letter-spacing: -0.72px;
+}

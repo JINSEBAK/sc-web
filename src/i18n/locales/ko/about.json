@@ -62,5 +62,15 @@
     { "name": "한국외국어대학교", "img": "" },
     { "name": "충남대학교", "img": "" },
     { "name": "고려대학교", "img": "" }
+  ],
+  "business": [
+    {
+      "title": "AI SOLUTION<br>구축 사업",
+      "description": "AI 알고리즘 분석 및 고도화 기술을 통해<br>제조 분야를 시작으로 금융, 헬스케어 등<br>사회 전방향에 대한 고객 맞춤형 AI Solution 구축 사업을 제공합니다.<br><br>고객 환경에 최적화된<br>LLM 및 SLM 기반 언어 모델 Solution과  머신러닝, On-Device 기반의<br>최신 AI Solution도 제공 가능합니다."
+    },
+    {
+      "title": "BIGDATA<br>운영 사업",
+      "description": "온톨로지 기반의 Data 가공 운영 기술을 통해<br>데이터의 수집부터 가공, 활용까지 AI System의 정확도 향상을 위한<br>Data 활용 서비스를 제공합니다.<br><br>Data 수집을 위한 플랫폼 개발, Data 활용을 위한 마이닝 및 분석 솔루션,<br>AI 학습을 위한 학습 데이터 확보 등 미래 중요 자원<br>Data에 대한 운영 사업을 합니다."
+    }
   ]
 }

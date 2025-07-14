@@ -29,7 +29,7 @@ const TabFirstContent = () => {
           <MiddleTitle
             content="Mission"
             size="small"
-            description=" 고객 중심의 맞춤형 AI 솔루션을 통해 디지털 전환을 가속화하고,<br>경쟁력 있는 비즈니스 환경을 구축하여<br>보다 편리하고 안전한 삶을 실현하는 데 기여합니다."
+            description="고객 중심의 맞춤형 AI 솔루션을 통해 디지털 전환을 가속화하고,<br>경쟁력 있는 비즈니스 환경을 구축하여<br>보다 편리하고 안전한 삶을 실현하는 데 기여합니다."
           />
           <FlexContainer gap={0} align={"center"}>
             {missions.map((mission, index) => (

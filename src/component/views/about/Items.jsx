@@ -183,3 +183,16 @@ export const HistoryItem = ({ title = "", lists = [] }) => {
     </div>
   );
 };
+
+export const BizItem = ({ title = "", description = "" }) => {
+  return (
+    <div className={styles.biz}>
+      <h5 className={styles.tit} dangerouslySetInnerHTML={{ __html: title }} />
+      <p
+        className={styles.cont}
+        dangerouslySetInnerHTML={{ __html: description }}
+      />
+      <ImageItem imgFile={"icon_plus.svg"} alt="" />
+    </div>
+  );
+};
