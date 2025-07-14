@@ -1,5 +1,3 @@
-import styles from "./About.module.css";
-
 import Tabs from "component/common/atoms/Tabs";
 import PageVisualization from "component/common/molecules/PageVisualization";
 

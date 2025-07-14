@@ -1,87 +1,51 @@
-import { useState } from "react";
-import { useOutletContext } from "react-router-dom";
-import { Swiper, SwiperSlide } from "swiper/react";
+import styles from "./Main.module.css";
 
-import TechnicalOutput from "component/views/main/contents/TechnicalOutput";
-import SkillsWeHave from "./contents/SkillsWeHave";
-import MainVisual from "./contents/MainVisual";
-import OurClientPartner from "./contents/OurClientPartner";
-import Footer from "component/common/Footer";
-
-import styled from "styled-components";
-import "swiper/css";
-import "swiper/css/pagination";
-
-import { Mousewheel, Pagination } from "swiper";
-import Career from "./contents/Career";
+import MiddleTitle from "component/common/atoms/MiddelTitle";
+import { ContentBox, ContentInner } from "component/common/atoms/Containers";
 
 const MainContainer = () => {
-  //
-
-  const { setScrolled } = useOutletContext();
-  const [swiper, setSwiper] = useState(null);
-
-  // 첫번째 슬라이드에서만 Header gnb 노출
-  const onSlideChange = () => {
-    if (swiper?.activeIndex > 0) {
-      setScrolled(true);
-    } else {
-      setScrolled(false);
-    }
-  };
-
   return (
-    <StyledMain>
-      <Swiper
-        direction={"vertical"}
-        slidesPerView={"auto"}
-        freeMode={true}
-        pagination={{ clickable: true }}
-        speed={700}
-        mousewheel={true}
-        modules={[Mousewheel, Pagination]}
-        onSwiper={(swiper) => setSwiper(swiper)}
-        onSlideChange={onSlideChange}
-      >
-        <SwiperSlide>
-          <MainVisual />
-        </SwiperSlide>
-        <SwiperSlide>
-          <SkillsWeHave />
-        </SwiperSlide>
-        <SwiperSlide>
-          <TechnicalOutput />
-        </SwiperSlide>
-        <SwiperSlide className="auto">
-          <OurClientPartner />
-        </SwiperSlide>
-        <SwiperSlide className="auto">
-          <Career />
-        </SwiperSlide>
-        <SwiperSlide className="auto last-footer">
-          <Footer />
-        </SwiperSlide>
-      </Swiper>
-    </StyledMain>
+    <div>
+      <ContentBox isFull={true}>
+        <ContentInner>
+          <MiddleTitle content="AI와 데이터, 그리고 통합의 힘으로<br>비즈니스에 스마트를 더하다." />
+        </ContentInner>
+      </ContentBox>
+      <ContentBox isFull={true}>
+        <ContentInner gap={{ top: "100px", bottom: "100px" }}>
+          스마트코어는 AI로 품질을 예측하고, 데이터로 미래를 관리합니다.
+        </ContentInner>
+      </ContentBox>
+      <ContentBox isFull={true}>
+        <ContentInner>
+          <MiddleTitle
+            content="AI Solution"
+            description="기업의 비즈니스 모델과 산업 특성을 분석하여<br>최적의 AI 도입 전략을 제안하고 개발합니다."
+          />
+        </ContentInner>
+      </ContentBox>
+      <ContentBox isFull={true}>
+        <ContentInner>
+          <MiddleTitle
+            content="Bigdata"
+            description="데이터의 수집, 저장, 분석, 시각화, 예측까지<br>안정적이고 유기적으로 데이터를 운영합니다."
+          />
+        </ContentInner>
+      </ContentBox>
+      <ContentBox isFull={true}>
+        <ContentInner>
+          <MiddleTitle
+            content="Smart Fit System"
+            description="기업의 비즈니스 모델과 산업 특성을 분석하여<br>최적의 AI 도입 전략을 제안하고 개발합니다."
+          />
+        </ContentInner>
+      </ContentBox>
+      <ContentBox isFull={true}>
+        <div>문의/인재채용</div>
+        <div>clients</div>
+      </ContentBox>
+    </div>
   );
 };
 
 export default MainContainer;
-
-const StyledMain = styled.div`
-  width: 100%;
-  height: 100vh;
-  .swiper {
-    height: 100%;
-    overflow: hidden;
-  }
-  .swiper .swiper-slide.auto {
-    height: auto !important;
-  }
-  .swiper .swiper-slide.auto:last-of-type {
-    padding-top: 100px;
-  }
-  .swiper-pagination .swiper-pagination-bullet:last-of-type {
-    display: none;
-  }
-`;

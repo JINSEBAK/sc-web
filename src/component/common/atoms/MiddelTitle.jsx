@@ -1,6 +1,7 @@
 //
 import classNames from "classnames";
 import styles from "./Title.module.css";
+import React from "react";
 
 const MiddleTitle = ({
   content,
@@ -12,7 +13,7 @@ const MiddleTitle = ({
   return (
     <div className={classNames(styles.container)}>
       <div className={classNames(styles[size], styles[align], styles[color])}>
-        <>{content}</>
+        <div dangerouslySetInnerHTML={{ __html: content }} />
         {description && (
           <div
             className={classNames(styles.des)}
