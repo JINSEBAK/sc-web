@@ -8,13 +8,60 @@ export const GnbLink = {
 };
 
 export const GnbItems = [
-  { title: "AI Solution", code: "", link: "/ai" },
-  { title: "Bigdata", code: "", link: "/bigData" },
-  { title: "Smart Fit System", code: "", link: "/smart" },
-  { title: "제품", code: "", link: "/ai" },
-  { title: "회사소개", code: "", link: "/ai" },
-  { title: "채용정보", code: "", link: "/ai" },
-  { title: "고객지원", code: "", link: "/ai" }
+  {
+    title: "AI Solution",
+    code: "",
+    children: [{ title: "AI Solution", code: "", link: "/ai" }]
+  },
+  {
+    title: "Bigdata",
+    code: "",
+    children: [
+      {
+        title: "Bigdata",
+        code: "",
+        link: "/bigData"
+      }
+    ]
+  },
+  {
+    title: "Smart Fit System",
+    code: "",
+    children: [
+      {
+        title: "Smart Fit System",
+        code: "",
+        link: "/smart"
+      }
+    ]
+  },
+  {
+    title: "제품",
+    code: "",
+    children: [
+      { title: "AI PQC Solution", code: "", link: "/" },
+      { title: "F@AI PQC Solution", code: "", link: "/" },
+      { title: "F@AI BLOCKCHAIN Platform", code: "", link: "/" },
+      { title: "AI MiDAS Solution", code: "", link: "/" },
+      { title: "CAREON Solution", code: "", link: "/" },
+      { title: "CHATA Solution", code: "", link: "/" }
+    ]
+  },
+  {
+    title: "회사소개",
+    code: "",
+    children: [{ title: "회사소개", code: "", link: "/ai" }]
+  },
+  {
+    title: "채용정보",
+    code: "",
+    children: [{ title: "채용정보", code: "", link: "/ai" }]
+  },
+  {
+    title: "고객지원",
+    code: "",
+    children: [{ title: "고객지원", code: "", link: "/ai" }]
+  }
 ];
 
 export const CompanyInfoKeys = [

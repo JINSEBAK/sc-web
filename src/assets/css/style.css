@@ -74,15 +74,25 @@
   --color-btn-blue-normal: #293882;
   --color-btn-blue-select: #3447a4;
 
+  --color-opacity-white-10: rgba(255, 255, 255, 0.1);
   --color-opacity-white-30: rgba(255, 255, 255, 0.3);
+  --color-opacity-white-70: rgba(255, 255, 255, 0.7);
+  --color-opacity-white-80: rgba(255, 255, 255, 0.8);
   --color-opacity-navy-80: rgba(5, 11, 28, 0.8);
-  /* shadow */
   --color-opacity-black-06: rgba(0, 0, 0, 0.06);
   --color-opacity-black-10: rgba(0, 0, 0, 0.1);
   --color-opacity-black-20: rgba(0, 0, 0, 0.2);
   --color-opacity-black-30: rgba(0, 0, 0, 0.3);
+  --color-opacity-black-50: rgba(0, 0, 0, 0.5);
   --color-opacity-gray-20: rgba(153, 157, 167, 0.2);
+
   --color-opacity-logo-30: rgba(233, 65, 98, 0.3);
+
+  --color-linear-gradient-1: linear-gradient(
+    90.89deg,
+    #5b8def 25.7%,
+    #0063f7 74%
+  );
 }
 
 body {

@@ -1,15 +1,27 @@
 import styles from "./Main.module.css";
 
+// media
+import MainVisualVideo from "assets/media/main_visual.mp4";
+
 import MiddleTitle from "component/common/atoms/MiddelTitle";
 import { ContentBox, ContentInner } from "component/common/atoms/Containers";
+import { CenterContent, MainVisual } from "./Items";
 
 const MainContainer = () => {
   return (
-    <div>
+    <div className={styles.container}>
       <ContentBox isFull={true}>
-        <ContentInner>
-          <MiddleTitle content="AI와 데이터, 그리고 통합의 힘으로<br>비즈니스에 스마트를 더하다." />
-        </ContentInner>
+        <MainVisual>
+          <MiddleTitle
+            content="AI와 데이터, 그리고 통합의 힘으로<br>비즈니스에 스마트를 더하다."
+            color="reverse"
+          />
+          {/* <video autoPlay muted loop playsInline className={styles.video}>
+            <source src={MainVisualVideo} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video> */}
+          <div className={styles["video-bg"]}></div>
+        </MainVisual>
       </ContentBox>
       <ContentBox isFull={true}>
         <ContentInner gap={{ top: "100px", bottom: "100px" }}>

@@ -1,41 +1,59 @@
 // css
-import styles from "./GlobalNavigation.module.css";
+import styles from "./Gnb.module.css";
 
 //
 import MenuItem from "../molecules/MenuItem";
 import LangItem from "../molecules/LangItem";
 
-import { GnbItems } from "../../../datas/constant";
 import LogoImg from "assets/imgs/logo_head_w.svg";
+import { GnbItems } from "../../../datas/constant";
 
 import { Link } from "react-router-dom";
 import classNames from "classnames";
+import { useState } from "react";
 
-const NaviItem = ({ path, title, isActive }) => {
+const NaviItem = ({ path, title, isActive, children = [] }) => {
   return (
-    <li>
-      <Link to={path} className={classNames({ [styles.active]: isActive })}>
+    <li className={styles["top-dep"]}>
+      <span
+        className={classNames(styles["dep-1"], {
+          [styles.active]: isActive
+        })}
+      >
         {title}
-      </Link>
+      </span>
+      <ul className={styles["sub-dep"]}>
+        {children.map((child, idx) => (
+          <li className={styles["dep-2"]} key={`sub-dep-${idx}`}>
+            <Link to={child.link}>{child.title}</Link>
+          </li>
+        ))}
+      </ul>
     </li>
   );
 };
 
 const GlobalNavigation = () => {
   //
+  const [isOn, setIsOn] = useState(false);
+
   return (
-    <header className={styles.header}>
+    <header
+      className={classNames(styles.header, { [styles.on]: isOn })}
+      onMouseLeave={() => setIsOn(false)}
+    >
       <div className={styles.inner}>
         <Link to="/ai" className="logo">
           <img src={LogoImg} alt="SmartCore" />
         </Link>
-        <nav>
+        <nav onMouseOver={() => setIsOn(true)}>
           <ul className={styles.nav}>
             {GnbItems.map((item, index) => (
               <NaviItem
                 key={`nav-${index}`}
                 path={item.path}
                 title={item.title}
+                children={item.children}
                 isActive={index === 0}
               />
             ))}
