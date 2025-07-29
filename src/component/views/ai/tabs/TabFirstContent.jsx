@@ -12,7 +12,7 @@ import {
   CardItem,
   DepartmentItem,
   FeatureItem,
-  ProductItem
+  ProductItem,
 } from "./Items";
 //
 import { useTranslation } from "react-i18next";
@@ -96,7 +96,7 @@ const TabFirstContent = () => {
               width: "1060px",
               height: "88px",
               display: "block",
-              margin: "10px auto"
+              margin: "10px auto",
             }}
           />
         </InnerItem>

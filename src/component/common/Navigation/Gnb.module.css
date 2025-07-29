@@ -18,6 +18,7 @@
 
 .header .inner .logo {
   cursor: pointer;
+  padding: 1.5rem 0 0 0;
 }
 
 .header .nav {
@@ -52,7 +53,7 @@
 
 .header .nav .sub-dep {
   position: absolute;
-  visibility: visible;
+  visibility: hidden;
   width: 100%;
 }
 
@@ -88,10 +89,12 @@
 
 .header.on .nav .sub-dep {
   position: relative;
+  visibility: visible;
 }
 
 .header .btns {
   display: flex;
   align-items: center;
   gap: 35px;
+  padding: 0.875rem 0 0 0;
 }

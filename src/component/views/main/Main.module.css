@@ -40,3 +40,12 @@
   align-items: center;
   justify-content: center; */
 }
+
+.inner-txt {
+  border: 1px dashed blue;
+  font-size: 4.375rem;
+  line-height: 4.75rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--color-indigo-750);
+}

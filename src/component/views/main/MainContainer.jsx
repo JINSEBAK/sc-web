@@ -25,7 +25,11 @@ const MainContainer = () => {
       </ContentBox>
       <ContentBox isFull={true}>
         <ContentInner gap={{ top: "100px", bottom: "100px" }}>
-          스마트코어는 AI로 품질을 예측하고, 데이터로 미래를 관리합니다.
+          <div className={styles["inner-txt"]}>
+            스마트코어는 AI로 품질을 예측하고,
+            <br />
+            데이터로 미래를 관리합니다.
+          </div>
         </ContentInner>
       </ContentBox>
       <ContentBox isFull={true}>

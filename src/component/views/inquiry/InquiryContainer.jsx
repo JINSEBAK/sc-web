@@ -9,12 +9,12 @@ import { lazy, Suspense, useState } from "react";
 
 const TAB_ITEMS = [
   { label: "Smart Fit System", title: "프로젝트 문의", value: "tab1" },
-  { label: "AI Solution", title: "AI 컨설팅", value: "tab2" }
+  { label: "AI Solution", title: "AI 컨설팅", value: "tab2" },
 ];
 
 const tabMap = {
   tab1: () => import("./tabs/TabFirstContent"),
-  tab2: () => import("./tabs/TabSecondContent")
+  tab2: () => import("./tabs/TabSecondContent"),
 };
 
 const InquiryContainer = () => {

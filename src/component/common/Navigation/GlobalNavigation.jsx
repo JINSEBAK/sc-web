@@ -17,7 +17,7 @@ const NaviItem = ({ path, title, isActive, children = [] }) => {
     <li className={styles["top-dep"]}>
       <span
         className={classNames(styles["dep-1"], {
-          [styles.active]: isActive
+          [styles.active]: isActive,
         })}
       >
         {title}
@@ -43,7 +43,7 @@ const GlobalNavigation = () => {
       onMouseLeave={() => setIsOn(false)}
     >
       <div className={styles.inner}>
-        <Link to="/ai" className="logo">
+        <Link to="/ai" className={styles.logo}>
           <img src={LogoImg} alt="SmartCore" />
         </Link>
         <nav onMouseOver={() => setIsOn(true)}>
