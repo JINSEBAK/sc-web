@@ -1,14 +1,16 @@
 //
-import classNames from "classnames";
 import styles from "./Title.module.css";
+
+import classNames from "classnames";
 import React from "react";
+import PropTypes from "prop-types";
 
 const MiddleTitle = ({
   content,
   description,
   align = "center",
   size = "medium",
-  color = "default"
+  color = "default" // default, reverse
 }) => {
   return (
     <div className={classNames(styles.container)}>
@@ -26,3 +28,9 @@ const MiddleTitle = ({
 };
 
 export default MiddleTitle;
+
+MiddleTitle.propTypes = {
+  align: PropTypes.oneOf(["left", "center", "right"]),
+  size: PropTypes.oneOf(["small", "medium"]),
+  color: PropTypes.oneOf(["default", "reverse"])
+};

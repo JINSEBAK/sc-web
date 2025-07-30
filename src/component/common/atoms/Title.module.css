@@ -26,6 +26,11 @@
   margin-top: 100px;
 }
 
+.container .medium .des {
+  font-size: 2rem;
+  line-height: 2.375rem;
+}
+
 .container .center {
   text-align: center;
 }

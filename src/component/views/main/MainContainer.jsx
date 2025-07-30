@@ -5,11 +5,12 @@ import MainVisualVideo from "assets/media/main_visual.mp4";
 
 import MiddleTitle from "component/common/atoms/MiddelTitle";
 import { ContentBox, ContentInner } from "component/common/atoms/Containers";
-import { CenterContent, MainVisual } from "./Items";
+import { CenterContent, MainVisual, AiSolutionSwiper, Bigdata } from "./Items";
+import classNames from "classnames";
 
 const MainContainer = () => {
   return (
-    <div className={styles.container}>
+    <div className={classNames(styles.container, styles.main)}>
       <ContentBox isFull={true}>
         <MainVisual>
           <MiddleTitle
@@ -37,7 +38,9 @@ const MainContainer = () => {
           <MiddleTitle
             content="AI Solution"
             description="기업의 비즈니스 모델과 산업 특성을 분석하여<br>최적의 AI 도입 전략을 제안하고 개발합니다."
+            color="reverse"
           />
+          <AiSolutionSwiper />
         </ContentInner>
       </ContentBox>
       <ContentBox isFull={true}>
@@ -45,7 +48,9 @@ const MainContainer = () => {
           <MiddleTitle
             content="Bigdata"
             description="데이터의 수집, 저장, 분석, 시각화, 예측까지<br>안정적이고 유기적으로 데이터를 운영합니다."
+            color="reverse"
           />
+          <Bigdata />
         </ContentInner>
       </ContentBox>
       <ContentBox isFull={true}>
@@ -53,6 +58,7 @@ const MainContainer = () => {
           <MiddleTitle
             content="Smart Fit System"
             description="기업의 비즈니스 모델과 산업 특성을 분석하여<br>최적의 AI 도입 전략을 제안하고 개발합니다."
+            color="reverse"
           />
         </ContentInner>
       </ContentBox>

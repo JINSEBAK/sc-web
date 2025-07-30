@@ -27,6 +27,7 @@
   --container-max-width: 1240px;
 
   --color-em-1: #e4113b;
+  --color-em-2: #24eba2;
   --color-anonymous-01: #ff6332;
   --color-anonymous-02: #ffb700;
   --color-point-80: #e94162;
@@ -84,6 +85,9 @@
   --color-opacity-black-20: rgba(0, 0, 0, 0.2);
   --color-opacity-black-30: rgba(0, 0, 0, 0.3);
   --color-opacity-black-50: rgba(0, 0, 0, 0.5);
+
+  --color-opacity-dark-80: rgba(7, 15, 43, 0.8);
+
   --color-opacity-gray-20: rgba(153, 157, 167, 0.2);
 
   --color-opacity-logo-30: rgba(233, 65, 98, 0.3);
