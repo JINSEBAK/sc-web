@@ -1,5 +1,5 @@
 .container.main {
-  /* background-color: var(--color-bg-01); */
+  background-color: var(--color-bg-01);
 }
 
 .main-visual {
@@ -145,7 +145,7 @@
 
 .smp {
   background-color: #121a5d;
-  padding: 85px 0;
+  padding: 133px 0;
   margin-top: 3rem;
 }
 
@@ -156,7 +156,7 @@
 }
 
 .smp .projects .project {
-  width: 340px;
+  width: 380px;
   background-color: var(--color-white);
   box-shadow: 0 4px 14px var(--color-opacity-black-10);
   padding: 2.5rem 2rem;
@@ -183,9 +183,10 @@
       #0cb68d 59.14%,
       rgba(12, 182, 141, 0) 75.37%
     ),
-    url(../../../assets/imgs/bg_main_slogan.jpg);
-  background-size: 100% auto;
-  background-position: center;
+    url(../../../assets/imgs/bg_slogan_banner.png);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: right center;
 }
 
 .slogan .msg {
@@ -218,6 +219,35 @@
   justify-content: center;
 }
 
-.client-img {
-  border: 1px dashed orange;
+.links {
+  width: var(--container-max-width);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 100px 0;
+}
+
+.links .link {
+  flex: 1;
+  color: var(--color-white);
+  text-align: center;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  border: 1px dashed rgba(255, 255, 255, 0.5);
+}
+
+.links .link strong {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.links .link p {
+  font-size: 1rem;
+  line-height: 1.325rem;
 }

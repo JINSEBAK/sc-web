@@ -31,10 +31,10 @@
   ],
   "clients": [
     { "name": "SK텔레콤", "img": "skt.png" },
-    { "name": "SK쉴더스", "img": "" },
+    { "name": "SK쉴더스", "img": "skshieldus.png" },
     { "name": "LGU+", "img": "lguplus.png" },
     { "name": "SSG", "img": "ssg.png" },
-    { "name": "HDC랩스", "img": "hdclabs.png" },
+    { "name": "HDC랩스", "img": "hdclabs.png  " },
     { "name": "종로구청", "img": "" },
     { "name": "현대엘리베이터", "img": "hyundai.png" },
     { "name": "아인텔", "img": "" },

@@ -1,6 +1,11 @@
 .content {
   width: var(--container-max-width);
   margin: 0 auto;
+  border: 1px dashed violet;
+}
+
+.content.light {
+  background: #fff;
 }
 
 .content.full {

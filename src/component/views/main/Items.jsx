@@ -32,7 +32,7 @@ export const AiSolutionSwiper = () => {
         onSwiper={() => {}}
       >
         {aiSolutions.map((slide, index) => (
-          <SwiperSlide key={slide} virtualIndex={index}>
+          <SwiperSlide key={`aiso-${index}`} virtualIndex={index}>
             <div className={classNames(styles.sw, styles.sld)}>
               <div
                 className={styles.title}
@@ -157,6 +157,29 @@ export const Clients = () => {
           );
         })}
       </Swiper>
+    </div>
+  );
+};
+
+export const LinkItems = () => {
+  return (
+    <div className={styles.links}>
+      <div className={styles.link}>
+        <strong>프로젝트 문의</strong>
+        <p>
+          문의를 남겨주시면
+          <br />
+          빠른 시일 내 답변드리겠습니다.
+        </p>
+      </div>
+      <div className={styles.link}>
+        <strong>인재채용</strong>
+        <p>
+          스마트코어와 함께
+          <br />
+          성장할 인재를 기다립니다.
+        </p>
+      </div>
     </div>
   );
 };

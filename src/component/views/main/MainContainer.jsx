@@ -12,7 +12,8 @@ import {
   Bigdata,
   SmartProjects,
   SloganBanner,
-  Clients
+  Clients,
+  LinkItems
 } from "./Items";
 import classNames from "classnames";
 
@@ -61,8 +62,8 @@ const MainContainer = () => {
           <Bigdata />
         </ContentInner>
       </ContentBox>
-      <ContentBox isFull={true}>
-        <ContentInner>
+      <ContentBox isFull={true} mode={"light"}>
+        <ContentInner gap={{ top: "88px" }}>
           <MiddleTitle
             content="Smart Fit System"
             description="기업의 비즈니스 모델과 산업 특성을 분석하여<br>최적의 AI 도입 전략을 제안하고 개발합니다."
@@ -73,7 +74,7 @@ const MainContainer = () => {
         </ContentInner>
       </ContentBox>
       <ContentBox isFull={true}>
-        <div>문의/인재채용</div>
+        <LinkItems />
         <Clients />
       </ContentBox>
     </div>
