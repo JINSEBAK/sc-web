@@ -2,7 +2,7 @@
 import styles from "../AI.module.css";
 // component
 import ImageItem from "component/common/atoms/ImageItem";
-import MiddleTitle from "component/common/atoms/MiddelTitle";
+import MiddleTitle from "component/common/atoms/MiddleTitle";
 import HighLighter from "component/common/atoms/HighLighter";
 import FlexContainer from "component/common/atoms/FlexContainer";
 import { ContentBox } from "component/common/atoms/Containers";
@@ -12,7 +12,7 @@ import {
   CardItem,
   DepartmentItem,
   FeatureItem,
-  ProductItem,
+  ProductItem
 } from "./Items";
 //
 import { useTranslation } from "react-i18next";
@@ -96,7 +96,7 @@ const TabFirstContent = () => {
               width: "1060px",
               height: "88px",
               display: "block",
-              margin: "10px auto",
+              margin: "10px auto"
             }}
           />
         </InnerItem>

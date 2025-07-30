@@ -1,7 +1,7 @@
 import styles from "./Recruit.module.css";
 // components
 import PageVisualization from "component/common/molecules/PageVisualization";
-import MiddleTitle from "component/common/atoms/MiddelTitle";
+import MiddleTitle from "component/common/atoms/MiddleTitle";
 import FlexContainer from "component/common/atoms/FlexContainer";
 import ImageItem from "component/common/atoms/ImageItem";
 import HighLighter from "component/common/atoms/HighLighter";

@@ -3,9 +3,17 @@ import styles from "./Main.module.css";
 // media
 import MainVisualVideo from "assets/media/main_visual.mp4";
 
-import MiddleTitle from "component/common/atoms/MiddelTitle";
+import MiddleTitle from "component/common/atoms/MiddleTitle";
 import { ContentBox, ContentInner } from "component/common/atoms/Containers";
-import { CenterContent, MainVisual, AiSolutionSwiper, Bigdata } from "./Items";
+import {
+  CenterContent,
+  MainVisual,
+  AiSolutionSwiper,
+  Bigdata,
+  SmartProjects,
+  SloganBanner,
+  Clients
+} from "./Items";
 import classNames from "classnames";
 
 const MainContainer = () => {
@@ -58,13 +66,15 @@ const MainContainer = () => {
           <MiddleTitle
             content="Smart Fit System"
             description="기업의 비즈니스 모델과 산업 특성을 분석하여<br>최적의 AI 도입 전략을 제안하고 개발합니다."
-            color="reverse"
+            color="dynamic"
           />
+          <SmartProjects />
+          <SloganBanner />
         </ContentInner>
       </ContentBox>
       <ContentBox isFull={true}>
         <div>문의/인재채용</div>
-        <div>clients</div>
+        <Clients />
       </ContentBox>
     </div>
   );

@@ -1,5 +1,5 @@
 .container.main {
-  background-color: var(--color-bg-01);
+  /* background-color: var(--color-bg-01); */
 }
 
 .main-visual {
@@ -121,6 +121,7 @@
   flex-wrap: wrap;
   gap: 1rem 1.5rem;
   width: 480px;
+  min-height: 206px;
   background-color: var(--color-opacity-dark-80);
   border-radius: 10px;
   padding: 1.875rem;
@@ -140,4 +141,83 @@
   font-size: 1.25rem;
   line-height: 1.625rem;
   margin-top: 1.5rem;
+}
+
+.smp {
+  background-color: #121a5d;
+  padding: 85px 0;
+  margin-top: 3rem;
+}
+
+.smp .projects {
+  width: 100%;
+  margin-left: calc((100% - 1240px) / 2); /* 기존 좌측 여백 맞춤 */
+  padding-right: 0;
+}
+
+.smp .projects .project {
+  width: 340px;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 14px var(--color-opacity-black-10);
+  padding: 2.5rem 2rem;
+  min-height: 230px;
+}
+
+.smp .projects .project .title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+}
+
+.smp .projects .project .desc {
+  font-size: 1rem;
+  line-height: 1.325rem;
+  margin-top: 0.5rem;
+}
+
+.slogan {
+  padding: 40px 0;
+  background: linear-gradient(
+      90deg,
+      #2a38b2 11.64%,
+      #0cb68d 59.14%,
+      rgba(12, 182, 141, 0) 75.37%
+    ),
+    url(../../../assets/imgs/bg_main_slogan.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+.slogan .msg {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.slogan .msg p {
+  color: var(--color-white);
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.375rem;
+}
+
+.clients-container {
+  background-color: var(--color-bg-03);
+}
+
+.clients-container .clients {
+  width: var(--container-max-width);
+  padding: 80px 0;
+}
+
+.clients .client {
+  background-color: var(--color-white);
+  width: 292px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.client-img {
+  border: 1px dashed orange;
 }

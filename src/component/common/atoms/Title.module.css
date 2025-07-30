@@ -22,7 +22,7 @@
 .container .medium {
   font-size: 50px;
   line-height: 56px;
-  font-weight: 600;
+  font-weight: 700;
   margin-top: 100px;
 }
 
@@ -44,7 +44,15 @@
 }
 
 .container .reverse {
-  color: #fff;
+  color: var(--color-white);
+}
+
+.container .dynamic {
+  color: var(--color-blue-700);
+}
+
+.container .dynamic .des {
+  color: var(--color-gray-90);
 }
 
 .page-title {

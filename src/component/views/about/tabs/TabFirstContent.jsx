@@ -1,7 +1,7 @@
 import styles from "../About.module.css";
 
 import PageTitle from "component/common/atoms/PageTitle";
-import MiddleTitle from "component/common/atoms/MiddelTitle";
+import MiddleTitle from "component/common/atoms/MiddleTitle";
 import { ContentBox, ContentInner } from "component/common/atoms/Containers";
 import { BasicInfo, ClientItem, MissionItem, PatentItem } from "../Items";
 import { useTranslation } from "react-i18next";

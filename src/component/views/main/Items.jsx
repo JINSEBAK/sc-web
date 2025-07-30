@@ -1,11 +1,16 @@
 //
 import styles from "./Main.module.css";
+import ImageItem from "component/common/atoms/ImageItem";
 
 import classNames from "classnames";
-import ImageItem from "component/common/atoms/ImageItem";
+
 import { useTranslation } from "react-i18next";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+
+import { getListWork } from "lib/api";
+import { useEffect, useState } from "react";
 
 export const CenterContent = ({ children }) => {
   return <div className={styles["cnt-cont"]}>{children}</div>;
@@ -82,6 +87,75 @@ export const Bigdata = () => {
             </div>
           </SwiperSlide>
         ))}
+      </Swiper>
+    </div>
+  );
+};
+
+export const SmartProjects = () => {
+  const [items, setItems] = useState([]);
+  const getDatas = async () => {
+    const response = await getListWork();
+    if (response.resultCode === "SUCCESS") {
+      setItems(response.resultData.list);
+    }
+  };
+  useEffect(() => {
+    getDatas();
+  }, []);
+  return (
+    <div className={classNames(styles.smp)}>
+      <Swiper
+        className={styles.projects}
+        spaceBetween={16}
+        slidesPerView={"auto"}
+      >
+        {items.map((item, index) => (
+          <SwiperSlide className={styles.project} key={`sp-slide-${index}`}>
+            <ImageItem fileNm="" />
+            <div className={styles.title}>{item.workCli}</div>
+            <div className={styles.desc}>{item.workCntt}</div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </div>
+  );
+};
+
+export const SloganBanner = () => {
+  const { t } = useTranslation("main");
+  const slogan = t("slogan");
+  return (
+    <div className={styles.slogan}>
+      <div className={styles.msg}>
+        <p dangerouslySetInnerHTML={{ __html: slogan }} />
+      </div>
+    </div>
+  );
+};
+
+export const Clients = () => {
+  const { t } = useTranslation("about");
+  const clients = t(`clients`, { returnObjects: true });
+  return (
+    <div className={styles["clients-container"]}>
+      <Swiper
+        className={styles.clients}
+        spaceBetween={24}
+        slidesPerView={"auto"}
+        autoplay={{ delay: 2500, disableOnInteraction: false }}
+      >
+        {clients.map((client, index) => {
+          return (
+            <SwiperSlide key={`client-${index}`} className={styles.client}>
+              <ImageItem
+                imgFile={`clients/${client.img}`}
+                alt={client.name}
+                className={styles["client-img"]}
+              />
+            </SwiperSlide>
+          );
+        })}
       </Swiper>
     </div>
   );
