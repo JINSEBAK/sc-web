@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sc-web/static/css/main.9010987e.css",
-    "main.js": "/sc-web/static/js/main.70fcf4a8.js",
+    "main.css": "/sc-web/static/css/main.65ecb259.css",
+    "main.js": "/sc-web/static/js/main.7d55ac56.js",
     "static/css/651.5e4050f3.chunk.css": "/sc-web/static/css/651.5e4050f3.chunk.css",
     "static/js/651.9ee807ce.chunk.js": "/sc-web/static/js/651.9ee807ce.chunk.js",
     "static/css/121.5e4050f3.chunk.css": "/sc-web/static/css/121.5e4050f3.chunk.css",
@@ -33,6 +33,7 @@
     "static/media/tech_blockchain_01_en.svg": "/sc-web/static/media/tech_blockchain_01_en.dfcaaeac449f447658d61a03527a0a1f.svg",
     "static/media/tech_iot_en.svg": "/sc-web/static/media/tech_iot_en.11b4fd2e7748bde2076191528182b62b.svg",
     "static/media/tech_iot_en_m.svg": "/sc-web/static/media/tech_iot_en_m.fa6dc4ca93544abe3e37a03579d22c7e.svg",
+    "static/media/bg_slogan_banner.png": "/sc-web/static/media/bg_slogan_banner.ee902f5725c5c0d740ba.png",
     "static/media/main_section01.png": "/sc-web/static/media/main_section01.58c7bd0ad09634361f86.png",
     "static/media/tech_ai_04_en.svg": "/sc-web/static/media/tech_ai_04_en.193ab140bf83ee0788f47a99ae349333.svg",
     "static/media/tech_iot_ko.svg": "/sc-web/static/media/tech_iot_ko.e702bce7c62de02bbc1a1904614f2410.svg",
@@ -137,8 +138,8 @@
     "static/media/icon_plus_w.svg": "/sc-web/static/media/icon_plus_w.aad1a5eb4e2f350524c7.svg",
     "static/media/icon_arrow_lg.svg": "/sc-web/static/media/icon_arrow_lg.5f3a42efa507a1b0e9a7.svg",
     "static/media/icon_dropdown.svg": "/sc-web/static/media/icon_dropdown.b985751c342d9aecb1f1.svg",
-    "main.9010987e.css.map": "/sc-web/static/css/main.9010987e.css.map",
-    "main.70fcf4a8.js.map": "/sc-web/static/js/main.70fcf4a8.js.map",
+    "main.65ecb259.css.map": "/sc-web/static/css/main.65ecb259.css.map",
+    "main.7d55ac56.js.map": "/sc-web/static/js/main.7d55ac56.js.map",
     "651.5e4050f3.chunk.css.map": "/sc-web/static/css/651.5e4050f3.chunk.css.map",
     "651.9ee807ce.chunk.js.map": "/sc-web/static/js/651.9ee807ce.chunk.js.map",
     "121.5e4050f3.chunk.css.map": "/sc-web/static/css/121.5e4050f3.chunk.css.map",
@@ -155,7 +156,7 @@
     "787.929c83ca.chunk.js.map": "/sc-web/static/js/787.929c83ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9010987e.css",
-    "static/js/main.70fcf4a8.js"
+    "static/css/main.65ecb259.css",
+    "static/js/main.7d55ac56.js"
   ]
 }
