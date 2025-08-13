@@ -6,7 +6,10 @@ const PageTitle = ({ title, emphasize, children }) => {
   return (
     <div className={styles["page-title"]}>
       {emphasize && <em>{emphasize}</em>}
-      <h2 className={classNames(styles.text)}>{title}</h2>
+      <h2
+        className={classNames(styles.text)}
+        dangerouslySetInnerHTML={{ __html: title }}
+      />
       <div className={styles.inner}>{children}</div>
     </div>
   );

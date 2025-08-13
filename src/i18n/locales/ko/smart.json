@@ -1,0 +1,21 @@
+{
+  "steps": [
+    {
+      "title": "사용자 요구사항",
+      "description": "사요자 협의를 통해<br>요구사항 분석 및 도출"
+    },
+    {
+      "title": "계획 및 분석",
+      "description": "요구사항에 대한 명확한 분석<br>및 개발 분석, 일정 수립"
+    },
+    {
+      "title": "설계 및 디자인",
+      "description": "시스템 설계<br>UI/UX 화면 설계"
+    },
+    { "title": "개발 및 구축", "description": "벡엔드 및<br>프론트엔드 개발" },
+    {
+      "title": "운영 및 유지보수",
+      "description": "안정적이고 효과적인<br>운영 및 유지보수"
+    }
+  ]
+}

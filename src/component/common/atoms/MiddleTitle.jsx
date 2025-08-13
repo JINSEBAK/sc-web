@@ -31,6 +31,6 @@ export default MiddleTitle;
 
 MiddleTitle.propTypes = {
   align: PropTypes.oneOf(["left", "center", "right"]),
-  size: PropTypes.oneOf(["small", "medium"]),
+  size: PropTypes.oneOf(["small", "medium", "tiny"]),
   color: PropTypes.oneOf(["default", "reverse", "dynamic"])
 };

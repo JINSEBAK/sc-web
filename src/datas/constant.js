@@ -31,7 +31,7 @@ export const GnbItems = [
       {
         title: "Smart Fit System",
         code: "",
-        link: "/smart"
+        link: "/smart-fit"
       }
     ]
   },
@@ -39,7 +39,7 @@ export const GnbItems = [
     title: "제품",
     code: "",
     children: [
-      { title: "AI PQC Solution", code: "", link: "/" },
+      { title: "AI PQC Solution", code: "", link: "/product/ai-pqc" },
       { title: "F@AI PQC Solution", code: "", link: "/" },
       { title: "F@AI BLOCKCHAIN Platform", code: "", link: "/" },
       { title: "AI MiDAS Solution", code: "", link: "/" },

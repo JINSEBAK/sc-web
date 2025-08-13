@@ -1,3 +1,5 @@
+import classNames from "classnames";
+
 const ImageItem = ({ imgFile, alt = "" }) => {
   let src;
   try {

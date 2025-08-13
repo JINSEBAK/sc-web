@@ -26,6 +26,12 @@
   margin-top: 100px;
 }
 
+.container .tiny {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.375rem;
+}
+
 .container .medium .des {
   font-size: 2rem;
   line-height: 2.375rem;

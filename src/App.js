@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes, HashRouter } from "react-router-dom";
+import { Route, Routes, HashRouter } from "react-router-dom";
 
 // front
 import UserAppContainer from "component/layout/UserAppContainer";
@@ -11,6 +11,10 @@ import ContactContainer from "component/views/contact/ContactContainer";
 // 2025년 Renewal 버전
 import AIContainer from "component/views/ai/AIContainer";
 import BigDataContainer from "component/views/bigdata/BigDataContainer";
+import SmartFitContainer from "component/views/smartfit/SmartFitContainer";
+
+import AiPqcSolution from "component/views/product/AiPqcSolution";
+
 import RecruitContainer from "component/views/recruit/RecruitContainer";
 import InquiryContainer from "component/views/inquiry/InquiryContainer";
 
@@ -44,6 +48,9 @@ function App() {
 
           <Route path="/ai" element={<AIContainer />} />
           <Route path="/big-data" element={<BigDataContainer />} />
+          <Route path="/smart-fit" element={<SmartFitContainer />} />
+          <Route path="/product/ai-pqc" element={<AiPqcSolution />} />
+
           <Route path="/recruit" element={<RecruitContainer />} />
         </Route>
 
