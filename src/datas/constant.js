@@ -20,7 +20,7 @@ export const GnbItems = [
       {
         title: "Bigdata",
         code: "",
-        link: "/bigData"
+        link: "/big-data"
       }
     ]
   },

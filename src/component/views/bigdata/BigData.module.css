@@ -1,0 +1,64 @@
+.feature {
+  border: 1px solid #111f7a;
+  border-radius: 80px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  padding: 20px;
+  color: #111f7a;
+  flex: 1 0 calc(33% - 10px);
+  text-align: center;
+}
+
+.feature.benefit {
+  /* background-color: #111f7a; */
+  background: linear-gradient(180deg, #0f0c29 0%, #302b63 47.12%, #24243e 100%);
+  color: #fff;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
+  flex: 1 0 calc(50% - 10px);
+}
+
+.targets .target {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.targets .target:nth-of-type(odd) {
+  text-align: right;
+}
+
+.targets .target:nth-of-type(even) {
+  text-align: left;
+  flex-direction: row-reverse;
+}
+
+.targets .target > * {
+  flex: 1 0 45%;
+}
+
+.targets .target .item {
+  padding: 0 1.25rem;
+}
+
+.targets .target .item .tit {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--color-blue-700);
+  line-height: 2.875rem;
+  margin-bottom: 0.5rem;
+}
+
+.targets .target .item .desc {
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+  font-weight: 400;
+  color: var(--color-gray-90);
+}
+
+.targets .target .visual {
+  background-color: seagreen;
+  height: 355px;
+}

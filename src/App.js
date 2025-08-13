@@ -10,6 +10,7 @@ import ProjectContainer from "component/views/project/ProjectContainer";
 import ContactContainer from "component/views/contact/ContactContainer";
 // 2025년 Renewal 버전
 import AIContainer from "component/views/ai/AIContainer";
+import BigDataContainer from "component/views/bigdata/BigDataContainer";
 import RecruitContainer from "component/views/recruit/RecruitContainer";
 import InquiryContainer from "component/views/inquiry/InquiryContainer";
 
@@ -42,6 +43,7 @@ function App() {
           <Route path="/inquiry" element={<InquiryContainer />} />
 
           <Route path="/ai" element={<AIContainer />} />
+          <Route path="/big-data" element={<BigDataContainer />} />
           <Route path="/recruit" element={<RecruitContainer />} />
         </Route>
 

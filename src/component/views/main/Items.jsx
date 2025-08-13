@@ -8,6 +8,7 @@ import { useTranslation } from "react-i18next";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import "swiper/css/navigation";
 
 import { getListWork } from "lib/api";
 import { useEffect, useState } from "react";
@@ -26,6 +27,7 @@ export const AiSolutionSwiper = () => {
   return (
     <div className={classNames(styles.swiper, styles.dark)}>
       <Swiper
+        navigation={true}
         spaceBetween={50}
         slidesPerView={1}
         onSlideChange={() => {}}
@@ -92,10 +94,18 @@ export const Bigdata = () => {
   );
 };
 
+const samples = [];
+
 export const SmartProjects = () => {
   const [items, setItems] = useState([]);
   const getDatas = async () => {
-    const response = await getListWork();
+    const params = {
+      searchSorting: "workDts",
+      searchOrder: "desc",
+      page: 1,
+      pageSize: 5
+    };
+    const response = await getListWork(params);
     if (response.resultCode === "SUCCESS") {
       setItems(response.resultData.list);
     }
