@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sc-web/static/css/main.b510a17c.css",
-    "main.js": "/sc-web/static/js/main.2e86e3d6.js",
+    "main.css": "/sc-web/static/css/main.1640ed8e.css",
+    "main.js": "/sc-web/static/js/main.fce4b33d.js",
     "static/css/651.5e4050f3.chunk.css": "/sc-web/static/css/651.5e4050f3.chunk.css",
     "static/js/651.9ee807ce.chunk.js": "/sc-web/static/js/651.9ee807ce.chunk.js",
     "static/css/121.5e4050f3.chunk.css": "/sc-web/static/css/121.5e4050f3.chunk.css",
@@ -46,6 +46,7 @@
     "static/media/img_title_02.png": "/sc-web/static/media/img_title_02.e524053806aa4969e636.png",
     "static/media/img_blockchain_patent.png": "/sc-web/static/media/img_blockchain_patent.7dad26d8484b535a7969.png",
     "static/media/tech_ai_02.svg": "/sc-web/static/media/tech_ai_02.fe029bedbd193d408d941ffbde177778.svg",
+    "static/media/smart_step_2.svg": "/sc-web/static/media/smart_step_2.3145eefb69218d82bbb2.svg",
     "static/media/history_photo06.png": "/sc-web/static/media/history_photo06.3c34ec6cf274d8aa3d26.png",
     "static/media/tech_ai_02_m.svg": "/sc-web/static/media/tech_ai_02_m.60fedf90c39f2fd8564daa75619347d4.svg",
     "static/media/history_photo05.png": "/sc-web/static/media/history_photo05.ff24a60bcb2041d1107d.png",
@@ -53,10 +54,14 @@
     "static/media/tech_ai_01_m.svg": "/sc-web/static/media/tech_ai_01_m.86ad4822fbef8f4a19211de7d7f6907a.svg",
     "static/media/tech_ai_01.svg": "/sc-web/static/media/tech_ai_01.89308b676e034530b8baa4fc378814f9.svg",
     "static/media/history_photo01.png": "/sc-web/static/media/history_photo01.b63bad0438c6eb984f11.png",
+    "static/media/smart_step_1.svg": "/sc-web/static/media/smart_step_1.b0c2115dc32920039ee4.svg",
     "static/media/history_photo02.png": "/sc-web/static/media/history_photo02.f7e2933b9dd6d08fc1ba.png",
+    "static/media/smart_step_5.svg": "/sc-web/static/media/smart_step_5.abb04d67476b6bcf7838.svg",
     "static/media/tech_ai_03_ko_m.svg": "/sc-web/static/media/tech_ai_03_ko_m.cc7b6cc9eba67b2cc45e4bbaadd4a2f5.svg",
     "static/media/tech_ai_03_ko.svg": "/sc-web/static/media/tech_ai_03_ko.787c37f28caa464f058eb7731f45f7a1.svg",
+    "static/media/smart_step_4.svg": "/sc-web/static/media/smart_step_4.93301d6a3123334995ac.svg",
     "static/media/history_photo04.png": "/sc-web/static/media/history_photo04.4b3816356baf94f2f1ed.png",
+    "static/media/smart_step_3.svg": "/sc-web/static/media/smart_step_3.693bab8e698d756968d3.svg",
     "static/media/history_photo03.png": "/sc-web/static/media/history_photo03.cdf8ecdb2d2708e9deca.png",
     "static/media/icon_bus.svg": "/sc-web/static/media/icon_bus.6d7cc268d2e495f01b07.svg",
     "static/media/icon_network.svg": "/sc-web/static/media/icon_network.c450c2badf5bd2398f62.svg",
@@ -130,6 +135,7 @@
     "static/media/icon_checkbox_on.svg": "/sc-web/static/media/icon_checkbox_on.8710820df2358ad3fdfc.svg",
     "static/media/icon_checkbox_off.svg": "/sc-web/static/media/icon_checkbox_off.d15d407c812f0fc6256a.svg",
     "static/media/icon_plus.svg": "/sc-web/static/media/icon_plus.e11ada7bccde1dd89b35.svg",
+    "static/media/btn_view_more.svg": "/sc-web/static/media/btn_view_more.4ce7a750de3b90e9947b.svg",
     "static/media/icon_check_w.svg": "/sc-web/static/media/icon_check_w.7dd4d89bdea5513c2886.svg",
     "static/media/icon_arrow_down.svg": "/sc-web/static/media/icon_arrow_down.a120cfe75cb8d177e0ce.svg",
     "static/media/icon_arrow_up.svg": "/sc-web/static/media/icon_arrow_up.d582da7554f35e63705c.svg",
@@ -137,8 +143,8 @@
     "static/media/icon_plus_w.svg": "/sc-web/static/media/icon_plus_w.aad1a5eb4e2f350524c7.svg",
     "static/media/icon_arrow_lg.svg": "/sc-web/static/media/icon_arrow_lg.5f3a42efa507a1b0e9a7.svg",
     "static/media/icon_dropdown.svg": "/sc-web/static/media/icon_dropdown.b985751c342d9aecb1f1.svg",
-    "main.b510a17c.css.map": "/sc-web/static/css/main.b510a17c.css.map",
-    "main.2e86e3d6.js.map": "/sc-web/static/js/main.2e86e3d6.js.map",
+    "main.1640ed8e.css.map": "/sc-web/static/css/main.1640ed8e.css.map",
+    "main.fce4b33d.js.map": "/sc-web/static/js/main.fce4b33d.js.map",
     "651.5e4050f3.chunk.css.map": "/sc-web/static/css/651.5e4050f3.chunk.css.map",
     "651.9ee807ce.chunk.js.map": "/sc-web/static/js/651.9ee807ce.chunk.js.map",
     "121.5e4050f3.chunk.css.map": "/sc-web/static/css/121.5e4050f3.chunk.css.map",
@@ -154,7 +160,7 @@
     "787.929c83ca.chunk.js.map": "/sc-web/static/js/787.929c83ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b510a17c.css",
-    "static/js/main.2e86e3d6.js"
+    "static/css/main.1640ed8e.css",
+    "static/js/main.fce4b33d.js"
   ]
 }
