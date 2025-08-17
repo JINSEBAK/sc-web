@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sc-web/static/css/main.6ae8daa8.css",
-    "main.js": "/sc-web/static/js/main.8aa6e261.js",
+    "main.css": "/sc-web/static/css/main.c4877e3d.css",
+    "main.js": "/sc-web/static/js/main.4e4110a1.js",
     "static/css/651.5e4050f3.chunk.css": "/sc-web/static/css/651.5e4050f3.chunk.css",
     "static/js/651.9ee807ce.chunk.js": "/sc-web/static/js/651.9ee807ce.chunk.js",
     "static/css/121.5e4050f3.chunk.css": "/sc-web/static/css/121.5e4050f3.chunk.css",
@@ -62,6 +62,7 @@
     "static/media/smart_step_5.svg": "/sc-web/static/media/smart_step_5.abb04d67476b6bcf7838.svg",
     "static/media/tech_ai_03_ko_m.svg": "/sc-web/static/media/tech_ai_03_ko_m.cc7b6cc9eba67b2cc45e4bbaadd4a2f5.svg",
     "static/media/tech_ai_03_ko.svg": "/sc-web/static/media/tech_ai_03_ko.787c37f28caa464f058eb7731f45f7a1.svg",
+    "static/media/chart_chata.png": "/sc-web/static/media/chart_chata.01cdac20944159586978.png",
     "static/media/chart_midas.png": "/sc-web/static/media/chart_midas.29fcd73cba1342093c58.png",
     "static/media/smart_step_4.svg": "/sc-web/static/media/smart_step_4.93301d6a3123334995ac.svg",
     "static/media/img_process_05.png": "/sc-web/static/media/img_process_05.1feb3057fc0ab57dc579.png",
@@ -92,6 +93,7 @@
     "static/media/img_ai_card03.svg": "/sc-web/static/media/img_ai_card03.87d40034d4e38243a92f.svg",
     "static/media/icon_warable.svg": "/sc-web/static/media/icon_warable.8182b25c431b67da2812.svg",
     "static/media/spring.svg": "/sc-web/static/media/spring.34ba497f8515a14fe186.svg",
+    "static/media/icon_careon_02.svg": "/sc-web/static/media/icon_careon_02.8ddd63740506801c1a08.svg",
     "static/media/icon_smile.svg": "/sc-web/static/media/icon_smile.d8d7440e32fc21f73195.svg",
     "static/media/benefit_01.svg": "/sc-web/static/media/benefit_01.aa368730a0b2460b17752329d591e1e6.svg",
     "static/media/icon_welfare3.svg": "/sc-web/static/media/icon_welfare3.5199ef42c92da049f35c.svg",
@@ -133,6 +135,7 @@
     "static/media/react.svg": "/sc-web/static/media/react.66f74280b877a1bc80b5.svg",
     "static/media/icon_midas_02.svg": "/sc-web/static/media/icon_midas_02.5d1b8706f9548cc0e7f4.svg",
     "static/media/icon_delete.svg": "/sc-web/static/media/icon_delete.8828b06f93b6c5bee551.svg",
+    "static/media/icon_careon_01.svg": "/sc-web/static/media/icon_careon_01.858096573761176a79f6.svg",
     "static/media/icon_email.svg": "/sc-web/static/media/icon_email.8eaa7687a9f65d149440.svg",
     "static/media/icon_bigdata_05.svg": "/sc-web/static/media/icon_bigdata_05.5f47ca6ba34d96124a86.svg",
     "static/media/icon_lock_off.svg": "/sc-web/static/media/icon_lock_off.b50e1e10a1346bcf96b6.svg",
@@ -160,8 +163,8 @@
     "static/media/icon_arrow_lg.svg": "/sc-web/static/media/icon_arrow_lg.5f3a42efa507a1b0e9a7.svg",
     "static/media/img_arrow_down_w.svg": "/sc-web/static/media/img_arrow_down_w.2c134be12d8a2c560eb9.svg",
     "static/media/icon_dropdown.svg": "/sc-web/static/media/icon_dropdown.b985751c342d9aecb1f1.svg",
-    "main.6ae8daa8.css.map": "/sc-web/static/css/main.6ae8daa8.css.map",
-    "main.8aa6e261.js.map": "/sc-web/static/js/main.8aa6e261.js.map",
+    "main.c4877e3d.css.map": "/sc-web/static/css/main.c4877e3d.css.map",
+    "main.4e4110a1.js.map": "/sc-web/static/js/main.4e4110a1.js.map",
     "651.5e4050f3.chunk.css.map": "/sc-web/static/css/651.5e4050f3.chunk.css.map",
     "651.9ee807ce.chunk.js.map": "/sc-web/static/js/651.9ee807ce.chunk.js.map",
     "121.5e4050f3.chunk.css.map": "/sc-web/static/css/121.5e4050f3.chunk.css.map",
@@ -177,7 +180,7 @@
     "787.929c83ca.chunk.js.map": "/sc-web/static/js/787.929c83ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ae8daa8.css",
-    "static/js/main.8aa6e261.js"
+    "static/css/main.c4877e3d.css",
+    "static/js/main.4e4110a1.js"
   ]
 }
