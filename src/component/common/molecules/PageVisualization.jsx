@@ -1,9 +1,20 @@
 // css
+import classNames from "classnames";
 import styles from "./PageVisualization.module.css";
 
-const PageVisualization = ({ category, title, description, children }) => {
+const PageVisualization = ({
+  category,
+  title,
+  description,
+  children,
+  position
+}) => {
   return (
-    <div className={styles.container}>
+    <div
+      className={classNames(styles.container, {
+        [styles.prdt]: position === "product"
+      })}
+    >
       <div className={styles.inner}>
         <div className={styles.hd}>
           <div className={styles.ctg}>{category}</div>

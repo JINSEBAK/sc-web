@@ -5,6 +5,7 @@ import ai from "./ai.json";
 import bigdata from "./bigdata.json";
 import smart from "./smart.json";
 import about from "./about.json";
+import product from "./product.json";
 import recruit from "./recruit.json";
 import inquiry from "./inquiry.json";
 
@@ -16,6 +17,7 @@ const pages = {
   bigdata,
   smart,
   about,
+  product,
   recruit,
   inquiry
 };

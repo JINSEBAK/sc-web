@@ -21,6 +21,10 @@
   bottom: 0;
 }
 
+.container.prdt .inner::after {
+  content: none;
+}
+
 .container .ctg {
   color: rgba(255, 255, 255, 0.8);
   font-size: 32px;
