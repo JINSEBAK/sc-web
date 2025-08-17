@@ -61,6 +61,10 @@
   color: var(--color-gray-90);
 }
 
+.container .static {
+  color: var(--color-gray-90);
+}
+
 .page-title {
   text-align: center;
 }

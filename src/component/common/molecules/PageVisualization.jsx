@@ -18,7 +18,10 @@ const PageVisualization = ({
       <div className={styles.inner}>
         <div className={styles.hd}>
           <div className={styles.ctg}>{category}</div>
-          <h1 className={styles["main-tit"]}>{title}</h1>
+          <h1
+            className={styles["main-tit"]}
+            dangerouslySetInnerHTML={{ __html: title }}
+          />
           {children && <>{children}</>}
         </div>
         {description && (

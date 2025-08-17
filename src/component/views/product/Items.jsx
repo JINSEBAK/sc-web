@@ -1,12 +1,11 @@
 // css
-import classNames from "classnames";
 import styles from "./Product.module.css";
-
-import { useTranslation } from "react-i18next";
+import FlexContainer from "component/common/atoms/FlexContainer";
 import ImageItem from "component/common/atoms/ImageItem";
+
+import classNames from "classnames";
+import { useTranslation } from "react-i18next";
 import { Fragment } from "react";
-import { Link } from "react-router-dom";
-import Button from "component/common/atoms/Button";
 
 export const ProductContainer = ({ children }) => {
   return <div className={styles.container}>{children}</div>;
@@ -142,6 +141,43 @@ export const InquiryItem = () => {
           브로슈어 다운로드
         </button>
       </div>
+    </div>
+  );
+};
+
+export const Cooperations = () => {
+  const { t } = useTranslation("product");
+  const cooperations = t("cooperations", { returnObjects: true });
+  return (
+    <>
+      <div className={styles["em-lb"]}>분산 AI 협업 지원</div>
+      <FlexContainer gap={16}>
+        {cooperations.map((c, index) => (
+          <div className={styles.coop}>
+            <p dangerouslySetInnerHTML={{ __html: c }} />
+            <div className={styles.chart}></div>
+          </div>
+        ))}
+      </FlexContainer>
+    </>
+  );
+};
+
+export const FederatedItem = () => {
+  const { t } = useTranslation("product");
+  const federatedItems = t("federatedItems", { returnObjects: true });
+  return (
+    <div>
+      <div className={styles["em-lb"]}>데이터 무결성 및 이력관리</div>
+      <FlexContainer gap={16}>
+        {federatedItems.map((item, index) => (
+          <div className={styles["fed-item"]} key={`fed-item-${index}`}>
+            <ImageItem imgFile={`icon_fed_0${index + 1}.svg`} />
+            <strong>{item.title}</strong>
+            <p dangerouslySetInnerHTML={{ __html: item.description }} />
+          </div>
+        ))}
+      </FlexContainer>
     </div>
   );
 };

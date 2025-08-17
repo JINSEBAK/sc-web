@@ -10,7 +10,7 @@ const MiddleTitle = ({
   description,
   align = "center",
   size = "medium",
-  color = "default" // default(black), reverse(white), dynamic
+  color = "default" // default(black), reverse(white), dynamic, static
 }) => {
   return (
     <div className={classNames(styles.container)}>
@@ -32,5 +32,5 @@ export default MiddleTitle;
 MiddleTitle.propTypes = {
   align: PropTypes.oneOf(["left", "center", "right"]),
   size: PropTypes.oneOf(["small", "medium", "tiny"]),
-  color: PropTypes.oneOf(["default", "reverse", "dynamic"])
+  color: PropTypes.oneOf(["default", "reverse", "dynamic", "static"])
 };

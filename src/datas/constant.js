@@ -40,8 +40,12 @@ export const GnbItems = [
     code: "",
     children: [
       { title: "AI PQC Solution", code: "", link: "/product/ai-pqc" },
-      { title: "F@AI PQC Solution", code: "", link: "/" },
-      { title: "F@AI BLOCKCHAIN Platform", code: "", link: "/" },
+      { title: "F@AI PQC Solution", code: "", link: "/product/fai-pqc" },
+      {
+        title: "F@AI BLOCKCHAIN Platform",
+        code: "",
+        link: "/product/blockchain"
+      },
       { title: "AI MiDAS Solution", code: "", link: "/" },
       { title: "CAREON Solution", code: "", link: "/" },
       { title: "CHATA Solution", code: "", link: "/" }
