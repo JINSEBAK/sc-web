@@ -46,7 +46,7 @@ export const GnbItems = [
         code: "",
         link: "/product/blockchain"
       },
-      { title: "AI MiDAS Solution", code: "", link: "/" },
+      { title: "AI MiDAS Solution", code: "", link: "/product/ai-midas" },
       { title: "CAREON Solution", code: "", link: "/" },
       { title: "CHATA Solution", code: "", link: "/" }
     ]

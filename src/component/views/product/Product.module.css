@@ -14,6 +14,12 @@
   height: 434px;
 }
 
+.img-box img {
+  display: block;
+  margin: 50px auto;
+  max-height: 552px;
+}
+
 .em-lb {
   display: block;
   width: fit-content;
@@ -283,4 +289,41 @@
   background-color: var(--color-white);
   border-radius: 10px;
   min-height: 176px;
+}
+
+.sols {
+  border: 1px solid yellow;
+}
+
+.sol {
+  flex: 1 0 45%;
+  background-color: var(--color-white);
+  color: var(--color-gray-90);
+  padding: 1.875rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.sol img {
+  width: 80px !important;
+}
+
+.sol .tt {
+  color: var(--color-blue-700);
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  margin-bottom: 0.5rem;
+}
+
+.sol ul li {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+  letter-spacing: -0.8px;
+}
+
+.sol:nth-of-type(1) {
+  flex: 1 0 90%;
 }

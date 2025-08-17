@@ -16,6 +16,7 @@ import SmartFitContainer from "component/views/smartfit/SmartFitContainer";
 import AiPqcSolution from "component/views/product/AiPqcSolution";
 import FaiPqcSolution from "component/views/product/FaiPqcSolution";
 import BlockChainPlatform from "component/views/product/BlockChainPlatform";
+import AiMidasSolution from "component/views/product/AiMidasSolution";
 
 import RecruitContainer from "component/views/recruit/RecruitContainer";
 import InquiryContainer from "component/views/inquiry/InquiryContainer";
@@ -55,6 +56,7 @@ function App() {
           <Route path="/product/ai-pqc" element={<AiPqcSolution />} />
           <Route path="/product/fai-pqc" element={<FaiPqcSolution />} />
           <Route path="/product/blockchain" element={<BlockChainPlatform />} />
+          <Route path="/product/ai-midas" element={<AiMidasSolution />} />
 
           <Route path="/recruit" element={<RecruitContainer />} />
         </Route>

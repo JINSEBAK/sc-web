@@ -181,3 +181,28 @@ export const FederatedItem = () => {
     </div>
   );
 };
+
+export const MeritsOfAimidas = () => {
+  const { t } = useTranslation("product");
+  const midasSolutions = t("midasSolutions", { returnObjects: true });
+  return (
+    <FlexContainer gap={16} wrappable={true}>
+      {midasSolutions.map((solution, index) => (
+        <div className={styles.sol} key={`solution-${index}`}>
+          <ImageItem imgFile={`icon_midas_0${index + 1}.svg`} />
+          <div className={styles.txt}>
+            <div className={styles.tt}>{solution.title}</div>
+            <ul>
+              {solution.items.map((item, idx) => (
+                <li
+                  key={`sol-item-${idx}`}
+                  dangerouslySetInnerHTML={{ __html: item }}
+                />
+              ))}
+            </ul>
+          </div>
+        </div>
+      ))}
+    </FlexContainer>
+  );
+};
