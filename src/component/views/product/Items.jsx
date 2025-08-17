@@ -206,3 +206,47 @@ export const MeritsOfAimidas = () => {
     </FlexContainer>
   );
 };
+
+export const CareOnService = () => {
+  const { t } = useTranslation("product");
+  const functions = t("careon.functions", { returnObjects: true });
+  return (
+    <FlexContainer gap={16} align={"center"}>
+      {functions.map((func, index) => (
+        <div
+          className={classNames(styles.sol, styles.half)}
+          key={`func-${index}`}
+        >
+          <ImageItem imgFile={`icon_careon_0${index + 1}.svg`} />
+          <div className={styles.txt}>
+            <div className={styles.tt}>{func.title}</div>
+            <p>{func.description}</p>
+          </div>
+        </div>
+      ))}
+    </FlexContainer>
+  );
+};
+
+export const ChataSevices = () => {
+  const { t } = useTranslation("product");
+  const items = t("chata.items", { returnObjects: true });
+  return (
+    <div className={styles.ct}>
+      <div className={styles.txt}>
+        * 국내 SPC 그룹, HIZE 등에 해당 플랫폼이 사용되고 있으며 해외는
+        말레이시아 TiiS 메신저로 사용되었습니다
+      </div>
+      <div className={styles.device}></div>
+      <div className={styles.features}>
+        {items.map((item, index) => (
+          <div
+            className={styles.ft}
+            key={`chat-ft-${index}`}
+            dangerouslySetInnerHTML={{ __html: item }}
+          />
+        ))}
+      </div>
+    </div>
+  );
+};

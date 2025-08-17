@@ -317,6 +317,7 @@
   margin-bottom: 0.5rem;
 }
 
+.sol p,
 .sol ul li {
   font-weight: 400;
   font-size: 1.25rem;
@@ -326,4 +327,74 @@
 
 .sol:nth-of-type(1) {
   flex: 1 0 90%;
+}
+
+.sol.half {
+  align-items: center;
+  flex: 0 1 562px;
+  background-color: var(--color-gray-00);
+}
+
+.talk {
+  text-align: center;
+}
+
+.talk img {
+  height: 400px;
+}
+
+.talk h3 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-weight: 700;
+}
+
+.talk h3 span {
+  color: var(--color-blue-600);
+}
+
+.chata {
+  background-color: var(--color-gray-00);
+  padding: 1px 0 100px;
+}
+
+.chata .txt {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.325rem;
+}
+
+.device {
+  margin: 40px auto;
+  width: 300px;
+  min-height: 560px;
+  border-radius: 36px;
+  border: 2px solid var(--color-gray-30);
+  background-color: var(--color-gray-00);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ft {
+  color: var(--color-white);
+  font-size: 2rem;
+  line-height: 2.375rem;
+  font-weight: 700;
+  width: 220px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgba(255, 90, 101, 0.9);
+  margin: 0 -15px;
+}
+
+.ft:nth-of-type(even) {
+  background-color: rgba(220, 75, 84, 0.9);
 }

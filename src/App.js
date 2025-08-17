@@ -17,6 +17,8 @@ import AiPqcSolution from "component/views/product/AiPqcSolution";
 import FaiPqcSolution from "component/views/product/FaiPqcSolution";
 import BlockChainPlatform from "component/views/product/BlockChainPlatform";
 import AiMidasSolution from "component/views/product/AiMidasSolution";
+import CareOnSolution from "component/views/product/CareOnSolution";
+import ChataSolution from "component/views/product/ChataSolution";
 
 import RecruitContainer from "component/views/recruit/RecruitContainer";
 import InquiryContainer from "component/views/inquiry/InquiryContainer";
@@ -57,6 +59,8 @@ function App() {
           <Route path="/product/fai-pqc" element={<FaiPqcSolution />} />
           <Route path="/product/blockchain" element={<BlockChainPlatform />} />
           <Route path="/product/ai-midas" element={<AiMidasSolution />} />
+          <Route path="/product/careon" element={<CareOnSolution />} />
+          <Route path="/product/chata" element={<ChataSolution />} />
 
           <Route path="/recruit" element={<RecruitContainer />} />
         </Route>

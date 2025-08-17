@@ -47,24 +47,24 @@ export const GnbItems = [
         link: "/product/blockchain"
       },
       { title: "AI MiDAS Solution", code: "", link: "/product/ai-midas" },
-      { title: "CAREON Solution", code: "", link: "/" },
-      { title: "CHATA Solution", code: "", link: "/" }
+      { title: "CAREON Solution", code: "", link: "/product/careon" },
+      { title: "CHATA Solution", code: "", link: "/product/chata" }
     ]
   },
   {
     title: "회사소개",
     code: "",
-    children: [{ title: "회사소개", code: "", link: "/ai" }]
+    children: [{ title: "회사소개", code: "", link: "/about" }]
   },
   {
     title: "채용정보",
     code: "",
-    children: [{ title: "채용정보", code: "", link: "/ai" }]
+    children: [{ title: "채용정보", code: "", link: "/recruit" }]
   },
   {
     title: "고객지원",
     code: "",
-    children: [{ title: "고객지원", code: "", link: "/ai" }]
+    children: [{ title: "고객지원", code: "", link: "/inquiry" }]
   }
 ];
 
