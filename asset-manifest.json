@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sc-web/static/css/main.7fef6311.css",
-    "main.js": "/sc-web/static/js/main.2f920882.js",
+    "main.css": "/sc-web/static/css/main.0d97dd18.css",
+    "main.js": "/sc-web/static/js/main.df287fb4.js",
     "static/css/651.5e4050f3.chunk.css": "/sc-web/static/css/651.5e4050f3.chunk.css",
     "static/js/651.9ee807ce.chunk.js": "/sc-web/static/js/651.9ee807ce.chunk.js",
     "static/css/121.5e4050f3.chunk.css": "/sc-web/static/css/121.5e4050f3.chunk.css",
@@ -56,6 +56,7 @@
     "static/media/tech_ai_01_m.svg": "/sc-web/static/media/tech_ai_01_m.86ad4822fbef8f4a19211de7d7f6907a.svg",
     "static/media/tech_ai_01.svg": "/sc-web/static/media/tech_ai_01.89308b676e034530b8baa4fc378814f9.svg",
     "static/media/history_photo01.png": "/sc-web/static/media/history_photo01.b63bad0438c6eb984f11.png",
+    "static/media/chart_fai.png": "/sc-web/static/media/chart_fai.cf3acd8a9ce5217b7881.png",
     "static/media/smart_step_1.svg": "/sc-web/static/media/smart_step_1.b0c2115dc32920039ee4.svg",
     "static/media/history_photo02.png": "/sc-web/static/media/history_photo02.f7e2933b9dd6d08fc1ba.png",
     "static/media/smart_step_5.svg": "/sc-web/static/media/smart_step_5.abb04d67476b6bcf7838.svg",
@@ -102,6 +103,7 @@
     "static/media/img_ai_card04.svg": "/sc-web/static/media/img_ai_card04.ca11172f1c68690a7f7a.svg",
     "static/media/icon_welfare6.svg": "/sc-web/static/media/icon_welfare6.84df610bd2aafa9d0864.svg",
     "static/media/icon_welfare2.svg": "/sc-web/static/media/icon_welfare2.4744c213a650fc41d09c.svg",
+    "static/media/icon_fed_03.svg": "/sc-web/static/media/icon_fed_03.c1b5bf946c3fe7983e5f.svg",
     "static/media/icon_fax.svg": "/sc-web/static/media/icon_fax.9b141c902c34bfd72870.svg",
     "static/media/icon_tel.svg": "/sc-web/static/media/icon_tel.1ea047f33c7c01968ab8.svg",
     "static/media/icon_welfare4.svg": "/sc-web/static/media/icon_welfare4.5de1081b75a102a236da.svg",
@@ -112,6 +114,7 @@
     "index.html": "/sc-web/index.html",
     "static/media/icon_talent2.svg": "/sc-web/static/media/icon_talent2.2acc7712e433181fcb42.svg",
     "static/media/img_ai_card02.svg": "/sc-web/static/media/img_ai_card02.9f8b4f7b642b57984717.svg",
+    "static/media/icon_fed_01.svg": "/sc-web/static/media/icon_fed_01.3ec61bac8771bd6b2350.svg",
     "static/media/icon_welfare7.svg": "/sc-web/static/media/icon_welfare7.781617acfd30fc0df3e8.svg",
     "static/media/icon_calendar.svg": "/sc-web/static/media/icon_calendar.2222f5df3bdf1a332bf4.svg",
     "static/media/icon_pay.svg": "/sc-web/static/media/icon_pay.9d9d77ee4e12af3fb632.svg",
@@ -129,6 +132,7 @@
     "static/media/icon_lock_off.svg": "/sc-web/static/media/icon_lock_off.b50e1e10a1346bcf96b6.svg",
     "static/media/icon_bigdata_03.svg": "/sc-web/static/media/icon_bigdata_03.7ef3e96bdd61f548cb61.svg",
     "static/media/icon_home_on.svg": "/sc-web/static/media/icon_home_on.b12a2052c93bd85ef4cc.svg",
+    "static/media/icon_fed_02.svg": "/sc-web/static/media/icon_fed_02.a3042cab70176abfeb46.svg",
     "static/media/java.svg": "/sc-web/static/media/java.ba92d3ee691be983c7e4.svg",
     "static/media/icon_top.svg": "/sc-web/static/media/icon_top.1533ee40dcc5294cc1c6.svg",
     "static/media/icon_lock.svg": "/sc-web/static/media/icon_lock.829121118324bf9225e5.svg",
@@ -150,8 +154,8 @@
     "static/media/icon_arrow_lg.svg": "/sc-web/static/media/icon_arrow_lg.5f3a42efa507a1b0e9a7.svg",
     "static/media/img_arrow_down_w.svg": "/sc-web/static/media/img_arrow_down_w.2c134be12d8a2c560eb9.svg",
     "static/media/icon_dropdown.svg": "/sc-web/static/media/icon_dropdown.b985751c342d9aecb1f1.svg",
-    "main.7fef6311.css.map": "/sc-web/static/css/main.7fef6311.css.map",
-    "main.2f920882.js.map": "/sc-web/static/js/main.2f920882.js.map",
+    "main.0d97dd18.css.map": "/sc-web/static/css/main.0d97dd18.css.map",
+    "main.df287fb4.js.map": "/sc-web/static/js/main.df287fb4.js.map",
     "651.5e4050f3.chunk.css.map": "/sc-web/static/css/651.5e4050f3.chunk.css.map",
     "651.9ee807ce.chunk.js.map": "/sc-web/static/js/651.9ee807ce.chunk.js.map",
     "121.5e4050f3.chunk.css.map": "/sc-web/static/css/121.5e4050f3.chunk.css.map",
@@ -167,7 +171,7 @@
     "787.929c83ca.chunk.js.map": "/sc-web/static/js/787.929c83ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7fef6311.css",
-    "static/js/main.2f920882.js"
+    "static/css/main.0d97dd18.css",
+    "static/js/main.df287fb4.js"
   ]
 }
