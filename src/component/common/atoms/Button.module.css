@@ -37,10 +37,19 @@
 }
 
 .btn.translucent {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.btn.translucent span {
+  color: var(--color-black);
 }
 
 /* size */
+
+.btn.tiny {
+  padding: 3px 16px;
+  min-height: 28px;
+}
 .btn.small {
   padding: 3px 16px;
   min-height: 38px;

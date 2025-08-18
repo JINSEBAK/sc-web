@@ -1,12 +1,14 @@
-import Button from "component/common/atoms/Button";
+// css
 import styles from "./About.module.css";
+// components
+import Button from "component/common/atoms/Button";
 import ImageItem from "component/common/atoms/ImageItem";
 import SplitBar from "component/common/atoms/SplitBar";
-
-import { useTranslation } from "react-i18next";
 import FlexContainer from "component/common/atoms/FlexContainer";
-import classNames from "classnames";
 import HighLighter from "component/common/atoms/HighLighter";
+
+import classNames from "classnames";
+import { useTranslation } from "react-i18next";
 import { ContentInner } from "component/common/atoms/Containers";
 
 export const BasicInfo = () => {
@@ -143,14 +145,14 @@ export const IntroDocument = () => {
       <FlexContainer align={"center"}>
         <Button
           text="한글"
-          size="small"
+          size="tiny"
           variant="translucent"
           shape="round"
           onClick={() => {}}
         />
         <Button
           text="영문"
-          size="small"
+          size="tiny"
           variant="translucent"
           shape="round"
           onClcik={() => {}}

@@ -1,9 +1,10 @@
 import PageTitle from "component/common/atoms/PageTitle";
 import styles from "../About.module.css";
 
-import { ContentBox } from "component/common/atoms/Containers";
-import { InfoBook, InquiryBanner, IntroDocument, MapBox } from "../Items";
 import FlexContainer from "component/common/atoms/FlexContainer";
+import { ContentBox, ContentInner } from "component/common/atoms/Containers";
+import CompanyLocation from "../CompanyLocation";
+import { InfoBook, InquiryBanner, IntroDocument } from "../Items";
 
 const TabFourthContent = () => {
   return (
@@ -13,7 +14,10 @@ const TabFourthContent = () => {
         <InfoBook />
       </ContentBox>
       <ContentBox isFull={true}>
-        <MapBox />
+        <ContentInner gap={{ top: "0px", bottom: "100px" }}>
+          {/* <MapBox /> */}
+          <CompanyLocation />
+        </ContentInner>
       </ContentBox>
       <ContentBox>
         <FlexContainer gap={16} align={"center"}>
