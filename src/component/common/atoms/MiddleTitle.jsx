@@ -15,7 +15,11 @@ const MiddleTitle = ({
   return (
     <div className={classNames(styles.container)}>
       <div className={classNames(styles[size], styles[align], styles[color])}>
-        <div dangerouslySetInnerHTML={{ __html: content }} />
+        {typeof content === "string" ? (
+          <div dangerouslySetInnerHTML={{ __html: content }} />
+        ) : (
+          content
+        )}
         {description && (
           <div
             className={classNames(styles.des)}

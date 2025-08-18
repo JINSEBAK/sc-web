@@ -1,3 +1,9 @@
+.sm-fit {
+  background: url(../../../assets/imgs/img_smartfit_banner.png) center no-repeat;
+  background-size: cover;
+  padding: 78px 0;
+}
+
 .lists {
   display: grid;
   gap: 0.5rem;

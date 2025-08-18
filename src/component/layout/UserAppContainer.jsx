@@ -1,15 +1,14 @@
+// components
+import GlobalNavigation from "component/common/Navigation/GlobalNavigation";
 import Footer from "../common/Footer";
+import { FloatingButtons } from "component/common/Items";
+
 import { useEffect, useState, useLayoutEffect } from "react";
 import { useRef } from "react";
-import MainHeader from "../common/MainHeader";
-import BackgroundScreen from "../common/BackgroundScreen";
 import { useLocation, Outlet } from "react-router-dom";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { FloatingButtons } from "component/common/Items";
-
-import GlobalNavigation from "component/common/Navigation/GlobalNavigation";
 
 const UserAppContainer = () => {
   //
@@ -76,16 +75,7 @@ const UserAppContainer = () => {
         <div className="">
           <Outlet context={{ setScrolled }} />
         </div>
-        <Footer />
-        {/* <MainHeader scrolled={scrolled} />
-        <div id="container">
-          <Outlet context={{ setScrolled }} />
-        </div>
-        {location.pathname !== "/main" && (
-          <Footer topButton={topButton} onClickTop={onClickTop} />
-        )}
-        <FloatingButtons topButton={topButton} onClickTop={onClickTop} />
-        <BackgroundScreen name={getLocationName()} /> */}
+        <Footer isScrolled={scrolled} />
       </>
     </div>
   );

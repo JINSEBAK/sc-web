@@ -1,12 +1,13 @@
 import PageVisualization from "component/common/molecules/PageVisualization";
 import {
   DynamicText,
+  FaiMerits,
   InquiryItem,
   NeedsOfSolution,
   ProductContainer,
   SolutionProcess
 } from "./Items";
-import { ContentBox } from "component/common/atoms/Containers";
+import { ContentBox, ContentInner } from "component/common/atoms/Containers";
 
 const FaiPqcSolution = () => {
   return (
@@ -16,6 +17,7 @@ const FaiPqcSolution = () => {
         title="F@AI PQC Solution"
         description="데이터기반의 플라스틱 생산 스마트 공장<br>새로운 기준을 세우다."
         position="product"
+        visual="ai-pqc"
       />
       <ContentBox>
         <DynamicText
@@ -24,7 +26,11 @@ const FaiPqcSolution = () => {
           }
         />
       </ContentBox>
-
+      <ContentBox>
+        <ContentInner gap={{ bottom: "100px" }}>
+          <FaiMerits />
+        </ContentInner>
+      </ContentBox>
       <ContentBox>
         <SolutionProcess />
       </ContentBox>

@@ -1,7 +1,6 @@
 // css
 import styles from "../AI.module.css";
 // component
-import ImageItem from "component/common/atoms/ImageItem";
 import MiddleTitle from "component/common/atoms/MiddleTitle";
 import HighLighter from "component/common/atoms/HighLighter";
 import FlexContainer from "component/common/atoms/FlexContainer";

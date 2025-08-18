@@ -1,5 +1,5 @@
 import PageVisualization from "component/common/molecules/PageVisualization";
-import { ContentBox } from "component/common/atoms/Containers";
+import { ContentBox, ContentInner } from "component/common/atoms/Containers";
 import {
   ProductContainer,
   InquiryItem,
@@ -17,6 +17,7 @@ const AiPqcSolution = () => {
         title="AI PQC Solution"
         description="데이터기반의 플라스틱 생산 스마트 공장<br>새로운 기준을 세우다."
         position="product"
+        visual="ai-pqc"
       />
       <ContentBox>
         <DynamicText
@@ -26,7 +27,9 @@ const AiPqcSolution = () => {
         />
       </ContentBox>
       <ContentBox>
-        <Merits />
+        <ContentInner gap={{ bottom: "100px" }}>
+          <Merits />
+        </ContentInner>
       </ContentBox>
       <ContentBox>
         <SolutionProcess />

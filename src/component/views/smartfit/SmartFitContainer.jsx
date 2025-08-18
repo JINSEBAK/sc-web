@@ -3,7 +3,7 @@ import PageVisualization from "component/common/molecules/PageVisualization";
 import MiddleTitle from "component/common/atoms/MiddleTitle";
 import HistoryList from "./HistoryList";
 import { ContentBox } from "component/common/atoms/Containers";
-import { InnerItem, DevMethodology } from "./Items";
+import { InnerItem, DevMethodology, SmartFitBanner } from "./Items";
 
 const SmartFitContainer = () => {
   return (
@@ -12,6 +12,7 @@ const SmartFitContainer = () => {
         category="전략적 외주 개발 파트너"
         title="Smart Fit System"
         description="기술력, 속도, 유연성을 갖춘 개발 파트너"
+        visual="smart-fit"
       />
       <PageTitle title="Smart Fit System<br>구축 사업" emphasize="최적화된">
         <div>
@@ -28,7 +29,7 @@ const SmartFitContainer = () => {
         </div>
       </PageTitle>
       <ContentBox isFull={true}>
-        <div style={{ background: "rgba(0,0,0,0.1)", padding: "78px 0" }}>
+        <SmartFitBanner>
           <MiddleTitle
             size="tiny"
             color="reverse"
@@ -37,7 +38,7 @@ const SmartFitContainer = () => {
           <InnerItem gap={{ top: "50px" }}>
             <DevMethodology />
           </InnerItem>
-        </div>
+        </SmartFitBanner>
       </ContentBox>
       <ContentBox>
         <MiddleTitle content="구축이력" size="small" />

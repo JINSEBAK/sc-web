@@ -10,6 +10,7 @@
   display: flex;
   justify-content: space-between;
   gap: 32px;
+  position: relative;
 }
 
 .footer .info {
@@ -73,4 +74,17 @@
 
 .footer .docs .item > * {
   color: var(--color-white);
+}
+
+.btn-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateY(-180px);
+  width: 60px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.44);
+  border-radius: 50%;
+  border: 1px solid transparent;
+  cursor: pointer;
 }

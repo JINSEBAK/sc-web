@@ -1,6 +1,7 @@
 import styles from "./BigData.module.css";
 
 import classNames from "classnames";
+import ImageItem from "component/common/atoms/ImageItem";
 import { useTranslation } from "react-i18next";
 
 export const FeatureItem = ({ text, type }) => {
@@ -29,7 +30,9 @@ export const BigDataTargets = () => {
               dangerouslySetInnerHTML={{ __html: target.description }}
             />
           </div>
-          <div className={styles.visual}>image area</div>
+          <div className={styles.visual}>
+            <ImageItem imgFile={`img_big_bn_0${index + 1}.png`} />
+          </div>
         </div>
       ))}
     </div>

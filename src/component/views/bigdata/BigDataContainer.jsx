@@ -43,7 +43,7 @@ const BigDataContainer = () => {
 
       <ContentBox>
         <MiddleTitle content="주요기능 및 특장점" size="small" />
-        <InnerItem gap={{ top: "0px", bottom: "50px" }}>
+        <InnerItem gap={{ top: "0px" }}>
           <FlexContainer gap={8} wrappable={true}>
             {features.map((feature, index) => (
               <FeatureItem text={feature} key={`feature-${index}`} />

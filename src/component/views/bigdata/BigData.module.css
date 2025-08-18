@@ -26,11 +26,11 @@
   justify-content: center;
 }
 
-.targets .target:nth-of-type(odd) {
+.targets .target:nth-of-type(even) {
   text-align: right;
 }
 
-.targets .target:nth-of-type(even) {
+.targets .target:nth-of-type(odd) {
   text-align: left;
   flex-direction: row-reverse;
 }
@@ -59,6 +59,11 @@
 }
 
 .targets .target .visual {
-  background-color: seagreen;
   height: 355px;
+}
+
+.targets .target .visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

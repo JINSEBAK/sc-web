@@ -17,6 +17,10 @@ export const InnerItem = ({ gap = {}, children }) => {
   );
 };
 
+export const SmartFitBanner = ({ children }) => {
+  return <div className={styles["sm-fit"]}>{children}</div>;
+};
+
 export const StepItem = ({ title, description, imgFile }) => {
   return (
     <div className={styles.step}>

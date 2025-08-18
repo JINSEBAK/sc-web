@@ -7,11 +7,12 @@ const PageVisualization = ({
   title,
   description,
   children,
-  position
+  position,
+  visual
 }) => {
   return (
     <div
-      className={classNames(styles.container, {
+      className={classNames(styles.container, styles[visual], {
         [styles.prdt]: position === "product"
       })}
     >
@@ -30,7 +31,7 @@ const PageVisualization = ({
             dangerouslySetInnerHTML={{ __html: description }}
           />
         )}
-        <div className={styles.name}>SMARTCORE</div>
+        {/* <div className={styles.name}>SMARTCORE</div> */}
       </div>
     </div>
   );

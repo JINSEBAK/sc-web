@@ -29,7 +29,9 @@ export const Merits = () => {
       <div className={styles.merits}>
         {merits.map((merit, index) => (
           <div key={`merit-${index}`} className={styles.row}>
-            <div className={styles.visual}></div>
+            <div className={styles.visual}>
+              <ImageItem imgFile={`img_ai_pqc_0${index + 1}.png`} />
+            </div>
             <div className={styles.info}>
               <strong
                 className={styles.tit}
@@ -100,6 +102,35 @@ export const SolutionProcess = () => {
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  );
+};
+
+export const FaiMerits = () => {
+  const { t } = useTranslation("product");
+  const faiMerits = t("faiMerits", { returnObjects: true });
+  return (
+    <div>
+      <div className={styles["em-lb"]}>F@AI-PQC Solution 장점</div>
+      <div className={styles.merits}>
+        {faiMerits.map((merit, index) => (
+          <div key={`fai-merit-${index}`} className={styles.row}>
+            <div className={styles.visual}>
+              <ImageItem imgFile={`img_fai_0${index + 1}.png`} />
+            </div>
+            <div className={styles.info}>
+              <strong
+                className={styles.tit}
+                dangerouslySetInnerHTML={{ __html: merit.title }}
+              />
+              <p
+                className={styles.desc}
+                dangerouslySetInnerHTML={{ __html: merit.description }}
+              ></p>
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );

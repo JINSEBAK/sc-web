@@ -67,6 +67,8 @@
 
 .page-title {
   text-align: center;
+  position: relative;
+  z-index: 1;
 }
 
 .page-title em {

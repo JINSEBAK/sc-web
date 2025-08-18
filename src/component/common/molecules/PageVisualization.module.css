@@ -1,6 +1,17 @@
 .container {
   height: 976px;
   background-color: rgba(0, 0, 0, 0.15);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container.smart-fit {
+  background-image: url(../../../assets/imgs/bg_smart_fit.png);
+}
+
+.container.ai-pqc {
+  background-image: url(../../../assets/imgs/bg_ai_pqc.png);
 }
 
 .container .inner {
@@ -59,6 +70,8 @@
 }
 
 .container .name {
+  position: absolute;
+  bottom: 100px;
   text-align: center;
   font-size: 220px;
   font-weight: 600;
