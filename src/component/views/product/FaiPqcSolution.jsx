@@ -2,12 +2,15 @@ import PageVisualization from "component/common/molecules/PageVisualization";
 import {
   DynamicText,
   FaiMerits,
+  FederatedProcess,
   InquiryItem,
   NeedsOfSolution,
+  PQCFrameworkChart,
   ProductContainer,
   SolutionProcess
 } from "./Items";
 import { ContentBox, ContentInner } from "component/common/atoms/Containers";
+import MiddleTitle from "component/common/atoms/MiddleTitle";
 
 const FaiPqcSolution = () => {
   return (
@@ -31,8 +34,19 @@ const FaiPqcSolution = () => {
           <FaiMerits />
         </ContentInner>
       </ContentBox>
+      <ContentBox isFull={true}>
+        <PQCFrameworkChart>
+          <MiddleTitle
+            color="reverse"
+            size="small"
+            content="연합학습 기반 이상탐지 및 품질관리 프레임워크"
+          />
+        </PQCFrameworkChart>
+      </ContentBox>
       <ContentBox>
-        <SolutionProcess />
+        <ContentInner gap={{ top: "100px" }}>
+          <FederatedProcess />
+        </ContentInner>
       </ContentBox>
       <ContentBox>
         <NeedsOfSolution />

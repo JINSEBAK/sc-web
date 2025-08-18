@@ -400,3 +400,14 @@
 .ft:nth-of-type(even) {
   background-color: rgba(220, 75, 84, 0.9);
 }
+
+.pqc-chart {
+  padding: 1px 0 100px;
+  background-color: var(--color-blue-800);
+}
+
+.pqc-chart .chart img {
+  height: 470px;
+  display: block;
+  margin: 0 auto;
+}

@@ -107,6 +107,85 @@ export const SolutionProcess = () => {
   );
 };
 
+export const FederatedProcess = () => {
+  const { t } = useTranslation("product");
+  const federProcess = t("federProcess", { returnObjects: true });
+  return (
+    <div>
+      <div className={styles["em-lb"]}>
+        연합학습 기반 사출 성형 이상 탐지 및<br />
+        공정변수 미세조정 프로세스
+      </div>
+      <div className={styles.process}>
+        <div className={styles.row}>
+          <div className={styles.step}>
+            <ImageItem imgFile={"img_process_01.png"} />
+            <strong
+              className={styles.tit}
+              dangerouslySetInnerHTML={{ __html: federProcess.step1.action }}
+            />
+            <p
+              dangerouslySetInnerHTML={{
+                __html: federProcess.step1.description
+              }}
+            />
+          </div>
+          <ImageItem imgFile={"img_arrow_down_w.svg"} />
+        </div>
+        <div className={classNames(styles.row, styles.group)}>
+          {federProcess.step2.map((step, index) => (
+            <Fragment key={`step-${index}`}>
+              <div className={styles.step}>
+                <ImageItem imgFile={`img_process_0${index + 2}.png`} />
+                <strong
+                  className={styles.tit}
+                  dangerouslySetInnerHTML={{ __html: step.action }}
+                />
+                <p dangerouslySetInnerHTML={{ __html: step.description }} />
+              </div>
+              {index < 2 && <ImageItem imgFile={"img_arrow_right_g.svg"} />}
+            </Fragment>
+          ))}
+        </div>
+        <div className={classNames(styles.row, styles.final)}>
+          <ImageItem imgFile={"img_arrow_down_w.svg"} />
+          <div className={styles.step}>
+            <ImageItem imgFile={"img_process_05.png"} />
+            <div>
+              <strong
+                className={styles.tit}
+                dangerouslySetInnerHTML={{ __html: federProcess.step3.action }}
+              />
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: federProcess.step3.description
+                }}
+              />
+            </div>
+          </div>
+        </div>
+        <div className={classNames(styles.row, styles.final)}>
+          <ImageItem imgFile={"img_arrow_right_w.svg"} />
+          <div className={styles.step}>
+            <ImageItem imgFile={"img_process_06.png"} />
+            <div>
+              <strong
+                className={styles.tit}
+                dangerouslySetInnerHTML={{ __html: federProcess.step4.action }}
+              />
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: federProcess.step4.description
+                }}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 export const FaiMerits = () => {
   const { t } = useTranslation("product");
   const faiMerits = t("faiMerits", { returnObjects: true });
@@ -131,6 +210,17 @@ export const FaiMerits = () => {
             </div>
           </div>
         ))}
+      </div>
+    </div>
+  );
+};
+
+export const PQCFrameworkChart = ({ children }) => {
+  return (
+    <div className={styles["pqc-chart"]}>
+      {children}
+      <div className={styles.chart}>
+        <ImageItem imgFile={"chart_fai_pqc.png"} />
       </div>
     </div>
   );

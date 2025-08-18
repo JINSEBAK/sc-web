@@ -53,6 +53,31 @@
       "description": "공정 변수 미세 조정을<br>통한 최적화"
     }
   },
+  "federProcess": {
+    "step1": {
+      "action": "Raw Data 수집",
+      "description": "실시간 및 특정 기간의 사출성형 공정변수 Raw Data 수집"
+    },
+    "step2": [
+      {
+        "action": "탐색적 공정변수 데이터 분석(EDA)",
+        "description": "수치 요약과 시각화를 사용한<br>데이터 탐색 및 변수간 잠재적 관계 도출"
+      },
+      {
+        "action": "공정변수 데이터 선행처리",
+        "description": "노이즈 제거, 데이터 변환,<br>데이터 정규화"
+      },
+      { "action": "연합학습 알고리즘", "description": "이상탐지, 품질관리" }
+    ],
+    "step3": {
+      "action": "이상탐지 및 품질관리",
+      "description": "연합학습 알고리즘 기반  공정 변수 미세 조정을 통한 최적화"
+    },
+    "step4": {
+      "action": "모델 평가 및 개선",
+      "description": "연합학습을 통한 모델 평가개선"
+    }
+  },
   "faiMerits": [
     {
       "title": "최적의 품질 공정 관리",
