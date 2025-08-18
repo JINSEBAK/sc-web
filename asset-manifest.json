@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sc-web/static/css/main.effa1346.css",
-    "main.js": "/sc-web/static/js/main.8c26f4b3.js",
+    "main.css": "/sc-web/static/css/main.d88763f4.css",
+    "main.js": "/sc-web/static/js/main.7dac3d89.js",
     "static/css/651.81f62dd5.chunk.css": "/sc-web/static/css/651.81f62dd5.chunk.css",
     "static/js/651.6193bd89.chunk.js": "/sc-web/static/js/651.6193bd89.chunk.js",
     "static/css/121.81f62dd5.chunk.css": "/sc-web/static/css/121.81f62dd5.chunk.css",
@@ -71,6 +71,7 @@
     "static/media/img_process_01.png": "/sc-web/static/media/img_process_01.382d1b97ec207e1607eb.png",
     "static/media/img_title_02.png": "/sc-web/static/media/img_title_02.e524053806aa4969e636.png",
     "static/media/img_blockchain_patent.png": "/sc-web/static/media/img_blockchain_patent.7dad26d8484b535a7969.png",
+    "static/media/chart_fai_pqc.png": "/sc-web/static/media/chart_fai_pqc.a4586ab5a45e079a25b1.png",
     "static/media/img_process_02.png": "/sc-web/static/media/img_process_02.fb9b7ac42dbbc8dc9343.png",
     "static/media/tech_ai_02.svg": "/sc-web/static/media/tech_ai_02.fe029bedbd193d408d941ffbde177778.svg",
     "static/media/smart_step_2.svg": "/sc-web/static/media/smart_step_2.3145eefb69218d82bbb2.svg",
@@ -187,9 +188,10 @@
     "static/media/icon_plus_w.svg": "/sc-web/static/media/icon_plus_w.aad1a5eb4e2f350524c7.svg",
     "static/media/icon_arrow_lg.svg": "/sc-web/static/media/icon_arrow_lg.5f3a42efa507a1b0e9a7.svg",
     "static/media/img_arrow_down_w.svg": "/sc-web/static/media/img_arrow_down_w.2c134be12d8a2c560eb9.svg",
+    "static/media/img_arrow_right_w.svg": "/sc-web/static/media/img_arrow_right_w.91c5715ba1416a0f8f2b.svg",
     "static/media/icon_dropdown.svg": "/sc-web/static/media/icon_dropdown.b985751c342d9aecb1f1.svg",
-    "main.effa1346.css.map": "/sc-web/static/css/main.effa1346.css.map",
-    "main.8c26f4b3.js.map": "/sc-web/static/js/main.8c26f4b3.js.map",
+    "main.d88763f4.css.map": "/sc-web/static/css/main.d88763f4.css.map",
+    "main.7dac3d89.js.map": "/sc-web/static/js/main.7dac3d89.js.map",
     "651.81f62dd5.chunk.css.map": "/sc-web/static/css/651.81f62dd5.chunk.css.map",
     "651.6193bd89.chunk.js.map": "/sc-web/static/js/651.6193bd89.chunk.js.map",
     "121.81f62dd5.chunk.css.map": "/sc-web/static/css/121.81f62dd5.chunk.css.map",
@@ -205,7 +207,7 @@
     "787.929c83ca.chunk.js.map": "/sc-web/static/js/787.929c83ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.effa1346.css",
-    "static/js/main.8c26f4b3.js"
+    "static/css/main.d88763f4.css",
+    "static/js/main.7dac3d89.js"
   ]
 }
