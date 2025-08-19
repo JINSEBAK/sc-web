@@ -25,6 +25,7 @@ const PageVisualization = ({
             className={styles["main-tit"]}
             dangerouslySetInnerHTML={{ __html: title }}
             data-aos="fade-up"
+            data-aos-duration="1000"
             data-aos-delay="500"
           />
           {children && <>{children}</>}
@@ -34,6 +35,7 @@ const PageVisualization = ({
             className={styles.slogan}
             dangerouslySetInnerHTML={{ __html: description }}
             data-aos="fade-up"
+            data-aos-duration="1000"
             data-aos-delay="900"
           />
         )}

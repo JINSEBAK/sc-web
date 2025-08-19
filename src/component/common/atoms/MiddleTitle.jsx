@@ -25,6 +25,7 @@ const MiddleTitle = ({
           <div
             dangerouslySetInnerHTML={{ __html: content }}
             data-aos="fade-up"
+            data-aos-duration="1000"
             data-aos-delay="300"
           />
         ) : (
@@ -35,7 +36,7 @@ const MiddleTitle = ({
             className={classNames(styles.des)}
             dangerouslySetInnerHTML={{ __html: description }}
             data-aos="fade-up"
-            data-aos-delay="500"
+            data-aos-delay="700"
           />
         )}
       </div>
