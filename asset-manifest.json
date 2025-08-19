@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sc-web/static/css/main.7271ce38.css",
-    "main.js": "/sc-web/static/js/main.cb0b356c.js",
+    "main.css": "/sc-web/static/css/main.8e853006.css",
+    "main.js": "/sc-web/static/js/main.e850745f.js",
     "static/css/651.6ffd4466.chunk.css": "/sc-web/static/css/651.6ffd4466.chunk.css",
     "static/js/651.4e52c326.chunk.js": "/sc-web/static/js/651.4e52c326.chunk.js",
     "static/css/121.6ffd4466.chunk.css": "/sc-web/static/css/121.6ffd4466.chunk.css",
@@ -30,6 +30,7 @@
     "static/media/bg_blockchain.png": "/sc-web/static/media/bg_blockchain.9fe852126d30bfff0150.png",
     "static/media/dep02.jpg": "/sc-web/static/media/dep02.e5dddb4571e95e046dbf.jpg",
     "static/media/bg_ai_pqc.png": "/sc-web/static/media/bg_ai_pqc.1ce1407ce1c7a74f3cdd.png",
+    "static/media/bg_inquiry.png": "/sc-web/static/media/bg_inquiry.47cf0688bb96f464bdee.png",
     "static/media/bg_chata.png": "/sc-web/static/media/bg_chata.35d0463fab942d0ed2fd.png",
     "static/media/bg_smart_fit.png": "/sc-web/static/media/bg_smart_fit.6998132fe8a4e74285d5.png",
     "static/media/img_smartfit_banner.png": "/sc-web/static/media/img_smartfit_banner.470e17abacc34622f8f9.png",
@@ -210,8 +211,8 @@
     "static/media/img_arrow_down_w.svg": "/sc-web/static/media/img_arrow_down_w.2c134be12d8a2c560eb9.svg",
     "static/media/img_arrow_right_w.svg": "/sc-web/static/media/img_arrow_right_w.91c5715ba1416a0f8f2b.svg",
     "static/media/icon_dropdown.svg": "/sc-web/static/media/icon_dropdown.b985751c342d9aecb1f1.svg",
-    "main.7271ce38.css.map": "/sc-web/static/css/main.7271ce38.css.map",
-    "main.cb0b356c.js.map": "/sc-web/static/js/main.cb0b356c.js.map",
+    "main.8e853006.css.map": "/sc-web/static/css/main.8e853006.css.map",
+    "main.e850745f.js.map": "/sc-web/static/js/main.e850745f.js.map",
     "651.6ffd4466.chunk.css.map": "/sc-web/static/css/651.6ffd4466.chunk.css.map",
     "651.4e52c326.chunk.js.map": "/sc-web/static/js/651.4e52c326.chunk.js.map",
     "121.6ffd4466.chunk.css.map": "/sc-web/static/css/121.6ffd4466.chunk.css.map",
@@ -227,7 +228,7 @@
     "787.929c83ca.chunk.js.map": "/sc-web/static/js/787.929c83ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7271ce38.css",
-    "static/js/main.cb0b356c.js"
+    "static/css/main.8e853006.css",
+    "static/js/main.e850745f.js"
   ]
 }
