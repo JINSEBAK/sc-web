@@ -13,7 +13,9 @@ import {
   SmartProjects,
   SloganBanner,
   Clients,
-  LinkItems
+  LinkItems,
+  BigdataContainer,
+  SmartFitContainer
 } from "./Items";
 import classNames from "classnames";
 
@@ -26,10 +28,10 @@ const MainContainer = () => {
             content="AI와 데이터, 그리고 통합의 힘으로<br>비즈니스에 스마트를 더하다."
             color="reverse"
           />
-          {/* <video autoPlay muted loop playsInline className={styles.video}>
+          <video autoPlay muted loop playsInline className={styles.video}>
             <source src={MainVisualVideo} type="video/mp4" />
             Your browser does not support the video tag.
-          </video> */}
+          </video>
           <div className={styles["video-bg"]}></div>
         </MainVisual>
       </ContentBox>
@@ -43,7 +45,7 @@ const MainContainer = () => {
         </ContentInner>
       </ContentBox>
       <ContentBox isFull={true}>
-        <ContentInner>
+        <ContentInner gap={{ top: "109px", bottom: "109px" }}>
           <MiddleTitle
             content="AI Solution"
             description="기업의 비즈니스 모델과 산업 특성을 분석하여<br>최적의 AI 도입 전략을 제안하고 개발합니다."
@@ -54,16 +56,18 @@ const MainContainer = () => {
       </ContentBox>
       <ContentBox isFull={true}>
         <ContentInner>
-          <MiddleTitle
-            content="Bigdata"
-            description="데이터의 수집, 저장, 분석, 시각화, 예측까지<br>안정적이고 유기적으로 데이터를 운영합니다."
-            color="reverse"
-          />
-          <Bigdata />
+          <BigdataContainer>
+            <MiddleTitle
+              content="Bigdata"
+              description="데이터의 수집, 저장, 분석, 시각화, 예측까지<br>안정적이고 유기적으로 데이터를 운영합니다."
+              color="reverse"
+            />
+            <Bigdata />
+          </BigdataContainer>
         </ContentInner>
       </ContentBox>
       <ContentBox isFull={true} mode={"light"}>
-        <ContentInner gap={{ top: "88px" }}>
+        <SmartFitContainer>
           <MiddleTitle
             content="Smart Fit System"
             description="기업의 비즈니스 모델과 산업 특성을 분석하여<br>최적의 AI 도입 전략을 제안하고 개발합니다."
@@ -71,7 +75,7 @@ const MainContainer = () => {
           />
           <SmartProjects />
           <SloganBanner />
-        </ContentInner>
+        </SmartFitContainer>
       </ContentBox>
       <ContentBox isFull={true}>
         <LinkItems />

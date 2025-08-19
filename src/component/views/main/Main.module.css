@@ -1,5 +1,6 @@
 .container.main {
   background-color: var(--color-bg-01);
+  padding-bottom: 100px;
 }
 
 .main-visual {
@@ -46,7 +47,6 @@
 }
 
 .inner-txt {
-  border: 1px dashed blue;
   font-size: 4.375rem;
   line-height: 4.75rem;
   font-weight: 700;
@@ -57,23 +57,26 @@
 .swiper {
   width: 1240px;
   margin: 50px auto;
+  position: relative;
 }
 
 /* aisolution */
 .sw {
   padding: 4.375rem;
   border-radius: 10px;
-  background-blend-mode: multiply;
-  background: linear-gradient(
-    100.86deg,
-    rgba(0, 5, 88, 0.7) 0.45%,
-    rgba(0, 101, 124, 0.7) 100%
-  );
-  background: linear-gradient(
-    270deg,
-    rgba(32, 215, 231, 0) 15.29%,
-    rgba(33, 19, 128, 0.7) 70.03%
-  );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sw.sw-1 {
+  background-image: url(../../../assets/imgs/main_swiper_01.png);
+}
+.sw.sw-2 {
+  background-image: url(../../../assets/imgs/main_swiper_02.png);
+}
+.sw.sw-3 {
+  background-image: url(../../../assets/imgs/main_swiper_03.png);
 }
 
 .sw .title {
@@ -116,6 +119,15 @@
 }
 
 /* bigdata */
+.b-container {
+  background: url(../../../assets/imgs/bg_main_02.png) center no-repeat;
+  background-size: cover;
+  height: 975px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .bgd {
   display: flex;
   flex-wrap: wrap;
@@ -143,8 +155,14 @@
   margin-top: 1.5rem;
 }
 
+.s-fit {
+  padding-top: 1px;
+}
+
 .smp {
-  background-color: #121a5d;
+  background: url(../../../assets/imgs/bg_main_banner_02.png) center no-repeat;
+  background-size: cover;
+  min-height: 497px;
   padding: 133px 0;
   margin-top: 3rem;
 }
@@ -229,6 +247,7 @@
 }
 
 .links .link {
+  cursor: pointer;
   flex: 1;
   color: var(--color-white);
   text-align: center;
@@ -238,7 +257,14 @@
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
-  border: 1px dashed rgba(255, 255, 255, 0.5);
+}
+
+.links .link:first-of-type {
+  background-image: url(../../../assets/imgs/img_main_banner01.png);
+}
+
+.links .link:last-of-type {
+  background-image: url(../../../assets/imgs/img_main_banner02.png);
 }
 
 .links .link strong {
@@ -250,4 +276,31 @@
 .links .link p {
   font-size: 1rem;
   line-height: 1.325rem;
+}
+
+.b-next,
+.b-prev {
+  width: 3.75rem;
+  height: 3.75rem;
+  background-color: var(--color-opacity-black-50);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 15px auto;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  cursor: pointer;
+  position: absolute;
+  z-index: 500;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.b-prev {
+  left: 10px;
+  background-image: url(../../../assets/imgs/icon_swiper_left_w.svg);
+}
+
+.b-next {
+  right: 10px;
+  background-image: url(../../../assets/imgs/icon_swiper_right_w.svg);
 }

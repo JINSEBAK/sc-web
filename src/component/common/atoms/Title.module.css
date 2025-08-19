@@ -53,6 +53,10 @@
   color: var(--color-white);
 }
 
+.container .reverse .des {
+  color: var(--color-gray-10);
+}
+
 .container .dynamic {
   color: var(--color-blue-700);
 }

@@ -7,11 +7,12 @@ import classNames from "classnames";
 import { useTranslation } from "react-i18next";
 
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 
 import { getListWork } from "lib/api";
-import { useEffect, useState } from "react";
+import { Fragment, useEffect, useRef, useState } from "react";
 
 export const CenterContent = ({ children }) => {
   return <div className={styles["cnt-cont"]}>{children}</div>;
@@ -24,18 +25,35 @@ export const MainVisual = ({ children }) => {
 export const AiSolutionSwiper = () => {
   const { t } = useTranslation("main");
   const aiSolutions = t(`aiSolutions`, { returnObjects: true });
+
+  const prevRef = useRef(null);
+  const nextRef = useRef(null);
+
   return (
     <div className={classNames(styles.swiper, styles.dark)}>
       <Swiper
-        navigation={true}
+        modules={[Navigation, Autoplay]}
         spaceBetween={50}
         slidesPerView={1}
-        onSlideChange={() => {}}
-        onSwiper={() => {}}
+        loop={true}
+        autoplay={{ delay: 2500, disableOnInteraction: false }}
+        onBeforeInit={(swiper) => {
+          if (typeof swiper.params.navigation !== "boolean") {
+            const navigation = swiper.params.navigation;
+            navigation.prevEl = prevRef.current;
+            navigation.nextEl = nextRef.current;
+          }
+        }}
       >
         {aiSolutions.map((slide, index) => (
           <SwiperSlide key={`aiso-${index}`} virtualIndex={index}>
-            <div className={classNames(styles.sw, styles.sld)}>
+            <div
+              className={classNames(
+                styles.sw,
+                styles.sld,
+                styles[`sw-${index + 1}`]
+              )}
+            >
               <div
                 className={styles.title}
                 dangerouslySetInnerHTML={{ __html: slide.title }}
@@ -46,20 +64,27 @@ export const AiSolutionSwiper = () => {
               />
               <div className={styles.badges}>
                 {slide.items.map((item, idx) => (
-                  <>
+                  <Fragment key={`ai-solution-badget-${idx}`}>
                     <span key={`badge-${idx}`} className={styles.badge}>
                       {item}
                     </span>
                     {idx === 4 && <span className={styles.break} />}
-                  </>
+                  </Fragment>
                 ))}
               </div>
             </div>
           </SwiperSlide>
         ))}
       </Swiper>
+      {/* swiper custom button */}
+      <button type="button" ref={prevRef} className={styles["b-prev"]} />
+      <button type="button" ref={nextRef} className={styles["b-next"]} />
     </div>
   );
+};
+
+export const BigdataContainer = ({ children }) => {
+  return <div className={styles["b-container"]}>{children}</div>;
 };
 
 export const Bigdata = () => {
@@ -70,7 +95,7 @@ export const Bigdata = () => {
       <Swiper slidesPerView={"auto"} spaceBetween={16}>
         {bigdatas.map((item, index) => (
           <SwiperSlide
-            key={item}
+            key={`big-data-${index}`}
             virtualIndex={index}
             style={{ width: "480px" }}
           >
@@ -103,7 +128,7 @@ export const SmartProjects = () => {
       searchSorting: "workDts",
       searchOrder: "desc",
       page: 1,
-      pageSize: 5
+      pageSize: 10
     };
     const response = await getListWork(params);
     if (response.resultCode === "SUCCESS") {
@@ -132,6 +157,10 @@ export const SmartProjects = () => {
   );
 };
 
+export const SmartFitContainer = ({ children }) => {
+  return <div className={styles["s-fit"]}>{children}</div>;
+};
+
 export const SloganBanner = () => {
   const { t } = useTranslation("main");
   const slogan = t("slogan");
@@ -150,6 +179,7 @@ export const Clients = () => {
   return (
     <div className={styles["clients-container"]}>
       <Swiper
+        modules={[Autoplay]}
         className={styles.clients}
         spaceBetween={24}
         slidesPerView={"auto"}
@@ -159,7 +189,7 @@ export const Clients = () => {
           return (
             <SwiperSlide key={`client-${index}`} className={styles.client}>
               <ImageItem
-                imgFile={`clients/${client.img}`}
+                imgFile={client.img}
                 alt={client.name}
                 className={styles["client-img"]}
               />
