@@ -52,6 +52,10 @@
   bottom: 0;
 }
 
+.container .inner .hd {
+  position: relative;
+}
+
 .container.chata .inner::after {
   background-color: var(--color-gray-00);
 }
