@@ -147,37 +147,43 @@ export const FederatedProcess = () => {
             </Fragment>
           ))}
         </div>
-        <div className={classNames(styles.row, styles.final)}>
-          <ImageItem imgFile={"img_arrow_down_w.svg"} />
-          <div className={styles.step}>
-            <ImageItem imgFile={"img_process_05.png"} />
-            <div>
-              <strong
-                className={styles.tit}
-                dangerouslySetInnerHTML={{ __html: federProcess.step3.action }}
-              />
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: federProcess.step3.description
-                }}
-              />
+        <div className={styles.fed}>
+          <div className={classNames(styles.row, styles.final)}>
+            <ImageItem imgFile={"img_arrow_down_w.svg"} />
+            <div className={styles.step}>
+              <ImageItem imgFile={"img_process_05.png"} />
+              <div>
+                <strong
+                  className={styles.tit}
+                  dangerouslySetInnerHTML={{
+                    __html: federProcess.step3.action
+                  }}
+                />
+                <p
+                  dangerouslySetInnerHTML={{
+                    __html: federProcess.step3.description
+                  }}
+                />
+              </div>
             </div>
           </div>
-        </div>
-        <div className={classNames(styles.row, styles.final)}>
           <ImageItem imgFile={"img_arrow_right_w.svg"} />
-          <div className={styles.step}>
-            <ImageItem imgFile={"img_process_06.png"} />
-            <div>
-              <strong
-                className={styles.tit}
-                dangerouslySetInnerHTML={{ __html: federProcess.step4.action }}
-              />
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: federProcess.step4.description
-                }}
-              />
+          <div className={classNames(styles.row, styles.final)}>
+            <div className={styles.step}>
+              <ImageItem imgFile={"img_process_06.png"} />
+              <div>
+                <strong
+                  className={styles.tit}
+                  dangerouslySetInnerHTML={{
+                    __html: federProcess.step4.action
+                  }}
+                />
+                <p
+                  dangerouslySetInnerHTML={{
+                    __html: federProcess.step4.description
+                  }}
+                />
+              </div>
             </div>
           </div>
         </div>

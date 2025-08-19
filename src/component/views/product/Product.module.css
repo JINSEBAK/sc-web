@@ -175,6 +175,23 @@
   margin-top: 0.5rem;
 }
 
+.process .fed {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.process .fed .final .step {
+  gap: 1.5rem;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.process .fed .final:last-of-type {
+  padding-top: 3.5rem;
+}
+
 .needs {
   display: flex;
   flex-wrap: wrap;
