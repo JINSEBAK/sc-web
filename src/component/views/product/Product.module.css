@@ -3,6 +3,11 @@
   color: var(--color-white);
 }
 
+.container.light {
+  background-color: var(--color-gray-00);
+  color: var(--color-black);
+}
+
 .light {
   background-color: var(--color-blue-30);
   padding: 1px 0 100px;
@@ -358,7 +363,10 @@
 }
 
 .talk {
+  padding: 100px 0;
   text-align: center;
+  background-color: var(--color-white);
+  margin-bottom: 100px;
 }
 
 .talk img {
@@ -391,9 +399,20 @@
   width: 300px;
   min-height: 560px;
   border-radius: 36px;
+  padding: 0.5rem;
   border: 2px solid var(--color-gray-30);
   background-color: var(--color-gray-00);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.device .inner {
+  overflow: hidden;
+  border-radius: 28px;
+}
+
+.device img {
+  width: 100%;
+  height: auto;
 }
 
 .features {
@@ -430,4 +449,14 @@
   height: 470px;
   display: block;
   margin: 0 auto;
+}
+
+.typing {
+  width: var(--container-max-width);
+  margin: 100px auto;
+  color: var(--color-gray-10);
+  font-weight: 900;
+  font-size: 10.625rem;
+  line-height: 11.25rem;
+  letter-spacing: -6.8px;
 }

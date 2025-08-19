@@ -7,8 +7,15 @@ import classNames from "classnames";
 import { useTranslation } from "react-i18next";
 import { Fragment } from "react";
 
-export const ProductContainer = ({ children }) => {
-  return <div className={styles.container}>{children}</div>;
+//  swiper
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper";
+import "swiper/css";
+
+export const ProductContainer = ({ bg = "dark", children }) => {
+  return (
+    <div className={classNames(styles.container, styles[bg])}>{children}</div>
+  );
 };
 
 export const DynamicText = ({ content }) => {
@@ -366,7 +373,21 @@ export const ChataSevices = () => {
         * 국내 SPC 그룹, HIZE 등에 해당 플랫폼이 사용되고 있으며 해외는
         말레이시아 TiiS 메신저로 사용되었습니다
       </div>
-      <div className={styles.device}></div>
+      <div className={styles.device}>
+        <div className={styles.inner}>
+          <Swiper
+            modules={[Autoplay]}
+            slidesPerView={1}
+            autoplay={{ delay: 2500, disableOnInteraction: false }}
+          >
+            {Array.from({ length: 5 }).map((_, index) => (
+              <SwiperSlide key={`chata-slide-${index}`}>
+                <ImageItem imgFile={`img_chata_0${index + 1}.png`} />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
+      </div>
       <div className={styles.features}>
         {items.map((item, index) => (
           <div
@@ -378,4 +399,8 @@ export const ChataSevices = () => {
       </div>
     </div>
   );
+};
+
+export const BigTypingText = ({ content }) => {
+  return <div className={styles.typing}>{content}</div>;
 };

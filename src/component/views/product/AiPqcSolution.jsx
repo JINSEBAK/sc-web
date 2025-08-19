@@ -11,7 +11,7 @@ import {
 
 const AiPqcSolution = () => {
   return (
-    <ProductContainer>
+    <ProductContainer bg={"light"}>
       <PageVisualization
         category="AI기반 제품 품질 관리 솔루션"
         title="AI PQC Solution"

@@ -3,18 +3,34 @@ import styles from "./Product.module.css";
 import PageVisualization from "component/common/molecules/PageVisualization";
 import MiddleTitle from "component/common/atoms/MiddleTitle";
 import ImageItem from "component/common/atoms/ImageItem";
-import { ContentBox, ContentInner } from "component/common/atoms/Containers";
-import { InquiryItem, ChataSevices } from "./Items";
+import { ContentBox } from "component/common/atoms/Containers";
+import {
+  InquiryItem,
+  ChataSevices,
+  BigTypingText,
+  ProductContainer
+} from "./Items";
 
 const ChataSolution = () => {
   return (
-    <>
+    <ProductContainer bg={"light"}>
       <PageVisualization
         category="스마트 커뮤니케이션 메신저"
         title="CHATA SOLUTION"
         description="소통의 새로운 기준, AI로 진화한 메신저."
+        visual="chata"
       />
-
+      <ContentBox isFull={true}>
+        <BigTypingText
+          content={
+            <>
+              누구나,언제나, 함께
+              <br />
+              AI기반 커뮤니케이션 메신저
+            </>
+          }
+        />
+      </ContentBox>
       <ContentBox isFull={true}>
         <div className={styles.chata}>
           <MiddleTitle
@@ -28,20 +44,18 @@ const ChataSolution = () => {
         </div>
       </ContentBox>
       <ContentBox isFull={true}></ContentBox>
-      <ContentBox>
-        <ContentInner gap={{ top: "100px", bottom: "100px" }}>
-          <div className={styles.talk}>
-            <h3>
-              TALK <span>AI</span>
-            </h3>
-            <ImageItem imgFile={"chart_chata.png"} alt="Chata Architeture" />
-          </div>
-        </ContentInner>
+      <ContentBox isFull={true}>
+        <div className={styles.talk}>
+          <h3>
+            TALK <span>AI</span>
+          </h3>
+          <ImageItem imgFile={"chart_chata.png"} alt="Chata Architeture" />
+        </div>
       </ContentBox>
       <ContentBox isFull={true}>
         <InquiryItem />
       </ContentBox>
-    </>
+    </ProductContainer>
   );
 };
 

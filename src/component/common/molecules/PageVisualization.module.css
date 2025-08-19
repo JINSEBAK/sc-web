@@ -22,6 +22,14 @@
   background-image: url(../../../assets/imgs/bg_ai_midas.png);
 }
 
+.container.care-on {
+  background-image: url(../../../assets/imgs/bg_care_on.png);
+}
+
+.container.chata {
+  background-image: url(../../../assets/imgs/bg_chata.png);
+}
+
 .container .inner {
   width: var(--container-max-width);
   height: 100%;
@@ -35,9 +43,13 @@
   display: block;
   width: 100%;
   height: 100px;
-  background-color: #fff;
+  background-color: var(--color-white);
   position: absolute;
   bottom: 0;
+}
+
+.container.chata .inner::after {
+  background-color: var(--color-gray-00);
 }
 
 .container.prdt .inner::after {
