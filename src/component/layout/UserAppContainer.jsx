@@ -1,7 +1,7 @@
 // components
 import GlobalNavigation from "component/common/Navigation/GlobalNavigation";
+import ImageItem from "component/common/atoms/ImageItem";
 import Footer from "../common/Footer";
-import { FloatingButtons } from "component/common/Items";
 
 import { useEffect, useState, useLayoutEffect } from "react";
 import { useRef } from "react";
@@ -9,6 +9,7 @@ import { useLocation, Outlet } from "react-router-dom";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import classNames from "classnames";
 
 const UserAppContainer = () => {
   //
@@ -55,14 +56,6 @@ const UserAppContainer = () => {
     window.addEventListener("scroll", onScroll);
   }, []);
 
-  const getLocationName = () => {
-    if (location.pathname.indexOf("/") > -1) {
-      return location.pathname.split("/")[1];
-    } else {
-      return location.pathname;
-    }
-  };
-
   const onClickTop = () => {
     if (!scrollRef.current) return;
     scrollRef.current.scrollIntoView({ block: "start", behavior: "smooth" });
@@ -71,7 +64,14 @@ const UserAppContainer = () => {
   return (
     <div ref={scrollRef}>
       <>
-        <GlobalNavigation />
+        <button
+          type="button"
+          className={classNames("btn-top", { show: scrolled })}
+          onClick={onClickTop}
+        >
+          <ImageItem imgFile="icon_top.svg" />
+        </button>
+        <GlobalNavigation isHidden={scrolled} />
         <div className="">
           <Outlet context={{ setScrolled }} />
         </div>

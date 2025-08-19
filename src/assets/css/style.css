@@ -409,6 +409,25 @@ input.date {
   margin: auto;
 }
 
+.btn-top {
+  position: fixed;
+  bottom: 50px;
+  right: 100px;
+  width: 60px;
+  height: 60px;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.44);
+  border-radius: 50%;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: 0.3s all;
+  visibility: hidden;
+}
+
+.btn-top.show {
+  visibility: visible;
+}
+
 @media (max-width: 1280px) {
   .swiper-pagination-vertical.swiper-pagination-bullets {
     right: 40px;

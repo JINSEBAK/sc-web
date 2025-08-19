@@ -49,7 +49,7 @@ const Footer = ({ isScrolled = false }) => {
     <>
       <div className={styles.footer}>
         <div className={styles.inner}>
-          {isScrolled && (
+          {/* {isScrolled && (
             <button
               type="button"
               className={styles["btn-top"]}
@@ -57,7 +57,7 @@ const Footer = ({ isScrolled = false }) => {
             >
               <ImageItem imgFile="icon_top.svg" />
             </button>
-          )}
+          )} */}
           <div className={styles.info}>
             <div className={styles.logo}>
               <img src={LogoImage} alt="SmartCore Footer LOGO" />

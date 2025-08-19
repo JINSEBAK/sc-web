@@ -25,6 +25,7 @@ const MainContainer = () => {
       <ContentBox isFull={true}>
         <MainVisual>
           <MiddleTitle
+            category="AI로 만드는 미래"
             content="AI와 데이터, 그리고 통합의 힘으로<br>비즈니스에 스마트를 더하다."
             color="reverse"
           />

@@ -10,11 +10,13 @@ const MiddleTitle = ({
   description,
   align = "center",
   size = "medium",
-  color = "default" // default(black), reverse(white), dynamic, static
+  color = "default", // default(black), reverse(white), dynamic, static
+  category
 }) => {
   return (
     <div className={classNames(styles.container)}>
       <div className={classNames(styles[size], styles[align], styles[color])}>
+        {category && <span className={styles.ctg}>{category}</span>}
         {typeof content === "string" ? (
           <div dangerouslySetInnerHTML={{ __html: content }} />
         ) : (

@@ -32,18 +32,21 @@ const NaviItem = ({ path, title, isActive, children = [] }) => {
   );
 };
 
-const GlobalNavigation = () => {
+const GlobalNavigation = ({ isHidden }) => {
   //
   const [isOn, setIsOn] = useState(false);
 
   return (
     <header
-      className={classNames(styles.header, { [styles.on]: isOn })}
+      className={classNames(styles.header, {
+        [styles.on]: isOn,
+        [styles.hide]: isHidden
+      })}
       onMouseOver={() => setIsOn(true)}
       onMouseLeave={() => setIsOn(false)}
     >
       <div className={styles.inner}>
-        <Link to="/ai" className={styles.logo}>
+        <Link to="/" className={styles.logo}>
           <img src={LogoImg} alt="SmartCore" />
         </Link>
         <nav onMouseOver={() => setIsOn(true)}>
