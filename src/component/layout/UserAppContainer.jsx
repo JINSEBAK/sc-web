@@ -14,7 +14,6 @@ import classNames from "classnames";
 const UserAppContainer = () => {
   //
   const [scrolled, setScrolled] = useState(false);
-  const [topButton, setTopButton] = useState(false);
 
   const scrollRef = useRef(null);
   const location = useLocation();
@@ -28,27 +27,18 @@ const UserAppContainer = () => {
   useLayoutEffect(() => {
     // 최상단으로 이동
     onClickTop();
-
     // 스크롤 시 발생하는 이벤트 관련 state 초기화
     setScrolled(false);
-    setTopButton(false);
   }, [location.pathname]);
 
   useEffect(() => {
     if (!scrollRef.current) return;
 
-    const pageHeight = window.innerHeight;
-
     const onScroll = () => {
       const scrollTop = scrollRef?.current.getBoundingClientRect().top;
       if (scrollTop < -100) {
-        // header > logo, menu button sticky
+        // 헤더 및 TOP BUTTON 동작
         setScrolled(true);
-        if (Math.abs(scrollTop) > pageHeight / 2) {
-          setTopButton(true);
-        } else {
-          setTopButton(false);
-        }
       } else {
         setScrolled(false);
       }

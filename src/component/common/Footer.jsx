@@ -6,16 +6,7 @@ import SplitBar from "./atoms/SplitBar";
 import Button from "./atoms/Button";
 
 import { Link } from "react-router-dom";
-
 import { useTranslation } from "react-i18next";
-import { NavLink } from "react-router-dom";
-
-import styled from "styled-components";
-import GraphicObject from "../common/GraphicObject";
-
-// datas
-import { CompanyInfoKeys } from "../../datas/constant";
-import ImageItem from "./atoms/ImageItem";
 
 const Footer = ({ isScrolled = false }) => {
   //
@@ -37,27 +28,10 @@ const Footer = ({ isScrolled = false }) => {
     }
   };
 
-  // 클릭 시 스크롤 상단으로 이동
-  const onSroll = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth"
-    });
-  };
-
   return (
     <>
       <div className={styles.footer}>
         <div className={styles.inner}>
-          {/* {isScrolled && (
-            <button
-              type="button"
-              className={styles["btn-top"]}
-              onClick={onSroll}
-            >
-              <ImageItem imgFile="icon_top.svg" />
-            </button>
-          )} */}
           <div className={styles.info}>
             <div className={styles.logo}>
               <img src={LogoImage} alt="SmartCore Footer LOGO" />
