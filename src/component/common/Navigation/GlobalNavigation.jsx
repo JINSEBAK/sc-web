@@ -1,11 +1,10 @@
 // css
 import styles from "./Gnb.module.css";
-
 //
 import MenuItem from "../molecules/MenuItem";
 import LangItem from "../molecules/LangItem";
-
 import LogoImg from "assets/imgs/logo_head_w.svg";
+
 import { GnbItems } from "../../../datas/constant";
 
 import { Link } from "react-router-dom";
@@ -15,13 +14,13 @@ import { useState } from "react";
 const NaviItem = ({ path, title, isActive, children = [] }) => {
   return (
     <li className={styles["top-dep"]}>
-      <span
+      <div
         className={classNames(styles["dep-1"], {
-          [styles.active]: isActive,
+          [styles.active]: isActive
         })}
       >
         {title}
-      </span>
+      </div>
       <ul className={styles["sub-dep"]}>
         {children.map((child, idx) => (
           <li className={styles["dep-2"]} key={`sub-dep-${idx}`}>
@@ -40,6 +39,7 @@ const GlobalNavigation = () => {
   return (
     <header
       className={classNames(styles.header, { [styles.on]: isOn })}
+      onMouseOver={() => setIsOn(true)}
       onMouseLeave={() => setIsOn(false)}
     >
       <div className={styles.inner}>
