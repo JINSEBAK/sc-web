@@ -49,6 +49,7 @@ const AboutContainer = () => {
         category="회사소개"
         title="Company"
         description="기술로 더 나은 미래를 만들다."
+        visual="company"
       >
         <Tabs
           items={TAB_ITEMS}

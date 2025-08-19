@@ -53,7 +53,11 @@ const TabFirstContent = () => {
         />
         <FlexContainer gap={24} wrappable={true} align={"center"}>
           {Array.from({ length: 6 }, (_, index) => (
-            <PatentItem key={`patent-${index}`} name={index} imgFile={index} />
+            <PatentItem
+              key={`patent-${index}`}
+              name={index}
+              imgFile={`img_patent_0${index + 1}.png`}
+            />
           ))}
         </FlexContainer>
       </ContentBox>
@@ -68,7 +72,7 @@ const TabFirstContent = () => {
             <ClientItem
               key={`client-${index}`}
               name={client.name}
-              imgFile={client.imgFile}
+              imgFile={client.img}
             />
           ))}
         </FlexContainer>

@@ -30,6 +30,10 @@
   background-image: url(../../../assets/imgs/bg_chata.png);
 }
 
+.container.company {
+  background-image: url(../../../assets/imgs/bg_company.png);
+}
+
 .container .inner {
   width: var(--container-max-width);
   height: 100%;
