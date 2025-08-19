@@ -1,3 +1,7 @@
+.big-data {
+  background: url(../../../assets/imgs/bg_big01.png) center 1120px no-repeat;
+  background-size: 100% auto;
+}
 .feature {
   border: 1px solid #111f7a;
   border-radius: 80px;
@@ -11,7 +15,6 @@
 }
 
 .feature.benefit {
-  /* background-color: #111f7a; */
   background: linear-gradient(180deg, #0f0c29 0%, #302b63 47.12%, #24243e 100%);
   color: #fff;
   font-size: 24px;

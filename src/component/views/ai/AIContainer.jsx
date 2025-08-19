@@ -1,3 +1,4 @@
+import styles from "./AI.module.css";
 // components
 import Tabs from "component/common/atoms/Tabs";
 import PageTitle from "component/common/atoms/PageTitle";
@@ -42,11 +43,12 @@ const AIContainer = () => {
   };
 
   return (
-    <>
+    <div className={styles["ai-w"]}>
       <PageVisualization
         category="스마트코어 기술"
         title="AI Solution"
         description="AI의 무한한 잠재력을 담다"
+        visual="ai"
       />
       <PageTitle title="스마트코어 AI" emphasize="최적화된">
         <div style={{ textAlign: "center" }}>
@@ -68,7 +70,7 @@ const AIContainer = () => {
           <LazyComponent />
         </Suspense>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -6,6 +6,14 @@
   background-size: cover;
 }
 
+.container.ai {
+  background-image: url(../../../assets/imgs/bg_ai.png);
+}
+
+.container.big-data {
+  background-image: url(../../../assets/imgs/bg_big_data.png);
+}
+
 .container.smart-fit {
   background-image: url(../../../assets/imgs/bg_smart_fit.png);
 }

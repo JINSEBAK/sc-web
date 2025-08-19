@@ -7,6 +7,11 @@
   padding: 0 70px;
 }
 
+.ai-w {
+  background: url(../../../assets/imgs/bg_big01.png) center 1120px no-repeat;
+  background-size: 100% auto;
+}
+
 .ai {
   background-color: rgba(20, 24, 52, 0.5);
   background: url(../../../assets/imgs/img_ai_bg_banner.png) center no-repeat;
