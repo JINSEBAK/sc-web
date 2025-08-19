@@ -34,6 +34,10 @@
   background-image: url(../../../assets/imgs/bg_company.png);
 }
 
+.container.recruit {
+  background-image: url(../../../assets/imgs/bg_recruit.png);
+}
+
 .container .inner {
   width: var(--container-max-width);
   height: 100%;

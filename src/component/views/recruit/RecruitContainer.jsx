@@ -24,6 +24,7 @@ const RecruitContainer = () => {
         category="채용정보"
         title="Recruitment"
         description="당신의 가능성이, 우리의 미래가 됩니다."
+        visual="recruit"
       />
       <div className={styles.container}>
         <ContentBox>
@@ -136,7 +137,7 @@ const RecruitContainer = () => {
                     />
                     {skill.details.scope?.map((scope, idx) => (
                       <React.Fragment key={`scope-${idx}`}>
-                        <dt>{scope.part}</dt>
+                        <dt className={styles.chips}>{scope.part}</dt>
                         <dd
                           dangerouslySetInnerHTML={{ __html: scope.contents }}
                         />
