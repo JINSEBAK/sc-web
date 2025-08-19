@@ -18,6 +18,10 @@
   background-image: url(../../../assets/imgs/bg_blockchain.png);
 }
 
+.container.ai-midas {
+  background-image: url(../../../assets/imgs/bg_ai_midas.png);
+}
+
 .container .inner {
   width: var(--container-max-width);
   height: 100%;

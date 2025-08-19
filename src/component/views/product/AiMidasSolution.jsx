@@ -20,6 +20,7 @@ const AiMidasSolution = () => {
         title="AI-MiDAS SOLUTION"
         description="MiDAS가 만드는<br>더 빠르고 똑똑한 재난 대응"
         position="product"
+        visual="ai-midas"
       />
       <ContentBox>
         <DynamicText
@@ -46,14 +47,15 @@ const AiMidasSolution = () => {
         </ContentInner>
       </ContentBox>
       <ContentBox>
-        <MiddleTitle
-          content="AI-MiDAS SOLUTION 장점"
-          color="reverse"
-          size="small"
-        />
-        <MeritsOfAimidas />
+        <ContentInner gap={{ top: "100px", bottom: "100px" }}>
+          <MiddleTitle
+            content="AI-MiDAS SOLUTION 장점"
+            color="reverse"
+            size="small"
+          />
+          <MeritsOfAimidas />
+        </ContentInner>
       </ContentBox>
-
       <ContentBox isFull={true}>
         <InquiryItem />
       </ContentBox>
