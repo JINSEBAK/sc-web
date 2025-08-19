@@ -120,12 +120,31 @@
 
 /* bigdata */
 .b-container {
-  background: url(../../../assets/imgs/bg_main_02.png) center no-repeat;
+  /* background: url(../../../assets/imgs/bg_main_02.png) center no-repeat; */
   background-size: cover;
   height: 975px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
+}
+
+.b-container::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background: linear-gradient(
+    180deg,
+    rgba(15, 8, 52, 0.9) 0%,
+    rgba(25, 34, 126, 0.54) 20%,
+    rgba(25, 34, 126, 0.54) 80%,
+    rgba(15, 8, 52, 0.9) 100%
+  );
 }
 
 .bgd {

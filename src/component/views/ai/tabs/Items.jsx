@@ -4,6 +4,7 @@ import React from "react";
 import classNames from "classnames";
 
 import ChevronRight from "assets/imgs/icon_chevron_r_dot.svg";
+import { useNavigate } from "react-router-dom";
 
 export const InnerItem = ({ gap = {}, children }) => {
   const style = {
@@ -55,9 +56,18 @@ export const FeatureItem = ({ text, type }) => {
   );
 };
 
-export const ProductItem = ({ title, type = "solution", description }) => {
+export const ProductItem = ({
+  title,
+  type = "solution",
+  description,
+  targetLink
+}) => {
+  const navigate = useNavigate();
+  const onClickItem = () => {
+    navigate(targetLink);
+  };
   return (
-    <div className={styles.product}>
+    <div className={styles.product} onClick={onClickItem}>
       <div>
         <div className={styles.tit}>
           <span>{title}</span>

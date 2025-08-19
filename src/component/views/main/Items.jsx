@@ -92,7 +92,12 @@ export const Bigdata = () => {
   const bigdatas = t(`bigdata`, { returnObjects: true });
   return (
     <div className={classNames(styles.swiper, styles.dark)}>
-      <Swiper slidesPerView={"auto"} spaceBetween={16}>
+      <Swiper
+        modules={[Autoplay]}
+        spaceBetween={16}
+        slidesPerView={"auto"}
+        autoplay={{ delay: 2500 }}
+      >
         {bigdatas.map((item, index) => (
           <SwiperSlide
             key={`big-data-${index}`}

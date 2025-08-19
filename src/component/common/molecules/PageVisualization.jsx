@@ -18,10 +18,14 @@ const PageVisualization = ({
     >
       <div className={styles.inner}>
         <div className={styles.hd}>
-          <div className={styles.ctg}>{category}</div>
+          <div className={styles.ctg} data-aos="fade-down">
+            {category}
+          </div>
           <h1
             className={styles["main-tit"]}
             dangerouslySetInnerHTML={{ __html: title }}
+            data-aos="fade-up"
+            data-aos-delay="500"
           />
           {children && <>{children}</>}
         </div>
@@ -29,6 +33,8 @@ const PageVisualization = ({
           <div
             className={styles.slogan}
             dangerouslySetInnerHTML={{ __html: description }}
+            data-aos="fade-up"
+            data-aos-delay="900"
           />
         )}
         {/* <div className={styles.name}>SMARTCORE</div> */}

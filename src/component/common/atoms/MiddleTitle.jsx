@@ -13,7 +13,6 @@ const MiddleTitle = ({
   color = "default", // default(black), reverse(white), dynamic, static
   category
 }) => {
-  useEffect(() => {}, []);
   return (
     <div className={classNames(styles.container)}>
       <div className={classNames(styles[size], styles[align], styles[color])}>

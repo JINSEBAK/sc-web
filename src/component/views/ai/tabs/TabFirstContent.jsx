@@ -120,16 +120,19 @@ const TabFirstContent = () => {
               title="AI-PQC"
               type="solution"
               description="AI기반 제품 품질관리 솔루션"
+              targetLink="/product/ai-pqc"
             />
             <ProductItem
               title="F@AI-PQC"
               type="solution"
               description="연합학습기반 플라스틱 사출성형 품질관리 솔루션"
+              targetLink="/product/fai-pqc"
             />
             <ProductItem
               title="F@AI BLOCKCHAIN"
               type="platform"
               description="보안성이 강화된 블록체인 플랫폼"
+              targetLink="/product/blockchain"
             />
           </FlexContainer>
         </InnerItem>

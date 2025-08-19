@@ -2,6 +2,7 @@ import styles from "./Main.module.css";
 
 // media
 import MainVisualVideo from "assets/media/main_visual.mp4";
+import MainVisualVideo2 from "assets/media/main_visual2.mp4";
 
 import MiddleTitle from "component/common/atoms/MiddleTitle";
 import { ContentBox, ContentInner } from "component/common/atoms/Containers";
@@ -64,6 +65,11 @@ const MainContainer = () => {
               color="reverse"
             />
             <Bigdata />
+            <video autoPlay muted loop playsInline className={styles.video}>
+              <source src={MainVisualVideo2} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <div className={styles["video-bg"]}></div>
           </BigdataContainer>
         </ContentInner>
       </ContentBox>
