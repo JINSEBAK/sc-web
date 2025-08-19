@@ -38,6 +38,10 @@
   background-image: url(../../../assets/imgs/bg_recruit.png);
 }
 
+.container.inquiry {
+  background-image: url(../../../assets/imgs/bg_inquiry.png);
+}
+
 .container .inner {
   width: var(--container-max-width);
   height: 100%;

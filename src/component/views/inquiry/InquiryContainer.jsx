@@ -9,12 +9,12 @@ import { lazy, Suspense, useState } from "react";
 
 const TAB_ITEMS = [
   { label: "Smart Fit System", title: "프로젝트 문의", value: "tab1" },
-  { label: "AI Solution", title: "AI 컨설팅", value: "tab2" },
+  { label: "AI Solution", title: "AI 컨설팅", value: "tab2" }
 ];
 
 const tabMap = {
   tab1: () => import("./tabs/TabFirstContent"),
-  tab2: () => import("./tabs/TabSecondContent"),
+  tab2: () => import("./tabs/TabSecondContent")
 };
 
 const InquiryContainer = () => {
@@ -35,6 +35,7 @@ const InquiryContainer = () => {
         category="고객지원"
         title="Customer Support"
         description="사용자 경험과 운영 효율성을 고려한<br>풀스택 외주 개발로 비즈니스 가치를 더하다."
+        visual="inquiry"
       />
       <PageTitle emphasize="비지니스에 필요한 기술 파트너" title="스마트코어">
         <>
