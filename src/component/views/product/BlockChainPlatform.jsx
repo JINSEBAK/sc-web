@@ -19,6 +19,7 @@ const BlockChainPlatform = () => {
         title="F@AI BLOKCHAIN<br>Platform"
         description="투명한 기록, 안전한 공유,<br>영속적인 검증으로 데이터 신뢰성 강화"
         position="product"
+        visual="block-chain"
       />
       <ContentBox>
         <Cooperations />

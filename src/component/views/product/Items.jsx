@@ -282,7 +282,9 @@ export const Cooperations = () => {
         {cooperations.map((c, index) => (
           <div className={styles.coop}>
             <p dangerouslySetInnerHTML={{ __html: c }} />
-            <div className={styles.chart}></div>
+            <div className={styles.chart}>
+              <ImageItem imgFile={`chart_bc_0${index + 1}.png`} />
+            </div>
           </div>
         ))}
       </FlexContainer>
