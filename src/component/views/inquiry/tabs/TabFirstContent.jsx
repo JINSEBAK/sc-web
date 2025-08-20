@@ -43,6 +43,15 @@ const TabFirstContent = () => {
 
   const { show } = usePopup();
 
+  const onChangeItem = (name, value) => {
+    console.log(name, value);
+    setDatas({ ...datas, [name]: value });
+  };
+
+  const onCheckedItem = (name, item) => {
+    console.log(name, item);
+  };
+
   const onSubmit = async () => {
     await show({
       title: "입력하신 내용으로<br>문의하시겠습니까?",
@@ -53,6 +62,7 @@ const TabFirstContent = () => {
   };
 
   const onConfirmCallback = async () => {
+    console.log(datas);
     const resp = await postInsertInq(datas);
     console.log(resp);
     if (resp.success) {
@@ -73,7 +83,7 @@ const TabFirstContent = () => {
                 key={`type-${index}`}
                 text={type}
                 value={type}
-                onChange={() => {}}
+                onChange={(item) => onCheckedItem("inqCd", item)}
               />
             ))}
           </FlexContainer>
@@ -105,13 +115,20 @@ const TabFirstContent = () => {
                 { text: "3~5개월", value: "3~5개월" },
                 { text: "6개월이상", value: "6개월이상" }
               ]}
+              onChange={(value) => onChangeItem("inqPeriod", value)}
             />
             <Datepicker
               label="착수 예정일"
               required={false}
               placeholder="착수 예정일 입력"
+              onChange={(value) => onChangeItem("inqScdDts", value)}
             />
-            <Textarea placeholder="프로젝트 상세 내용 입력" maxLength={5000} />
+            <Textarea
+              placeholder="프로젝트 상세 내용 입력"
+              name="inqCntt"
+              maxLength={5000}
+              onChange={onChangeItem}
+            />
             <FileUploader />
           </div>
         </FormItem>

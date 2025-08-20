@@ -4,11 +4,21 @@ import styles from "./Textarea.module.css";
 import { comma } from "../../../util/common";
 import { useState } from "react";
 
-const Textarea = ({ label, value, placeholder = "", maxLength = 500 }) => {
+const Textarea = ({
+  label,
+  value,
+  placeholder = "",
+  name = "",
+  maxLength = 500,
+  onChange
+}) => {
   const [text, setText] = useState("");
 
   const onInputText = (e) => {
     setText(e.target.value);
+    if (onChange) {
+      onChange(name, e.target.value);
+    }
   };
 
   return (
@@ -17,6 +27,7 @@ const Textarea = ({ label, value, placeholder = "", maxLength = 500 }) => {
       <textarea
         placeholder={placeholder}
         onInput={onInputText}
+        name={name}
         maxLength={maxLength}
       ></textarea>
       <div className={styles.counter}>

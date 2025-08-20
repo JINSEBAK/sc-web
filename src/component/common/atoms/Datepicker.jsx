@@ -18,8 +18,10 @@ const Datepicker = ({
   const datepickerRef = useRef(null);
 
   const onChangeDate = (date) => {
-    console.log(date);
     setSelected(date);
+    if (onChange) {
+      onChange(date);
+    }
   };
 
   useEffect(() => {
