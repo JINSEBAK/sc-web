@@ -5,6 +5,7 @@ import FlexContainer from "component/common/atoms/FlexContainer";
 import Textarea from "component/common/atoms/Textarea";
 import TextInput from "component/common/atoms/TextInput";
 import TermsAgree from "component/common/organisms/TermsAgree";
+import FileUploader from "component/common/molecules/FileUploader";
 import { ContentBox } from "component/common/atoms/Containers";
 import { FormItem, TypeCheck } from "../Items";
 
@@ -12,15 +13,26 @@ import Dropdown from "component/common/atoms/Dropdown";
 import Datepicker from "component/common/atoms/Datepicker";
 
 import { useTranslation } from "react-i18next";
+import { usePopup } from "hooks/usePopup";
 
 const TabFirstContent = () => {
   //
   const { t } = useTranslation("inquiry");
-
   const types = t(`types`, { returnObjects: true });
   const parts = t(`parts`, { returnObjects: true });
 
-  const onSubmit = () => {};
+  const { show } = usePopup();
+
+  const onSubmit = async () => {
+    await show({
+      title: "입력하신 내용으로<br>문의하시겠습니까?",
+      message: "",
+      onConfirm: onConfirmCallback
+    });
+  };
+
+  const onConfirmCallback = async () => {};
+
   return (
     <div className={styles.container}>
       <ContentBox>
@@ -69,7 +81,8 @@ const TabFirstContent = () => {
               required={false}
               placeholder="착수 예정일 입력"
             />
-            <Textarea placeholder="프로젝트 상세 내용 입력" />
+            <Textarea placeholder="프로젝트 상세 내용 입력" maxLength={5000} />
+            <FileUploader />
           </div>
         </FormItem>
         <FormItem title="담당자 정보" required={true} multiSelectable={false}>

@@ -1,6 +1,11 @@
-import classNames from "classnames";
 import styles from "./Datepicker.module.css";
+
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
+
 import { useEffect, useRef, useState } from "react";
+import classNames from "classnames";
+import ImageItem from "./ImageItem";
 
 const Datepicker = ({
   label,
@@ -9,24 +14,17 @@ const Datepicker = ({
   onChange
 }) => {
   const [open, setOpen] = useState(false);
-  const [selectItem, setSelectItem] = useState(null);
-  const dropdonwRef = useRef(null);
+  const [selected, setSelected] = useState(null);
+  const datepickerRef = useRef(null);
 
-  const onClickDropdown = () => {
-    setOpen((prev) => !prev);
-  };
-
-  const onSelect = (option) => {
-    setSelectItem(option);
-    setTimeout(() => setOpen(false), 0);
-    if (onChange) {
-      onChange(option.value);
-    }
+  const onChangeDate = (date) => {
+    console.log(date);
+    setSelected(date);
   };
 
   useEffect(() => {
     const onClickOutside = (e) => {
-      if (dropdonwRef.current && !dropdonwRef.current.contains(e.target)) {
+      if (datepickerRef.current && !datepickerRef.current.contains(e.target)) {
         setOpen(false);
       }
     };
@@ -36,9 +34,8 @@ const Datepicker = ({
 
   return (
     <div
-      ref={dropdonwRef}
-      className={classNames(styles.dropdown, { [styles.open]: open })}
-      onClick={onClickDropdown}
+      ref={datepickerRef}
+      className={classNames(styles.datepicker, { [styles.open]: open })}
     >
       <div className={styles.inner}>
         {label && (
@@ -46,14 +43,15 @@ const Datepicker = ({
             {label}
           </label>
         )}
-        <div className={styles.select}>
-          <div
-            className={classNames(styles.value, {
-              [styles.blank]: !selectItem || !selectItem.text
-            })}
-          >
-            {selectItem && selectItem.text ? selectItem.text : placeholder}
-          </div>
+        <div className={styles.ipt}>
+          <ImageItem imgFile="icon_calendar.svg" />
+          <DatePicker
+            dateFormat="yyyy-MM-dd"
+            className={styles.picker}
+            name=""
+            selected={selected}
+            onSelect={onChangeDate}
+          />
         </div>
       </div>
     </div>

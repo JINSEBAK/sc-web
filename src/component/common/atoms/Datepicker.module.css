@@ -1,4 +1,4 @@
-.dropdown {
+.datepicker {
   border: 1px solid transparent;
   background-color: var(--color-gray-00);
   position: relative;
@@ -6,21 +6,18 @@
   flex: 1;
 }
 
-.dropdown > * {
-  box-sizing: border-box;
-}
-
-.dropdown.open {
+.datepicker.open {
   border-color: var(--color-em-1);
 }
 
-.dropdown .inner {
-  padding: 0 0 0 20px;
+.datepicker .inner {
   display: flex;
   align-items: center;
+  padding: 0 0 0 20px;
+  height: 100%;
 }
 
-.dropdown label {
+.datepicker label {
   flex-basis: 152px;
   font-size: 1rem;
   line-height: 1.325rem;
@@ -30,7 +27,7 @@
   gap: 10px;
 }
 
-.dropdown label.required::after {
+.datepicker label.required::after {
   content: "*";
   font-size: 1.5rem;
   font-weight: 400;
@@ -38,63 +35,25 @@
   margin-top: 6px;
 }
 
-.dropdown .select {
+.datepicker .ipt {
+  height: 100%;
   flex: 1;
-  position: relative;
+}
+
+.datepicker .picker {
+  width: 440px;
+  flex: 1;
   height: 60px;
-  display: flex;
-  align-items: center;
-  text-indent: 4px;
-}
-
-.dropdown .select::after {
-  position: absolute;
-  right: 20px;
-  top: 50%;
-  margin-top: -12px;
-  content: "";
-  display: block;
-  width: 24px;
-  height: 24px;
-  background: url(../../../assets/imgs/icon_down.svg) center no-repeat;
-}
-
-.dropdown.open .select::after {
-  transform: rotate(180deg);
-}
-
-.dropdown .value.blank {
-  color: var(--color-gray-30);
-}
-
-.dropdown .options {
-  border: 1px solid var(--color-gray-30);
-  position: absolute;
-  top: calc(100% + 4px);
-  width: calc(100% + 1px);
-  padding: 10px;
-  background-color: var(--color-white);
-  visibility: hidden;
-}
-
-.dropdown .options.open {
-  visibility: visible;
-}
-
-.dropdown .options .option {
-  color: var(--color-gray-70);
+  background-color: transparent;
+  border-color: transparent;
   font-size: 1rem;
-  line-height: 2rem;
-  text-indent: 10px;
-  cursor: default;
+  line-height: 1.5rem;
 }
 
-.dropdown .options .option:hover {
-  background-color: var(--color-point-90);
-  color: var(--color-white);
-}
-
-.dropdown .options .option.selected {
-  color: var(--color-white);
-  background-color: var(--color-point-90);
+.datepicker .ipt img {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 100;
 }

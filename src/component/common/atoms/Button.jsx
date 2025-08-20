@@ -7,7 +7,7 @@ const Button = ({
   text,
   disabled = false,
   size = "medium", // small || medium || large
-  variant = "primary", // primary, second, third
+  variant = "primary", // primary, secondary, third, translucent
   shape = "square", // square, round
   onClick
 }) => {

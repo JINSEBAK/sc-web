@@ -1,0 +1,42 @@
+.alert-dimmed {
+  position: fixed;
+  z-index: 2000;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-opacity-black-20);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alert {
+  background-color: var(--color-white);
+  width: 400px;
+}
+
+.alert .body {
+  padding: 2.5rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.alert .body .tit {
+}
+
+.alert .body .msg {
+  margin-top: 1rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--color-gray-70);
+}
+
+.alert .tail {
+  padding-bottom: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+}

@@ -62,14 +62,14 @@ const Footer = ({ isScrolled = false }) => {
               <Button
                 text="한글"
                 size="small"
-                variant="translucent"
+                variant="translucent2"
                 shape="round"
                 onClick={onDownload}
               />
               <Button
                 text="영문"
                 size="small"
-                variant="translucent"
+                variant="translucent2"
                 shape="round"
                 onClcik={onDownload}
               />
