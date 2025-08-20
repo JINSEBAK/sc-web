@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/387.ad0a00f4.chunk.js","mappings":"iIAIA,UAJyB,WACvB,OAAO,8BACR,C","sources":["component/views/inquiry/tabs/TabSecondContent.jsx"],"sourcesContent":["const TabSecondContent = () => {\n  return <div>2</div>;\n};\n\nexport default TabSecondContent;\n"],"names":[],"sourceRoot":""}
