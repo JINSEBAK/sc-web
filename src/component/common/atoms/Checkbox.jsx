@@ -8,9 +8,22 @@ const Checkbox = ({
   checked,
   disabled = false
 }) => {
+  //
+  const onChangeCheck = (e) => {
+    if (onChange) {
+      onChange({ checked: e.target.checked, value: e.target.value });
+    }
+  };
+
   return (
     <label className={styles.box}>
-      <input type="checkbox" name={name} value={value} disabled={disabled} />
+      <input
+        type="checkbox"
+        name={name}
+        value={value}
+        disabled={disabled}
+        onChange={onChangeCheck}
+      />
       <span className={styles.check}></span>
       <span dangerouslySetInnerHTML={{ __html: label }}></span>
     </label>

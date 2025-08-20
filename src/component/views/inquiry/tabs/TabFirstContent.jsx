@@ -14,6 +14,8 @@ import Datepicker from "component/common/atoms/Datepicker";
 
 import { useTranslation } from "react-i18next";
 import { usePopup } from "hooks/usePopup";
+import { useState } from "react";
+import { postInsertInq } from "lib/api";
 
 const TabFirstContent = () => {
   //
@@ -21,17 +23,45 @@ const TabFirstContent = () => {
   const types = t(`types`, { returnObjects: true });
   const parts = t(`parts`, { returnObjects: true });
 
+  const initDatas = {
+    inqCd: [], // 프로젝트 형태(분류)
+    inqDevelopCd: [], // 개발 분야
+    inqPeriod: "", // 프로젝트 기간
+    inqScdDts: "", // 오픈 예정일
+    //inqBudget: "", // 프로젝트 예산
+    file: null, // 첨부파일
+    inqCntt: "", // 문의내용
+    cmpNm: "", //담당자 회사정보
+    cmpWriter: "", // 담당자이름,직위
+    cmpTel: "", // 담당자 전화번호
+    cmpEmail: "", // 담당자 이메일
+    termsVer: "1.0", // 약관 버전
+    termsAgreeYn: "N" // 약관동의 여부
+  };
+
+  const [datas, setDatas] = useState(initDatas);
+
   const { show } = usePopup();
 
   const onSubmit = async () => {
     await show({
       title: "입력하신 내용으로<br>문의하시겠습니까?",
       message: "",
+      type: "confirm",
       onConfirm: onConfirmCallback
     });
   };
 
-  const onConfirmCallback = async () => {};
+  const onConfirmCallback = async () => {
+    const resp = await postInsertInq(datas);
+    console.log(resp);
+    if (resp.success) {
+    } else {
+      await show({
+        title: resp.message
+      });
+    }
+  };
 
   return (
     <div className={styles.container}>

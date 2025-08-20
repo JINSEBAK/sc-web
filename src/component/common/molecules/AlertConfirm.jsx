@@ -1,7 +1,13 @@
 import Button from "../atoms/Button";
 import styles from "./AlertConfirm.module.css";
 
-const AlertConfirm = ({ title, message, onConfirm, onCancel }) => {
+const AlertConfirm = ({
+  title,
+  message,
+  onConfirm,
+  onCancel,
+  type = "alert"
+}) => {
   return (
     <div className={styles["alert-dimmed"]}>
       <div className={styles.alert}>
@@ -20,7 +26,9 @@ const AlertConfirm = ({ title, message, onConfirm, onCancel }) => {
           )}
         </div>
         <div className={styles["tail"]}>
-          <Button text="취소" onClick={onCancel} variant="primary" />
+          {type === "confirm" && (
+            <Button text="취소" onClick={onCancel} variant="primary" />
+          )}
           <Button text="확인" onClick={onConfirm} variant="secondary" />
         </div>
       </div>

@@ -8,7 +8,7 @@ export const getListAllCommCd = async () => {
   const res = await smcoreInstance({
     headers: header,
     method: "GET",
-    url: "/smcore/cm/listAllCommcd",
+    url: "/smcore/cm/listAllCommcd"
   });
   return res;
 };
@@ -23,8 +23,8 @@ export const getListCommCd = async (pId) => {
     method: "GET",
     url: "/smcore/cm/listCommcd",
     params: {
-      commcdParentId: pId,
-    },
+      commcdParentId: pId
+    }
   });
   return res;
 };
@@ -38,7 +38,7 @@ export const getListWork = async (params) => {
     headers: header,
     method: "GET",
     url: "/smcore/home/listWork",
-    params: params,
+    params: params
   });
   return res;
 };
@@ -53,8 +53,8 @@ export const getDetailWork = async (wId) => {
     method: "GET",
     url: "/smcore/home/detailWork",
     params: {
-      workId: wId,
-    },
+      workId: wId
+    }
   });
   return res;
 };
@@ -69,7 +69,12 @@ export const postInsertInq = async (data) => {
     headers: header,
     method: "POST",
     url: "/smcore/home/insertInq",
-    data: data,
+    data: data
   });
-  return res;
+
+  if (res && res.resultCodeNo === 2000) {
+    return { success: true, data: res.resultData };
+  } else {
+    return { success: false, message: res.resultMsg };
+  }
 };
