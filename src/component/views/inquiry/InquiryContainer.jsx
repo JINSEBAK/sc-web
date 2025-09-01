@@ -1,4 +1,3 @@
-import styles from "./Inquiry.module.css";
 // components
 import PageVisualization from "component/common/molecules/PageVisualization";
 import PageTitle from "component/common/atoms/PageTitle";
@@ -6,6 +5,7 @@ import Tabs from "component/common/atoms/Tabs";
 import HighLighter from "component/common/atoms/HighLighter";
 
 import { lazy, Suspense, useState } from "react";
+import { useNavigate, useSearchParams } from "react-router-dom";
 
 const TAB_ITEMS = [
   { label: "Smart Fit System", title: "프로젝트 문의", value: "tab1" },
@@ -19,14 +19,22 @@ const tabMap = {
 
 const InquiryContainer = () => {
   //
-  const [activeTab, setActiveTab] = useState("tab1");
+  const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
+
+  const defaultTab = searchParams.get("tab") || "tab1";
+
+  const [activeTab, setActiveTab] = useState(defaultTab);
   const [LazyComponent, setLazyComponent] = useState(() =>
-    lazy(tabMap["tab1"])
+    lazy(tabMap[defaultTab])
   );
 
   const onChangeTab = (tab) => {
     setActiveTab(tab);
     setLazyComponent(() => lazy(tabMap[tab]));
+
+    // url query 업데이트
+    navigate(`?tab=${tab}`, { replace: true });
   };
 
   return (
