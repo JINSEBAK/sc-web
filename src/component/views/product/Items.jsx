@@ -378,6 +378,7 @@ export const ChataSevices = () => {
           <Swiper
             modules={[Autoplay]}
             slidesPerView={1}
+            loop={true}
             autoplay={{ delay: 2500, disableOnInteraction: false }}
           >
             {Array.from({ length: 5 }).map((_, index) => (
@@ -403,4 +404,25 @@ export const ChataSevices = () => {
 
 export const BigTypingText = ({ content }) => {
   return <div className={styles.typing}>{content}</div>;
+};
+
+export const CareOnSwiper = ({ onChangeImage }) => {
+  return (
+    <div className={styles.device}>
+      <div className={styles.inner}>
+        <Swiper
+          modules={[Autoplay]}
+          slidesPerView={1}
+          autoplay={{ delay: 2500, disableOnInteraction: false }}
+          onSlideChange={onChangeImage}
+        >
+          {Array.from({ length: 6 }).map((_, index) => (
+            <SwiperSlide key={`careon-slide-${index}`}>
+              <ImageItem imgFile={`img_careon_0${index + 1}.png`} />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+    </div>
+  );
 };

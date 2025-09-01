@@ -53,7 +53,15 @@
   text-align: left;
 }
 
+.container .left > * {
+  text-align: left;
+}
+
 .container .right {
+  text-align: right;
+}
+
+.container .right > * {
   text-align: right;
 }
 

@@ -460,3 +460,37 @@
   line-height: 11.25rem;
   letter-spacing: -6.8px;
 }
+
+.care {
+  flex: 0 1 790px;
+  padding-left: 50px;
+}
+
+.care .ctx {
+  font-size: 3.125rem;
+  line-height: 3.5rem;
+  font-weight: 400;
+  height: 360px;
+  letter-spacing: -2px;
+}
+
+.care .ctx strong {
+  color: var(--color-blue-600);
+  font-weight: 600;
+}
+
+.visual {
+  padding: 0 50px;
+}
+
+.v-swiper {
+  height: 360px;
+}
+
+.v-swiper .swiper {
+  height: 100%;
+}
+
+.v-slide {
+  height: 100%;
+}
