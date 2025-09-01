@@ -42,12 +42,14 @@
   font-weight: 700;
   color: var(--color-blue-600);
   margin: 24px 0 8px;
+  text-align: center;
 }
 
 .card .des {
   font-size: 1.25rem;
   line-height: 1.625rem;
   font-weight: 400;
+  text-align: center;
   color: var(--color-gray-90);
 }
 
@@ -109,6 +111,27 @@
   color: #292a2c;
 }
 
+.dept.box {
+  border: 1px solid var(--color-gray-10);
+  border-radius: 10px;
+  flex: 1 0 45%;
+  flex-direction: row;
+  padding: 1.25rem;
+  gap: 1rem;
+}
+
+.dept.box .img {
+  flex: 0 0 200px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.dept.box .sub {
+  font-size: 1.25rem;
+  text-align: left;
+  letter-spacing: -0.8px;
+}
+
 .feature {
   border: 1px solid #111f7a;
   border-radius: 80px;
@@ -131,9 +154,15 @@
   flex: 1 0 calc(50% - 10px);
 }
 
+.asymmetry:nth-of-type(3),
+.asymmetry:nth-of-type(4),
+.asymmetry:nth-of-type(5) {
+  flex: 1 0 30%;
+}
+
 .product {
   border: 1px solid #dfe4f2;
-  flex: 1;
+  flex: 0 1 400px;
   padding: 40px 20px;
   cursor: pointer;
   display: flex;

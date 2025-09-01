@@ -5,6 +5,7 @@ import PageTitle from "component/common/atoms/PageTitle";
 import PageVisualization from "component/common/molecules/PageVisualization";
 
 import { useState, lazy, Suspense } from "react";
+import { useNavigate, useSearchParams } from "react-router-dom";
 
 const TAB_ITEMS = [
   {
@@ -26,20 +27,28 @@ const TAB_ITEMS = [
 
 const tabMap = {
   tab1: () => import("./tabs/TabFirstContent"),
-  tab2: () => import("./tabs/TabFirstContent"),
-  tab3: () => import("./tabs/TabFirstContent")
+  tab2: () => import("./tabs/TabSecondContent"),
+  tab3: () => import("./tabs/TabThirdContent")
 };
 
 const AIContainer = () => {
   //
-  const [activeTab, setActiveTab] = useState("tab1");
+  const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
+
+  const defaultTab = searchParams.get("tab") || "tab1";
+
+  const [activeTab, setActiveTab] = useState(defaultTab);
   const [LazyComponent, setLazyComponent] = useState(() =>
-    lazy(tabMap["tab1"])
+    lazy(tabMap[defaultTab])
   );
 
   const onChangeTab = (tab) => {
     setActiveTab(tab);
     setLazyComponent(() => lazy(tabMap[tab]));
+
+    // url query 업데이트
+    navigate(`?tab=${tab}`, { replace: true });
   };
 
   return (

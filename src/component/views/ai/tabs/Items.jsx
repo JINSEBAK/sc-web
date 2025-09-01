@@ -26,17 +26,27 @@ export const CardItem = ({ title, description, imgUrl }) => {
   return (
     <div className={classNames(styles.card)}>
       <img src={imgUrl} alt={title} />
-      <h4 className={styles.tit}>{title}</h4>
-      {description && <p className={styles.des}>{description}</p>}
+      <h4 className={styles.tit} dangerouslySetInnerHTML={{ __html: title }} />
+      {description && (
+        <p
+          className={styles.des}
+          dangerouslySetInnerHTML={{ __html: description }}
+        />
+      )}
     </div>
   );
 };
 
-export const DepartmentItem = ({ title, description, imgUrl }) => {
+export const DepartmentItem = ({
+  title,
+  description,
+  imgUrl,
+  type = "default"
+}) => {
   return (
-    <div className={styles.dept}>
+    <div className={classNames(styles.dept, { [styles.box]: type === "box" })}>
       <div className={styles.img}>
-        <strong>{title}</strong>
+        <strong dangerouslySetInnerHTML={{ __html: title }} />
         <img src={imgUrl} alt={title} />
       </div>
       <p
@@ -47,10 +57,15 @@ export const DepartmentItem = ({ title, description, imgUrl }) => {
   );
 };
 
-export const FeatureItem = ({ text, type }) => {
+// symmetry: 대칭, asymmetry: 비대칭
+export const FeatureItem = ({ text, type, align = "symmetry" }) => {
   return (
     <div
-      className={classNames(styles.feature, { [styles[type]]: type })}
+      className={classNames(
+        styles.feature,
+        { [styles[type]]: type },
+        styles[align]
+      )}
       dangerouslySetInnerHTML={{ __html: text }}
     />
   );
